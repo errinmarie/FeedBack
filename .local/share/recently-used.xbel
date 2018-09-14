@@ -1018,7 +1018,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/errinmixon/index.html" added="2018-09-11T04:28:34Z" modified="2018-09-14T05:36:04Z" visited="2018-09-11T04:28:34Z">
+  <bookmark href="file:///home/errinmixon/index.html" added="2018-09-11T04:28:34Z" modified="2018-09-14T05:37:49Z" visited="2018-09-11T04:28:34Z">
     <title>index.html</title>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -1027,7 +1027,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:36:04Z" count="5"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:37:49Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
