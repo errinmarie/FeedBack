@@ -1,0 +1,18 @@
+1. Investigate the "content" and "templates" directory.
+
+2. Try to deduce what you think might be represented by the files
+located in these directories.
+    * Hint: If reconstructed correctly, it will be the example solution
+      for HW 1
+
+3. See if you can craft a series of "cat" Bash commands, piping the
+results into a files, in order to re-construct the pages.
+
+If you get stuck, this is a hard one! We only gave you a few clues.  Ask
+an instructor or work with students next to you to try figure out the
+solution.
+
+BONUS: Read the homework for next week. See if you can re-arrange files
+so that the output goes into a "docs" directory.
+
+

@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/errinmixon/Downloads/week0/Errin%20Mixon_Pre-Work%20Journal.docx" added="2018-09-04T01:54:15Z" modified="2018-09-13T03:03:14Z" visited="2018-09-04T01:54:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.0" exec="&apos;soffice %u&apos;" modified="2018-09-13T03:03:14Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/helloworld.html" added="2018-09-04T03:12:07Z" modified="2018-09-04T03:53:24Z" visited="2018-09-04T03:12:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-04T03:53:24Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/fluidity.html" added="2018-09-04T03:54:33Z" modified="2018-09-04T04:09:19Z" visited="2018-09-04T03:54:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-04T04:09:19Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/startbootstrap-creative-gh-pages/.zip" added="2018-09-04T04:11:55Z" modified="2018-09-09T01:18:31Z" visited="2018-09-04T04:11:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-04T04:11:55Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2018-09-04T04:16:32Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads" added="2018-09-04T04:13:19Z" modified="2018-09-04T04:13:19Z" visited="2018-09-04T04:13:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2018-09-04T04:13:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/.cache/.fr-a0AOjw/startbootstrap-creative-gh-pages/index.html" added="2018-09-04T04:14:58Z" modified="2018-09-04T04:22:26Z" visited="2018-09-04T04:14:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-04T04:22:26Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/startbootstrap-creative-gh-pages/index.html" added="2018-09-04T04:23:07Z" modified="2018-09-11T04:40:25Z" visited="2018-09-04T04:23:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T04:40:25Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/hw1-homepage.pdf" added="2018-09-05T02:07:47Z" modified="2018-09-12T06:25:33Z" visited="2018-09-05T02:07:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-05T02:07:47Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2018-09-12T05:42:14Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week0/packet.pdf" added="2018-09-05T02:14:34Z" modified="2018-09-09T01:17:56Z" visited="2018-09-05T02:14:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-05T02:14:34Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2018-09-05T02:14:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Documents/html_practice.html" added="2018-09-05T02:26:45Z" modified="2018-09-05T02:26:45Z" visited="2018-09-05T02:26:45Z">
+    <title>html_practice.html</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///home/errinmixon/Documents/html%20practice&apos;" modified="2018-09-05T02:26:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Documents/html%20practice" added="2018-09-05T02:29:52Z" modified="2018-09-05T02:30:07Z" visited="2018-09-05T02:29:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T02:30:07Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Documents/hypertext_practice.html" added="2018-09-05T02:32:30Z" modified="2018-09-05T03:12:09Z" visited="2018-09-05T02:32:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T03:12:09Z" count="23"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/HTML%20practice/Creating%20a%20Navigation%20Menu/index.html" added="2018-09-05T03:17:12Z" modified="2018-09-09T01:19:50Z" visited="2018-09-05T03:17:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T03:29:56Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/HTML%20practice/Creating%20a%20Navigation%20Menu/pictures.html" added="2018-09-05T03:22:55Z" modified="2018-09-09T01:19:50Z" visited="2018-09-05T03:22:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T03:32:38Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/HTML%20practice/Creating%20a%20Navigation%20Menu/projects.html" added="2018-09-05T03:32:52Z" modified="2018-09-09T01:19:50Z" visited="2018-09-05T03:32:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T03:34:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/HTML%20practice/Creating%20a%20Navigation%20Menu/social.html" added="2018-09-05T03:34:21Z" modified="2018-09-09T01:19:50Z" visited="2018-09-05T03:34:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-05T03:35:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Documents/selectors.html" added="2018-09-06T01:14:23Z" modified="2018-09-06T01:14:23Z" visited="2018-09-06T01:14:23Z">
+    <title>selectors.html</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit file:///home/errinmixon/Documents/selectors&apos;" modified="2018-09-06T01:14:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Documents/selectors" added="2018-09-06T01:14:42Z" modified="2018-09-09T01:19:11Z" visited="2018-09-06T01:14:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T01:19:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_errinmixon0/1.1-html.zip" added="2018-09-06T01:33:18Z" modified="2018-09-06T01:33:18Z" visited="2018-09-06T01:33:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-06T01:33:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css.zip" added="2018-09-06T01:34:05Z" modified="2018-09-09T01:18:20Z" visited="2018-09-06T01:34:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-06T01:34:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/1.2-css.whiteboard" added="2018-09-06T01:34:32Z" modified="2018-09-06T01:34:32Z" visited="2018-09-06T01:34:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-06T01:34:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/activities/1-html-review.html" added="2018-09-06T01:34:44Z" modified="2018-09-08T21:31:32Z" visited="2018-09-06T01:34:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:31:32Z" count="22"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_html/1.1-html.zip" added="2018-09-06T01:48:11Z" modified="2018-09-09T01:18:21Z" visited="2018-09-06T01:48:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-09-06T01:48:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.1-html/1.1-html.whiteboard" added="2018-09-06T01:48:33Z" modified="2018-09-08T21:23:42Z" visited="2018-09-06T01:48:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:23:42Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/solutions/1-html-review.html" added="2018-09-06T02:25:30Z" modified="2018-09-06T02:25:30Z" visited="2018-09-06T02:25:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;chromium-browser %U&apos;" modified="2018-09-06T02:25:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/activities/2-chrome-dev-tools-practice.html" added="2018-09-06T02:32:15Z" modified="2018-09-06T02:32:15Z" visited="2018-09-06T02:32:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;chromium-browser %U&apos;" modified="2018-09-06T02:32:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/activities/3-css-selectors.html" added="2018-09-06T03:44:40Z" modified="2018-09-06T04:06:56Z" visited="2018-09-06T03:44:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;chromium-browser %U&apos;" modified="2018-09-06T03:44:59Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-06T04:06:56Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/activities/4-linking-stylesheets/linking.html" added="2018-09-06T04:14:44Z" modified="2018-09-06T04:34:55Z" visited="2018-09-06T04:14:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-06T04:34:55Z" count="11"/>
+          <bookmark:application name="nautilus" exec="&apos;chromium-browser %U&apos;" modified="2018-09-06T04:14:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.2-css/solutions/4-linking-stylesheets/linking.html" added="2018-09-06T04:17:51Z" modified="2018-09-06T04:17:51Z" visited="2018-09-06T04:17:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-06T04:17:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/styles.css" added="2018-09-08T04:41:17Z" modified="2018-09-12T05:41:09Z" visited="2018-09-08T04:41:17Z">
+    <title>styles.css</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T05:41:09Z" count="173"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/activities/1-review.html" added="2018-09-08T20:17:47Z" modified="2018-09-08T20:33:26Z" visited="2018-09-08T20:17:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T20:33:26Z" count="28"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/solutions/1-review.html" added="2018-09-08T20:34:43Z" modified="2018-09-08T20:34:43Z" visited="2018-09-08T20:34:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T20:34:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/examples/positioning.html" added="2018-09-08T20:35:30Z" modified="2018-09-08T20:57:09Z" visited="2018-09-08T20:35:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T20:57:09Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/activities/2-cdn/index.html" added="2018-09-08T20:59:29Z" modified="2018-09-08T21:08:05Z" visited="2018-09-08T20:59:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:08:05Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.1-html/activities/comment_examples.html" added="2018-09-08T21:22:40Z" modified="2018-09-08T21:22:40Z" visited="2018-09-08T21:22:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:22:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.1-html/activities/img_tag_examples.html" added="2018-09-08T21:23:15Z" modified="2018-09-08T21:23:15Z" visited="2018-09-08T21:23:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:23:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.1-html/activities/more_tag_examples.html" added="2018-09-08T21:24:13Z" modified="2018-09-08T21:24:13Z" visited="2018-09-08T21:24:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T21:24:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/activities/3-bootstrap.html" added="2018-09-08T21:39:54Z" modified="2018-09-08T22:12:56Z" visited="2018-09-08T21:39:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T22:12:56Z" count="25"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/activities/4-grid-blog.html" added="2018-09-08T21:41:27Z" modified="2018-09-08T22:48:06Z" visited="2018-09-08T21:41:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T22:48:06Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/1.3-bootstrap/examples/grid.html" added="2018-09-08T21:41:56Z" modified="2018-09-08T22:32:50Z" visited="2018-09-08T21:41:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-08T22:32:50Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_html/1.1-html/1.1-html.whiteboard" added="2018-09-09T01:21:40Z" modified="2018-09-09T01:21:40Z" visited="2018-09-09T01:21:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T01:21:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/1.2-css.whiteboard" added="2018-09-09T01:26:56Z" modified="2018-09-09T01:26:56Z" visited="2018-09-09T01:26:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T01:26:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/activities/1-html-review.html" added="2018-09-09T01:27:25Z" modified="2018-09-10T05:30:02Z" visited="2018-09-09T01:27:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T05:30:02Z" count="43"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/activities/2-chrome-dev-tools-practice.html" added="2018-09-09T22:42:31Z" modified="2018-09-09T22:42:32Z" visited="2018-09-09T22:42:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2018-09-09T22:42:31Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T22:42:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/activities/3-css-selectors.html" added="2018-09-09T22:57:18Z" modified="2018-09-09T23:17:50Z" visited="2018-09-09T22:57:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:17:50Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/solutions/3-css-selectors.html" added="2018-09-09T23:17:24Z" modified="2018-09-09T23:17:24Z" visited="2018-09-09T23:17:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:17:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/activities/4-linking-stylesheets/first-style-sheet.css" added="2018-09-09T23:19:21Z" modified="2018-09-09T23:19:21Z" visited="2018-09-09T23:19:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:19:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/activities/4-linking-stylesheets/linking.html" added="2018-09-09T23:19:33Z" modified="2018-09-09T23:31:56Z" visited="2018-09-09T23:19:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:31:56Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/solutions/4-linking-stylesheets/linking.html" added="2018-09-09T23:27:01Z" modified="2018-09-09T23:27:01Z" visited="2018-09-09T23:27:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:27:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/solutions/4-linking-stylesheets/first-style-sheet.css" added="2018-09-09T23:30:14Z" modified="2018-09-09T23:30:14Z" visited="2018-09-09T23:30:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:30:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/solutions/4-linking-stylesheets/styles/second-style-sheet.css" added="2018-09-09T23:30:23Z" modified="2018-09-09T23:30:23Z" visited="2018-09-09T23:30:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:30:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/solutions/4-linking-stylesheets/styles/third-style-sheet.css" added="2018-09-09T23:30:28Z" modified="2018-09-09T23:30:28Z" visited="2018-09-09T23:30:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:30:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/inline-styles-example.html" added="2018-09-09T23:32:42Z" modified="2018-09-09T23:32:42Z" visited="2018-09-09T23:32:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:32:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/linked-stylesheets.html" added="2018-09-09T23:33:36Z" modified="2018-09-09T23:33:36Z" visited="2018-09-09T23:33:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:33:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/selector-demo.html" added="2018-09-09T23:35:43Z" modified="2018-09-09T23:37:28Z" visited="2018-09-09T23:35:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:37:28Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/selector-example.html" added="2018-09-09T23:37:37Z" modified="2018-09-09T23:37:37Z" visited="2018-09-09T23:37:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:37:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/selector-styles-example.html" added="2018-09-09T23:38:12Z" modified="2018-09-09T23:38:12Z" visited="2018-09-09T23:38:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:38:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_css/1.2-css/examples/style.css" added="2018-09-09T23:38:28Z" modified="2018-09-09T23:38:28Z" visited="2018-09-09T23:38:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-09T23:38:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/activities/1-review.html" added="2018-09-10T02:59:23Z" modified="2018-09-10T03:09:53Z" visited="2018-09-10T02:59:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T03:09:53Z" count="20"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/activities/3-bootstrap.html" added="2018-09-10T03:10:23Z" modified="2018-09-10T03:31:32Z" visited="2018-09-10T03:10:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T03:31:32Z" count="27"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/activities/4-grid-blog.html" added="2018-09-10T03:32:34Z" modified="2018-09-10T03:43:45Z" visited="2018-09-10T03:32:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2018-09-10T03:32:34Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T03:43:45Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/solutions/4-grid-blog.html" added="2018-09-10T03:44:07Z" modified="2018-09-10T22:24:03Z" visited="2018-09-10T03:44:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T22:24:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/activities/5-components.html" added="2018-09-10T03:45:57Z" modified="2018-09-10T03:45:57Z" visited="2018-09-10T03:45:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T03:45:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/activities/2-cdn/index.html" added="2018-09-10T03:46:25Z" modified="2018-09-10T03:48:54Z" visited="2018-09-10T03:46:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2018-09-10T03:46:25Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T03:48:54Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/bootstrap-4.1.3/scss/_jumbotron.scss" added="2018-09-10T04:08:18Z" modified="2018-09-10T04:08:18Z" visited="2018-09-10T04:08:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T04:08:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/bootstrap-4.1.3/scss/_carousel.scss" added="2018-09-10T04:09:57Z" modified="2018-09-10T04:09:57Z" visited="2018-09-10T04:09:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T04:09:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/bootstrap-4.1.3/scss/bootstrap-grid.scss" added="2018-09-10T04:17:43Z" modified="2018-09-10T04:17:43Z" visited="2018-09-10T04:17:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T04:17:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/solutions/2-cdn/index.html" added="2018-09-10T04:24:02Z" modified="2018-09-10T04:24:02Z" visited="2018-09-10T04:24:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T04:24:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/1.3-bootstrap/solutions/2-cdn/blog.css" added="2018-09-10T04:24:42Z" modified="2018-09-10T04:24:42Z" visited="2018-09-10T04:24:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-10T04:24:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/images/headshot.JPG" added="2018-09-10T05:24:32Z" modified="2018-09-10T05:32:01Z" visited="2018-09-10T05:24:32Z">
+    <title>headshot.JPG</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog file:///home/errinmixon/Downloads/week1/week1_homework/IMG_3851.JPG&apos;" modified="2018-09-10T05:24:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/images" added="2018-09-10T05:33:17Z" modified="2018-09-10T05:33:17Z" visited="2018-09-10T05:33:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-09-10T05:33:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/images/oprah_headshot.jpg" added="2018-09-10T05:37:31Z" modified="2018-09-10T05:37:31Z" visited="2018-09-10T05:37:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2018-09-10T05:37:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories.html" added="2018-09-10T21:44:30Z" modified="2018-09-12T03:40:33Z" visited="2018-09-10T21:44:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T03:40:33Z" count="70"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/about.html" added="2018-09-10T21:58:33Z" modified="2018-09-12T06:05:16Z" visited="2018-09-10T21:58:33Z">
+    <title>about.html</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T06:05:16Z" count="58"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/contact.html" added="2018-09-10T22:00:38Z" modified="2018-09-12T06:08:42Z" visited="2018-09-10T22:00:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T06:08:42Z" count="29"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/bhutan.html" added="2018-09-11T00:15:29Z" modified="2018-09-12T03:06:19Z" visited="2018-09-11T00:15:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T03:06:19Z" count="31"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash/activities/1-html-challenge-review.html" added="2018-09-11T01:48:48Z" modified="2018-09-11T02:10:07Z" visited="2018-09-11T01:48:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2018-09-11T01:48:48Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T02:10:07Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash/activities" added="2018-09-11T02:00:11Z" modified="2018-09-11T02:00:11Z" visited="2018-09-11T02:00:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-09-11T02:00:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash/activities/2-cli-challenge/hints.txt" added="2018-09-11T03:16:21Z" modified="2018-09-14T05:21:18Z" visited="2018-09-11T03:16:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:21:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash/activities/4-git-challenge-instructions.txt" added="2018-09-11T04:16:24Z" modified="2018-09-14T05:30:48Z" visited="2018-09-11T04:16:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:30:48Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/index.html" added="2018-09-11T04:28:34Z" modified="2018-09-14T05:36:04Z" visited="2018-09-11T04:28:34Z">
+    <title>index.html</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:36:04Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/startbootstrap-creative-gh-pages/css/creative.css" added="2018-09-11T04:41:02Z" modified="2018-09-11T04:41:02Z" visited="2018-09-11T04:41:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T04:41:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/startbootstrap-creative-gh-pages/css/creative.min.css" added="2018-09-11T04:41:12Z" modified="2018-09-11T04:41:12Z" visited="2018-09-11T04:41:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T04:41:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/bootstrap-4.1.3/site/docs/4.1/examples/album/index.html" added="2018-09-11T04:43:06Z" modified="2018-09-11T04:43:06Z" visited="2018-09-11T04:43:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T04:43:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_bootstrap/bootstrap-4.1.3/site/docs/4.1/examples/album/album.css" added="2018-09-11T04:43:15Z" modified="2018-09-11T04:43:15Z" visited="2018-09-11T04:43:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-11T04:43:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories" added="2018-09-12T02:28:23Z" modified="2018-09-12T02:28:23Z" visited="2018-09-12T02:28:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-09-12T02:28:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/india.html" added="2018-09-12T03:00:51Z" modified="2018-09-12T06:16:48Z" visited="2018-09-12T03:00:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T06:16:48Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/vietnam.html" added="2018-09-12T03:17:44Z" modified="2018-09-12T05:05:26Z" visited="2018-09-12T03:17:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T05:05:26Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/egypt.html" added="2018-09-12T03:28:13Z" modified="2018-09-12T06:20:05Z" visited="2018-09-12T03:28:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T06:20:05Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/ireland.html" added="2018-09-12T03:40:39Z" modified="2018-09-12T03:50:22Z" visited="2018-09-12T03:40:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T03:50:22Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/uzbekistan.html" added="2018-09-12T03:51:10Z" modified="2018-09-12T05:07:45Z" visited="2018-09-12T03:51:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T05:07:45Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/slovenia.html" added="2018-09-12T03:53:33Z" modified="2018-09-12T04:13:31Z" visited="2018-09-12T03:53:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T04:13:31Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/spain.html" added="2018-09-12T04:07:31Z" modified="2018-09-12T05:09:00Z" visited="2018-09-12T04:07:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T05:09:00Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/stories/belgium.html" added="2018-09-12T04:14:10Z" modified="2018-09-12T04:19:35Z" visited="2018-09-12T04:14:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-12T04:19:35Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week1/week1_homework/images/me_headshot.jpg" added="2018-09-12T05:53:05Z" modified="2018-09-12T05:53:05Z" visited="2018-09-12T05:53:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2018-09-12T05:53:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/hw2-scripting.pdf" added="2018-09-13T01:25:07Z" modified="2018-09-13T01:25:07Z" visited="2018-09-13T01:25:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2018-09-13T01:25:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/2.2-git.whiteboard" added="2018-09-13T01:38:27Z" modified="2018-09-13T01:38:27Z" visited="2018-09-13T01:38:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T01:38:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/1-git-branching-instructions.txt" added="2018-09-13T02:28:35Z" modified="2018-09-13T02:28:35Z" visited="2018-09-13T02:28:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T02:28:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/practice/index.html" added="2018-09-13T02:33:23Z" modified="2018-09-13T02:44:13Z" visited="2018-09-13T02:33:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T02:44:13Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/2-github-challenge.txt" added="2018-09-13T03:23:50Z" modified="2018-09-13T03:23:50Z" visited="2018-09-13T03:23:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:23:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/pickles/index.html" added="2018-09-13T03:26:31Z" modified="2018-09-13T03:31:21Z" visited="2018-09-13T03:26:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:31:21Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky/1._Use_cat_and_pipe_to_combine_the_jabberwocky_poem_into_a_single_txt_file" added="2018-09-13T03:52:38Z" modified="2018-09-13T03:52:38Z" visited="2018-09-13T03:52:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:52:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky/jabberwocky_a.txt" added="2018-09-13T03:53:08Z" modified="2018-09-13T03:53:08Z" visited="2018-09-13T03:53:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:53:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky/jabberwocky_b.txt" added="2018-09-13T03:53:11Z" modified="2018-09-13T03:53:11Z" visited="2018-09-13T03:53:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:53:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky/jabberwocky_c.txt" added="2018-09-13T03:53:15Z" modified="2018-09-13T03:53:15Z" visited="2018-09-13T03:53:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:53:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky/combined_file.txt" added="2018-09-13T03:59:57Z" modified="2018-09-13T03:59:57Z" visited="2018-09-13T03:59:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T03:59:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/instructions.txt" added="2018-09-13T04:00:58Z" modified="2018-09-13T04:00:58Z" visited="2018-09-13T04:00:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:00:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/templates/top.html" added="2018-09-13T04:06:03Z" modified="2018-09-13T04:06:03Z" visited="2018-09-13T04:06:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:06:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/templates/bottom.html" added="2018-09-13T04:06:08Z" modified="2018-09-13T04:06:08Z" visited="2018-09-13T04:06:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:06:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/content/contact.html" added="2018-09-13T04:06:22Z" modified="2018-09-13T04:06:22Z" visited="2018-09-13T04:06:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:06:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/content/homework1.html" added="2018-09-13T04:12:41Z" modified="2018-09-13T04:18:48Z" visited="2018-09-13T04:12:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:18:48Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/homework1.html" added="2018-09-13T04:17:24Z" modified="2018-09-13T04:17:35Z" visited="2018-09-13T04:17:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:17:24Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;chromium-browser %U&apos;" modified="2018-09-13T04:17:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.2-git/activities/4-cat-scripting/instructions.txt" added="2018-09-13T04:20:10Z" modified="2018-09-13T04:20:10Z" visited="2018-09-13T04:20:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-13T04:20:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash.zip" added="2018-09-14T05:20:28Z" modified="2018-09-14T05:20:28Z" visited="2018-09-14T05:20:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2018-09-14T05:20:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/errinmixon/Downloads/week2/2.1-bash/activities/2-cli-challenge/challenge_1_turtles/1_Use_cd_to_get_to_the_bottom_of_the_turtle_directories" added="2018-09-14T05:21:45Z" modified="2018-09-14T05:21:45Z" visited="2018-09-14T05:21:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-09-14T05:21:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,67 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "Acer",
+    "Product": "Aspire A114-31"
+  },
+  "BIOS": {
+    "Vendor": "Insyde Corp.",
+    "Version": "V1.08"
+  },
+  "CPU": [
+    {
+      "Vendor": "GenuineIntel",
+      "Family": "6",
+      "Model": "92",
+      "Stepping": "9"
+    }
+  ],
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "5a85"
+    }
+  ],
+  "RAM": 3.9,
+  "Partitions": [
+    29.4,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Resolution": "1920x1080",
+      "Frequency": "60.02"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Timezone": "America/Los_Angeles",
+  "Install": {
+    "Media": "Ubuntu 18.04 LTS \"Bionic Beaver\" - Release amd64 (20180426)",
+    "Type": "GTK",
+    "PartitionMethod": "reinstall_partition",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "222": "console_setup",
+      "246": "wireless",
+      "309": "prepare",
+      "386": "partman",
+      "421": "start_install",
+      "477": "timezone",
+      "481": "usersetup",
+      "504": "user_done",
+      "1229": "done"
+    }
+  }
+}

@@ -1,0 +1,350 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=Kickstart Backend - 1.2 - CSS
+
+[slide]
+title=Get ready to get STYLISH!
+
+[slide]
+title=But first, remember...
+
+[slide]
+title = It's gonna be a helluva journey
+markdown = ![Climbing](file://./images/climbing.gif)
+
+
+[slide]
+title = Assume you know nothing...
+markdown = ![You know nothing](file://./images/snow-memes-banner.jpg)
+
+
+[slide]
+title = So don't get frustrated
+
+
+[slide]
+title = So don't get frustrated
+markdown : '''
+* We expect this journey to be hard
+
+* Protips
+    * Do ALL the activities during class
+    * Do ALL the assignments
+    * Study outside of class
+    * Read ahead the recommended online text-book reading
+
+* If/when you need more help:
+    * Come to study lounge
+    * Ask other students
+    * Ask us on Chat
+'''
+
+[slide]
+title = So don't get frustrated
+markdown : '''
+* During lectures
+    * Take notes
+    * Keep "scraps" file or directory of useful code snippets
+
+* Best study methods
+    1. Code EVERY DAY
+    2. Code EVERY DAY
+    3. Code EVERY DAY
+
+* **We really, really want EVERYONE in this course to succeed!**
+'''
+
+[slide]
+title = How to do activities
+
+[slide]
+title = How to do activities: One thing at a time
+
+[slide]
+title = Programming takes patience
+markdown : '''
+
+## Remember: One change at a time
+
+* Only make one change at a time before checking
+    * Make an edit, save, refresh -- rinse and repeat
+    * This might seem slow or repetitive, but it's THE ONLY WAY of learning a
+      new programming language
+    * There are SO MANY things that can go wrong while coding -- if something
+      goes wrong, you want it to be because of the thing you just changed, not
+      because of mysterious reason
+
+* Only work on one thing at a time
+    * Get one thing working, then move on to the next
+    * Avoid temptations to half-finish everything at once
+'''
+
+
+[slide]
+title = ANNOUNCEMENTS!
+markdown : '''
+
+## Homework 1 is due in one week!
+
+* Check the Homework channel
+
+* Hint for all homework: We'll have covered enough material to complete it by
+  Saturday, but you can (and really should) read through it and get started
+  after class today.
+'''
+
+[slide]
+title=Kickstart Backend - Day 2
+markdown : '''
+* HTML Review ←
+* Intro to CSS
+* Chrome Dev Tools
+* CSS Selectors
+'''
+
+[slide]
+title=ACTIVITY TIME
+markdown = ![So much room for activities](file://./images/so_much_room_for_activities.jpg)
+
+[slide]
+title=HTML Review
+editor=activities/1-html-review.html
+markdown : '''
+1. Download and extract the "1.2-css.zip" file. *Make sure you extract it, and
+not just open it up* (Linux, hit the "extract" button, then click "show files")
+2. Open up `1-html-review.html` in your text editor and browser
+3. Take a look at the comments (designated with `<!--` and `-->`), and
+accomplish all the challenges
+
+'''
+
+[slide]
+title=Kickstart Backend - Day 2
+markdown : '''
+* HTML Review
+* Intro to CSS ←
+* Chrome Dev Tools
+* CSS Selectors
+'''
+
+
+[slide]
+title=The Two Languages of Web Documents
+markdown : '''
+# HTML
+
+# CSS
+'''
+
+
+[slide]
+title=The Two Languages of Web Documents
+markdown : '''
+### KEY TERMS
+* **HTML** - the content and structure of HTML documents
+
+* **CSS** - adds styling to HTML documents
+'''
+
+[slide]
+title=CSS
+
+[slide]
+title=CSS
+markdown : '''
+
+> ![CSS Declaration](file://./images/css_declaration.png)
+
+### Key terms
+* **CSS**: "Cascading Style Sheets" - the way we add styling to HTML
+  documents
+* **property**: modifies one visual aspect of an HTML document, e.g. "color",
+  "height", or "margin"
+* **value**: the value of the property. Depending on the property, can describe
+  qualities like "red" or "invisible", or can be sizes with units like `3px` or
+  `5in` or relative ones like `50%`
+* **declaration**: a property and a value together
+'''
+
+[slide]
+title=CSS Declaration Diagram
+markdown = ![CSS Declaration](file://./images/css_declaration.png)
+
+
+[slide]
+title=Demo time! Chrome Dev Tools
+
+[slide]
+title = ACTIVITY 2: Chrome Dev Tools Practice
+browser = solutions/2-chrome-dev-tools-practice.html
+markdown : '''
+1. Open up `2-chrome-dev-tools-practice.html` in Chrome
+2. Using Google Dev tools, follow the instructions to practice all of these
+different CSS properties
+3. Look up at least one or two new ones online to try also ("How do I XYZ in
+CSS")
+'''
+
+[slide]
+title=CHALLENGE: Dev Tools Fakery
+markdown : '''
+1. Use Chrome Dev tools on a real site, such as Hacker News or Twitter
+2. Add your own text and/or styling
+3. Post a screenshot to chat, and vote using emoji reactions which is
+the best!
+
+![Barack Obama](file://./images/barack_obama.png)
+'''
+
+[slide]
+title=Kickstart Backend - Day 2
+markdown : '''
+* HTML Review
+* Intro to CSS
+* Chrome Dev Tools
+* CSS Selectors ←
+'''
+
+
+[slide]
+title=How do we save CSS?
+
+
+[slide]
+title=How do we save CSS?
+editor=examples/inline-styles-example.html
+markdown : '''
+
+* With a `style` attribute in the HTML
+
+* Try it out in your HTML now!
+
+### KEY TERMS
+
+* **style attribute** - one location for CSS styles, embedded individually on
+  elements
+'''
+
+
+[slide]
+title=Flaws with inline styles
+editor=examples/inline-styles-example.html
+browser=examples/inline-styles-example.html
+markdown : '''
+# What flaws do you see with this approach?
+'''
+
+
+[slide]
+title=Flaws with inline styles
+editor=examples/inline-styles-example.html
+browser=examples/inline-styles-example.html
+markdown : '''
+* If you need to re-use it, it gets repetitive!
+* DRY - Don't Repeat Yourself - this acronym will be haunting you again soon
+'''
+
+
+[slide]
+title=CSS Rules
+markdown=![CSS Block](file://./images/css_block.png)
+
+[slide]
+title=CSS Rules
+editor=examples/selector-styles-example.html
+browser=examples/selector-styles-example.html
+markdown : '''
+### KEY TERMS
+* **rule** - a way to modify the style of SOME of your elements, keeping your
+  content separate from your style. Consists of a "selector" paired with one or
+  more declarations.
+* **selector** - how to "target" your rule to make it apply to certain HTML
+  tags, a comma-separated list of items that should be matched
+* **style tag** - a tag that can save CSS rules -- should go at the top
+'''
+
+[slide]
+title=CSS Selectors
+markdown : '''
+| Selector      | Matching HTML example |
+| ------------- |--------------:|
+| `p`           | `<p>Test</p>` |
+| `.cls-name`   | `<p class="cls-name">Test</p>` |
+| `#id_name`    | `<p id="id_name">Test</p>` |
+
+### KEY TERMS
+* **class** - a way to group HTML elements
+* **id** - like class, but unique: a way to "name" a singular element
+'''
+
+
+[slide]
+title=CSS Selectors - Combining
+markdown : '''
+| Selector      | Matching HTML example |
+| ------------- |--------------:|
+| `p.cls`       | `<p class="cls">Test</p>` |
+| `.cls1, .cls2`       | `<p class="cls1">a</p>` `<p class="cls2">b</p>`  |
+| `.cls em`       | `<p class="cls"><em>Test</em></p>` |
+
+* Comma-separate multiple selectors
+
+* Add a space to select "child" or elements within other elements
+
+* Combine selectors by putting next to each other (e.g. `p.class-name`)
+'''
+
+[slide]
+title=DEMO - CSS Selectors
+editor=examples/selector-demo.html
+browser=examples/selector-demo.html
+
+
+[slide]
+title=ACTIVITY 3 - CSS Selectors
+markdown : '''
+Replace each of the `CHANGE_ME` with a selector to make the HTML look
+like the result on the left
+'''
+editor=activities/3-css-selectors.html
+browser=solutions/3-css-selectors.html
+
+
+
+[slide]
+title=CSS Stylesheets
+markdown : '''
+You can also put your CSS in a separate file for cleanliness.
+
+**NOTE:** Now we need to start getting more careful about using our
+"boilerplate"!
+
+### KEY TERMS
+* **style sheet** - a separate file containing CSS code that can be
+  "linked" into a HTML document
+'''
+
+
+[slide]
+title=DEMO - CSS Stylesheets
+editor=examples/linked-stylesheets.html,examples/style.css
+browser=examples/linked-stylesheets.html
+
+
+[slide]
+title=ACTIVITY 4 - CSS Stylesheets
+markdown : '''
+Look in the directories and figure out how to add in links to style sheets
+
+`<link rel="stylesheet" href="style.css" />`
+'''
+editor=activities/4-linking-stylesheets/linking.html
+browser=solutions/4-linking-stylesheets/linking.html
+
+
+[slide]
+title=Questions?
+
