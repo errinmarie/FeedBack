@@ -360,3 +360,550 @@ git rm --cached .local/share/Trash/files/pickles.2
 cd 
 ls
 git add -A
+git init
+ls -a
+gedit index.html
+git add -A
+git commit -m 'added header'
+clear
+cd 
+ls
+gedit index.html
+git add -a
+git add -A
+git commit -m 'added paragraph text'
+git log
+git diff
+gedit index.html
+git add -A
+git commit -m 'added another paragraph'
+git log
+git status
+gedit index.html
+git add -A
+git commit -m 'last paragraph before bed'
+git log
+git status
+gedit index.html
+git status
+cd Downloads/week2/activities
+cd Downloads/week2
+ls
+cd 2.1-bash
+ls
+cd activities
+ls
+cd 4-git-challenge
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd 2.2-git
+ls
+cd activities
+ls
+gedit 1-git-branching-instructions.txt
+cd 
+ls
+git -a
+ls -a
+cd .git
+ls
+cd branches
+ls
+cd ..
+ls
+git branch my-test-branch
+git status
+cd 
+ls
+ls -a
+cd .git
+ls
+gedit index
+cd 
+ls
+mv index.html .git
+cd .git
+ls
+cd Downloads/week2
+ls
+cd
+ls
+cd Downloads/week2
+ls
+cd 2.2-git
+ls
+cd activties
+cd activities
+ls
+cd .git
+ls
+cd 
+ls
+ls -a
+cd .git
+ls
+git branch my-test-branch
+git checkout my-test-branch
+git branch master
+git checkout master
+git init
+git status
+cd 
+ls
+cd Downloads/week2/week2_homework
+ls
+git clone https://github.com/errinmarie/HW1.git
+add week1_homework -A
+git add -A week1_homework
+git add week1_homework -A
+git add ../week1/week1_homework
+git add ../week1/week1_homework -A
+git status
+git remote -v
+ls
+cd HW1
+ls
+git add .
+git commit -m 
+git commit -m "adding hw files to commit"
+python 3
+python3
+ls
+cd Downloads/week2
+ls
+cd 2.3-python
+ls
+cd 2.3-python
+ls
+cd activities
+ls
+python3 1_intro_to_python.py 
+python3_2_variable_marathon.py
+python 3 2_variable_marathon.py
+python3 2_variable_marathon.py
+python3 2_variable_marathon.py 
+python3 22
+python3 2_variable_marathon.py 
+python3 3_file_reading_challenge.py
+cd ..
+cd activities/3_reading_from_file
+ls
+python3 3_file_reading_challenge.py
+cd frankenstein
+ls
+cd ..
+python3 3_file_reading_challenge.py 
+cd Documents/week4
+cd Documents/week2
+ls
+cd 2.3-python
+ls
+cd 2.3-python
+ls
+cd activities
+ls
+cd 4_writing_to_file/
+ls
+cd ..
+ls
+cd 4_writing_to_file/
+ls
+python3 4_writing_to_file_challenges.py 
+ls
+python3 4_writing_to_file_challenges.py
+python3 4_writing_to_file_challenges.py 
+clear
+cd 
+ls
+ls -a
+cd .git
+ls
+quit
+cd 
+ls
+ls -a
+rm .git
+git rm .git
+rm .git
+python3
+'/home/errinmixon/Documents/week2/2.1-bash/activities/2-cli-challenge/challenge_2_maze/enter_if_you_dare' 
+ls
+cd 
+ls
+cd Documents
+ls
+cd week2
+ls
+cd 2.1-bash
+ls
+cd activities
+ls
+cd 2-cli-challenge
+ls
+cd challenge-2-maze
+cd challenge_2_maze
+ls
+cd enter_if_you_dare
+ls
+cd go_here
+ls
+cd correct_path_this_way/
+ls
+cd door_three
+ls
+ls *
+cd the_path_onward
+cd 7: the_path_onward
+cd 7:the_path_onward
+ls
+cd door_three
+ls
+ls *
+cd 7
+ls
+cd the_path_onward/
+ls
+ls -a
+cd .hidden_directory/
+ls
+clear
+cd 
+cd ..
+ls
+cd .
+ls
+cd 
+ls
+cd Documents/week2
+ls
+cd 2.1-bash/
+ls
+cd activities/
+ls
+cd 2-cli-challenge/
+ls
+cd challenge_3_hoops/
+ls
+mv Basketball hoop
+mv basketball1 hoop
+mv Basket ball hoop
+mv Basket_ball hoop
+mv BaSkEtBalL2 hoop
+mv bbbASKETbbbbaLLL____3 hoop
+mv bsktbl-4 hoop
+mv V\ A\ P\ O\ R\ B\ A\ L\ L hoop
+mv Basket\ ball hoop
+cd hoop
+ls
+cd .
+cd ..
+cd ../
+ls
+cd challenge_4_fish/
+ls
+mv *fish* coral_reef
+cd coral_reef/
+ls
+cd ../
+ls
+cd challenge_5
+ls
+cd challenge_5_student_dirs/
+ls
+mkdir Grace Annie Steven Maria
+cd Annie
+ls
+mkdir red
+ls
+cd ../
+ls
+cd Grace
+ls
+mkdir blue
+ls
+cd ../
+ls
+cd Maria
+mkdir green
+ls
+cd ../
+ls
+cd Steven
+ls
+mkdir yellow
+ls
+cd ../
+ls
+cd challenge_6_html/
+ls
+touch index.html
+gedit index.html
+cd ../
+ls
+cd challenge_7_deletion/
+ls
+rm 1-Delete_this_file 
+rm 2-Delete_this_file_too 
+rmdir 3-Delete_this_filled_dir/
+ls
+cd 3-Delete_this_filled_dir/
+lsl
+ls
+rm Stuff
+ls
+rmdir 3-Delete_this_filled_dir
+ls
+cd 3-Delete_this_filled_dir
+ls
+cd ../
+rmdir 3-Delete_this_filled_dir/
+cd ../
+ls
+cd challenge_8
+ls
+cd challenge_8_reading
+ls
+cat jabberwocky 
+less jabberwocky 
+cat down_the_rabbit_hole 
+less down_the_rabbit_hole 
+more jabberwocky 
+more down_the_rabbit_hole 
+cd ../
+cd challenge_9_bonus/
+ls
+cd jabberwocky/
+ls
+cd ../
+ls
+cd 4-git-challenge/
+ls
+git init
+ls -a
+gedit index.html
+git add -A
+git commit
+cd 
+ls
+cd Documents/week2
+ls
+cd 2.1-bash/
+ls
+cd activities/
+ls
+cd 4-git-challenge/
+ls
+git add -A
+git commit -m 'added header'
+git log
+git diff
+gedit index.html 
+git add -A
+git commit -m 'added paragraph'
+git log
+git diff
+gedit index.html 
+git status
+git add -A
+git status
+git commit -m 'added second paragraph'
+git status
+git log
+git status
+git diff
+git checkout
+cd ../
+ls
+cd 2.2-git/
+ls
+cd activities/
+ls
+cd ../
+ls
+cd 2.1-bash/
+ls
+cd activities/
+ls
+cd 4-git-challenge/
+ls
+git branch my-test-branch
+git status
+git checkout my-test-branch
+gedit index.html 
+git add -A
+git commit -m 'added third paragraph'
+git log
+git checkout master
+git merge my-test-branch
+git log
+git checkout my-test-branch 
+gedit index.html 
+git add -A
+git commit -m 'added fourth paragraph'
+git log
+git checkout master
+git merge my-test-branch
+git log
+git checkout my-test-branch
+gedit index.html 
+git add -A
+git commit -m 'added fifth paragraph'
+git status
+git checkout master
+gedit index.html 
+git add -A
+git commit -m 'added another fifth paragraph'
+git status
+git checkout my-test-branch
+git merge master
+git log
+git checkout master
+git checkout my-test-branch
+git log
+cd Documents/week2
+ls
+cd 
+cd ..
+ls
+cd 
+ls
+cd Documents/week2
+ls
+cd 2.2-git/
+ls
+cd activities/
+ls
+git clone https://github.com/errinmarie/pickles.git
+ls
+cd pickles/
+git remote -v
+gedit index.html
+git add -A
+git commit -m 'started pickle file'
+git log
+git diff
+git push
+ls
+gedit index.html 
+git add -A
+git commit -m 'info on pickles'
+git log
+git diff
+git push
+cd ../
+ls
+git clone https://github.com/errinmarie/pickles.git
+cd ../
+git clone https://github.com/errinmarie/pickles.git
+ls
+cd pickles/
+ls
+gedit index.html 
+git add -A
+git commit -m '1903 history'
+git log
+git push
+cd ../
+ls
+cd activities/
+ls
+cd pickles/
+ls
+git pull
+ls
+gedit index.html 
+cd ../
+ls
+cd 3-cat-redirect/
+ls
+cd 1-jabberwocky/
+ls
+cat jabberwocky_a.txt jabberwocky_b.txt jabberwocky_c.txt
+cd ../
+ls
+cd 3-cat-redirect/
+ls
+cd 2-html-site/
+ls
+cd content
+ls
+cd ../
+ls
+cd templates/
+ls
+mv bottom.html, top.html ../
+ls
+mv bottom.html ../
+cd ../
+ls
+mv top.html content
+mv bottom.html content
+cd content/
+ls
+cat top.html index.html projects.html contact.html bottom.html > website.html
+ls
+gedit website.html 
+cd 
+ls
+cd Documents/week2/2.2-git/activities/3-cat-redirect/2-html-site
+ls
+cd content
+ls
+cat top.html index.html projects.html contact.html bottom.html > build.sh
+
+cat top.html index.html projects.html contact.html bottom.html>"build.sh"
+cd content
+ls
+gedit build.sh
+build.sh
+chmod +x build.sh
+build.sh
+git run build.sh
+bash build.sh
+gedit build.sh
+bash build.sh
+ls
+cat top.html index.html projects.html contact.html bottom.html > build.sh
+bash script build.sh
+./build.sh
+chmod u+x build.sh
+build.sh
+./build.sh
+source script_build.sh
+build.sh
+chmod +x build.sh
+./builld.sh
+sh build.sh
+bash script build.sh
+gedit build.sh
+build.sh
+sh build.sh
+cd ../
+cd 4-cat-scripting/
+ls
+cd ../
+ls
+python3 6_python.py 
+cd Documents/week2/2.3-python
+ls
+cd 2.3-python/
+ls
+cd activities/
+ls
+python3 1_intro_to_python.py 
+python3 2_variable_marathon.py 
+python3 2
+python3 2_variable_marathon.py 
+ls
+cd 3_reading_from_file/
+python3 3_file_reading_challenge.py 
+python3 3_file_reading_challenge.py  > site.html
+cd ../
+cd 4_writing_to_file/
+ls
+python3 4_writing_to_file_challenges.py 

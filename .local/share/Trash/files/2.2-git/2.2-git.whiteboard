@@ -1,0 +1,280 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=Kickstart Coding - 2.2 - Git
+
+
+[slide]
+title=Homework is due!
+
+
+[slide]
+title=Climbing the summit of knowledge...
+markdown : '''
+![Climbing](file://./images/climbing.gif)
+'''
+
+
+[slide]
+title=Anyone feel a little more like this?
+markdown : '''
+![Drowning](file://./images/drowning.gif)
+'''
+
+
+[slide]
+title = Frustration is expected
+markdown : '''
+* Step 1: Accept frustration as part of learning
+    * Coding frustration DOES NOT GO AWAY
+
+* Step 2: Don't be alone
+    * Form a study group. Meet on off days.
+
+* Step 3: Fight impostor syndrome
+    * Impostor syndrome DOES NOT GO AWAY
+'''
+
+[slide]
+title = Frustration is expected
+markdown : '''
+* Protips
+    * Redo the in-class activities outside of class
+    * Read ahead the recommended online text-book reading
+
+* If/when you need more help:
+    * Come to study lounge
+    * Ask other students
+    * Ask us on Chat
+'''
+
+[slide]
+title = Quote
+markdown : '''
+* "It's ok to be frustrated, to feel stupid, to want to quit. But just remember
+  that the problem isn't you. The problem is that learning to code is hard.
+  It's hard, but the hard part will pass."
+
+### Saron Yitbarek (of CodeNewbie)
+
+![Drowning](file://./images/saron_y.jpg)
+'''
+
+[slide]
+title=Are your brains ready?
+
+
+[slide]
+title=Hacker workout!
+markdown : '''
+The next exercise is intended to test and improve your terminal usage speed.
+
+Open up your terminal.  On your mark... get set...
+
+![Hackers](file://./images/hackers.gif)
+'''
+
+
+[slide]
+title=Hacker workout!
+markdown : '''
+> ![Hackers](file://./images/hackers.gif)
+
+### 5 reps of...
+
+1. `cd` into `/tmp`
+
+2. `ls`
+
+3. Create an empty directory named `rep0`
+
+4. `cd` into the newly created directory
+
+5. Use `touch` to create a new file named `file.txt`
+
+6. `cd` back to the `activities/2-cli-challenge` directory.
+
+7. `ls`
+
+8. Repeat, except for step #3 increase the number by one, e.g. `rep1`, `rep2` `rep3`, etc
+
+BONUS: Try again, except for each step, use `echo` to redirect the words
+"repetition 1" into rep1 etc. Can you do 5 reps in less than a minute?
+'''
+
+
+[slide]
+title=Back to Git
+
+
+[slide]
+title=Discussion Question
+markdown : '''
+**Discussion:** Discuss these two questions, telling any stories that might fit
+these criteria with the person next to you. Think of stories from group
+projects you have done with Microsoft Word or any other software, for work or
+for school.
+
+1. Have you ever undo-ed a lot before, then lost the "redo" ability, and
+couldn't get back to where you were?
+
+2. Have  you ever wanted to maintain 2 different versions of the same project,
+for example one external for a client and another internal for your company,
+and be able to make some changes that get applied to both, while still
+maintaining certain distinctions?
+'''
+
+
+[slide]
+title=Git Branching
+markdown : '''
+![Git Branching](file://./images/git_branch.svg)
+'''
+
+
+[slide]
+title=DEMO: Git Branching
+terminal=./demos/
+markdown : '''
+### KEY TERMS
+* **branch** - A parallel undo history
+* **merge** - Sync up two branches
+* **master** - The default branch
+'''
+
+
+[slide]
+title=ACTIVITY 1: Git Branching
+editor=./activities/1-git-branching-instructions.txt
+markdown : '''
+### Git commands
+* `git branch a-branch-name` - Creates a new branch
+* `git checkout a-branch-name` - Switches to branch
+* `git merge some-branch` - Merges "some-branch" into the current branch
+'''
+
+
+[slide]
+title=DEMO: GitHub & remotes
+terminal=./demos/
+markdown : '''
+* **pull request** - GitHub specific term: A formalized review process for
+  merging a branch (IMO should be called a "merge request")
+
+### KEY TERMS
+* **clone** - Download a repository from a remote location
+* **remote** - A git repository elsewhere, but is associated with your local
+  code, so it is kept "backed up"
+* **pull** - Grab changes from a remote, make your local copy up-to-date
+* **push** - Give your changes to a remote, make the remote copy up-to-date
+'''
+
+
+[slide]
+title=ACTIVITY 2: GitHub & remotes
+editor=./activities/2-git-branching-instructions.txt
+markdown : '''
+### Git commands
+* `git clone` - Copy a remote
+* `git remote -v` - List remotes
+* `git pull` - Pull in changes
+* `git push` - Push up changes
+'''
+
+[slide]
+title=DEMO: Cat & Redirection
+terminal=./demos/
+markdown : '''
+
+### KEY TERMS
+* cat - a command to concatenate (fancy word for splice together) files on
+    the CLI
+* redirection - a feature of bash that lets you output commands into files
+'''
+
+
+[slide]
+title=DEMO: Bash scripting
+terminal=./demos/
+markdown : '''
+
+We can save any series of bash commands into a script file. This is real
+programming and lets us automate repetitive tasks!
+
+### KEY TERMS
+
+* **scripting** - a type of computer programming that lets us automate
+    repetitive tasks
+'''
+
+[slide]
+title=DISCUSSION: Bash scripting
+
+[slide]
+title=ACTIVITY 4 - Bash scripting
+markdown : '''
+1. Save a new file called `build.sh`
+
+2. Redo ACTIVITY 3, except using build.sh
+'''
+
+
+[slide]
+title=Python
+
+
+[slide]
+title=Python
+terminal=./demos/
+markdown : '''
+
+Start Python3 in interactive mode: `python3`
+
+### Key terms
+* interactive prompt - bash-like shell for practicing Python!
+'''
+
+
+[slide]
+title=ACTIVITY 5: Practice Python!
+terminal=./demos/
+markdown : '''
+
+Experiment with using Python like a calculator. Simple arithmetic operations
+can be done to combine data or compute values.
+
+### Key terms
+* string - means "text", enclosed by either double quotes or single quotes
+* int - a number that is whole integer
+* float - a number that can have decimal places
+* operators - things like +, -, etc: these combine data types and produce
+  results
+* order of operation - just like in math, stuff gets executed in a certain
+  order
+'''
+
+[slide]
+title=Python scripting
+
+
+[slide]
+title=DEMO: Python scripting
+terminal=./demos/
+editor=./demos/python-scripting/helloworld.py
+
+[slide]
+title=ACTIVITY 6: Python
+markdown : '''
+Just as with Bash, run a Python script with `python3 name_of_script.py`
+
+### KEY CODE
+* `print("Hello world!")` - the Python code used to print "Hello world!" to the
+  terminal
+'''
+editor=./activities/6_python.py
+
+[slide]
+title=Questions?
+

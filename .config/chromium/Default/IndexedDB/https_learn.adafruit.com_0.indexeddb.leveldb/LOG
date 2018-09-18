@@ -1,0 +1,9 @@
+2018/09/15-22:17:38.529 4039 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_learn.adafruit.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/15-22:17:41.684 4010 Current memtable full; waiting...
+2018/09/15-22:17:41.684 4159 Level-0 table #5: started
+2018/09/15-22:17:41.688 4159 Level-0 table #5: 448 bytes OK
+2018/09/15-22:17:41.690 4159 Delete type=0 #3
+2018/09/15-22:17:41.691 4159 Level-0 table #7: started
+2018/09/15-22:17:41.691 4159 Level-0 table #7: 0 bytes OK
+2018/09/15-22:17:41.693 4159 Delete type=0 #4
+2018/09/15-22:17:41.693 4159 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

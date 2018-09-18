@@ -1,3 +1,3 @@
-2018/09/12-20:49:41.490 5462 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/09/12-20:49:41.491 5462 Recovering log #3
-2018/09/12-20:49:41.491 5462 Reusing old log /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000003.log 
+2018/09/16-17:09:53.368 8640 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/16-17:09:53.368 8640 Recovering log #3
+2018/09/16-17:09:53.369 8640 Reusing old log /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000003.log 

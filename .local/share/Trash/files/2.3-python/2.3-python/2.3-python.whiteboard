@@ -1,0 +1,171 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=Kickstart Coding - Day 6
+
+[slide]
+title=Ready for some Python?
+markdown : '''
+![Python](file://./images/python.gif)
+'''
+
+
+[slide]
+title=ACTIVITY: 1 intro to python.py
+editor=./activities/1_intro_to_python.py
+
+
+[slide]
+title=SOLUTION: 1 intro to python.py
+editor=./solutions/1_intro_to_python_solution.py
+
+[slide]
+title=Variables
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+![buckets](file://./images/variable_buckets_1.png)
+'''
+
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+* When we use data in programming, we store it into labeled "containers" known
+  as "variables"
+* You can think of them as buckets for data
+* The "=" is called the assignment operator
+* It puts the thing on the right into the thing on the left
+* **Most of coding involves shuffling around and modifying data, shifting from
+  one "bucket" to another, and applying different operations to them**
+
+![buckets](file://./images/variable_buckets_1.png)
+'''
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+![buckets](file://./images/variable_buckets_transfer.png)
+'''
+
+[slide]
+title=Variables
+markdown : '''
+### KEY TERMS:
+* variable - a named "bucket" that you can put data into
+* value - the data that is within a variable
+* operator - a symbol such as plus or minus, the way we can combine data or
+  variables
+* assignment - the "operator" that puts data into a variables, done with the
+  "=" sign
+* type - all data in Python is said to be of a certain "type"
+'''
+
+
+[slide]
+title=Types of data
+markdown : '''
+In computer programming, we categorize each piece of different information or
+data we deal with into something called a `type`
+
+We store these different types into variables.
+
+### Common types
+* str - short for "string of characters" - this data holds bits of text,
+  whether they are just as single word or sentence, or thousands of characters
+  long
+* int - integer (e.g. a number without decimal places)
+* float - short for "floating point number" (e.g.  a number with
+  decimal places)
+* bool - short for "boolean", a value that is either true or false
+'''
+
+[slide]
+title=DEMO: Variables
+editor=./demos/variable_demo.py
+terminal=./demos/
+
+
+[slide]
+title=ACTIVITY 2: 2 variable marathon
+
+
+[slide]
+title=REVIEW: 2 variable marathon
+editor=./solutions/2_variable_marathon_solution.py
+terminal=./solutions/
+
+
+[slide]
+title=IO, IO, off to work we go!
+markdown : '''
+![dwarves](file://./images/dwarves.gif)
+'''
+
+
+[slide]
+title=What does "IO" stand for?
+
+
+[slide]
+title=IO: Input, Output
+terminal=./demos/
+editor=./demos/file_io.py
+
+[slide]
+title=ACTIVITY 3: Reading from files
+editor=./activities/3_reading_from_file/3_file_reading_challenge.py
+
+
+[slide]
+title=SOLUTION 3: Reading from files
+terminal=./solutions/3_reading_from_file
+editor=./solutions/3_reading_from_file/3_file_reading_challenge.py
+
+
+[slide]
+title=DEMO: Writing to files
+terminal=./demos/
+editor=./demos/file_io.py
+
+
+[slide]
+title=ACTIVITY 4: Writing to files
+editor=./activities/4_writing_to_file/4_writing_to_file_challenges.py
+
+
+[slide]
+title=SOLUTION 4: Writing to files
+terminal=./solutions/4_writing_to_file
+editor=./solutions/4_writing_to_file/4_writing_to_file_challenges.py
+
+
+
+[slide]
+title=Static site generator
+markdown : '''
+For Homework 2, we will be building a static site generator.
+
+### KEY TERMS:
+* static site - a non-interactive website that changes infrequently
+* static site generator - an script that generates static sites
+'''
+
+[slide]
+title=Static site generator
+editor=./activities/5_static_site_generation/instructions.txt
+
+
+[slide]
+title=REVIEW: Static site generator
+
+
+[slide]
+title=Questions?
+

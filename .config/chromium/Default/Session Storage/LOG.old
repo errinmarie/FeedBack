@@ -1,6 +1,11 @@
-2018/09/12-18:01:14.048 2155 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/Session Storage/MANIFEST-000001
-2018/09/12-18:01:14.048 2155 Recovering log #154
-2018/09/12-18:01:14.050 2155 Reusing old log /home/errinmixon/.config/chromium/Default/Session Storage/000154.log 
-2018/09/12-18:22:24.046 3591 Level-0 table #159: started
-2018/09/12-18:22:24.190 3591 Level-0 table #159: 15893 bytes OK
-2018/09/12-18:22:24.192 3591 Delete type=0 #154
+2018/09/15-11:50:52.075 5642 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/09/15-11:50:52.075 5642 Recovering log #158
+2018/09/15-11:50:52.076 5642 Reusing old log /home/errinmixon/.config/chromium/Default/Session Storage/000158.log 
+2018/09/15-12:10:45.578 6264 Level-0 table #162: started
+2018/09/15-12:10:45.727 6264 Level-0 table #162: 15206 bytes OK
+2018/09/15-12:10:45.733 6264 Delete type=0 #158
+2018/09/15-13:11:05.069 6264 Level-0 table #164: started
+2018/09/15-13:11:05.215 6264 Level-0 table #164: 17334 bytes OK
+2018/09/15-13:11:05.217 6264 Delete type=0 #161
+2018/09/15-15:31:50.300 6264 Level-0 table #166: started
+2018/09/15-15:31:50.318 6264 Level-0 table #166: 14127 bytes OK

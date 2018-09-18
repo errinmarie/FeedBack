@@ -3749,7 +3749,7 @@
     <id>activityAppLauncher_rastersoft.com</id>
     <name>Activity App Launcher</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Integrates a category-based application launcher in the activities window. IMPORTANT: requires &quot;libgnome-menu-3-dev&quot; and &quot;gnome-menus&quot;. They must be installed BEFORE trying to install this extension.</p></description>
+    <description><p>Integrates a category-based application launcher in the activities window. IMPORTANT: it needs the &apos;gnome-menus&apos; and &apos;libgnome-menu-3-dev&apos;; they must be installed in the system before installing this extension.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
