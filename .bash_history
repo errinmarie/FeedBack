@@ -907,3 +907,343 @@ cd ../
 cd 4_writing_to_file/
 ls
 python3 4_writing_to_file_challenges.py 
+'/home/errinmixon/Documents/week2/2-homework' 
+ls
+cd Documents/week2/2-homework
+ls
+git clone https://github.com/errinmarie/HW1.git
+git add -A
+git commit -m 'added HW1 files'
+git push
+git remote add https://github.com/errinmarie/HW1
+git push https://github.com/errinmarie/HW1
+cd 
+ls
+Documents/week2
+ls
+cd Documents/week2
+ls
+cd 2-homework/
+ls
+cd HW1/
+ls
+git clone https://github.com/errinmarie/HW1.git
+git add -A
+git rm --cached HW1
+cd Documents/week2/2-homework
+ls
+git clone https://github.com/errinmarie/Homework1.git
+cd 
+ls
+cd Documents/week3/3.1-flow
+ls
+cd activities/
+ls
+python3 1_python_warmup.py 
+clear
+cd Documents/week2/2-homework
+ls
+cd Documents/week2
+cd '/home/errinmixon/Documents/week2/2-homework' 
+git clone https://github.com/errinmarie/homework2.git
+cd homework2/
+ls
+ls -al
+git status
+cd '/home/errinmixon/Documents/week3/3.1-flow/activities' 
+ls
+python3 2_container_time.py 
+clear
+python3 3_branching.py 
+clear
+python3 5_while_loop_practice.py 
+cd '/home/errinmixon/Documents/week3/3.1-flow/activities' 
+ls
+python3 5_while_loop_practice.py 
+cd '/home/errinmixon/Documents/week3/3.1-flow/activities' 
+clear
+cd '/home/errinmixon/Documents/week2/2-homework' 
+ls
+cd homework2
+ls
+git add -A
+git commit -m 'added homework files'
+git push
+git status
+git settings
+'/home/errinmixon/Documents/week2/2-homework/homework2' 
+ls
+cd '/home/errinmixon/Documents/week2/2-homework/homework2' 
+ls
+-ls
+-a
+-l
+-la
+git status
+git branch ssg-bash
+git checkout ssg-bash
+mkdir templates/
+ls
+mkdir docs/
+ls
+git status
+cat templates/top.html content/index.html > docs/index.html
+git add -A
+git commit -m 'split docs for home page'
+git push
+git push --set-upstream origin ssg-bash
+git add -A
+git commit -m 'changed file names to reflect homepage'
+git push
+git status
+cat templates/contact_top.html content/contact_index.html > docs/contact.html
+git add -A
+git commit -m 'split docs for contact page'
+git push
+git status
+git log
+ls
+bash build.sh
+git add -A
+git commit -m 'split and added all files, changed a few filenames for consistency'
+git push
+git status
+git log
+git status
+git checkout master
+git branch ssg-python
+git checkout ssg-python
+git checkout ssg-bash
+git checkout master
+git checkout ssg-bash
+git checkout master
+git checkout ssg-python
+get status
+git status
+git branch
+git checkout master
+git checkout ssg-bash
+git checkout ssg-python
+git checkout ssg-bash
+git checkout ssg-python
+ls
+git checkout master
+git checkout ssg-bash
+git checkout ssg-python
+python3 build.py
+git status
+git add -A
+git commit -m 'added ssg-python branch & files'
+git push
+git push --set-upstream origin ssg-python
+git status
+git branch
+git checkout ssg-bash
+git checkout ssg-python
+git status
+git branch
+git add -A
+git status
+git log
+git branch
+git status
+git checkout ssg-python
+git add -A
+git commit -m 'added build.py file on the ssg-bash branch by accident, then deleted'
+git push
+git checkout ssg-python
+git status
+git add -A
+git commit -m 'replaced build.py'
+git push
+git branch
+mkdir docs
+python3 build.py
+git branch
+git add -A
+git commit -m 'ran python script to create combined files; manually moved to Docs folder'
+git push
+cd Documents/week2/2-homework/homework2
+ls
+git branch
+git checkout ssg-bash
+git branch
+git checkout master
+git pull
+git push
+git add -A
+git commit -m 'added index file'
+git push
+git add -A
+git commit -m 'updated readme file'
+gitpush
+git push
+cd Documents/week3/3.2-functions/activities
+ls
+python3 1_python_review.py 
+clear
+python3 2_functions.py 
+cd '/home/errinmixon/Documents/week3/3.2-functions/activities' 
+ls
+python3 2_functions.py 
+clear
+python3 3_parameters.py 
+clear
+python3 4_positional_return.py 
+clear
+cd '/home/errinmixon/Documents/week3/3.3-loops/activities' 
+ls
+python3 1_review_functions.py 
+python3 2_for_loops.py 
+clear
+python3 3_more_for.py 
+clear
+cd '/home/errinmixon/Documents/week3/3.2-functions/activities' 
+python3 1_python_review.py 
+cd '/home/errinmixon/Documents/week2/2-homework/hw2redo' 
+ls
+bash build.sh
+ls
+python3 build.py
+ls
+git clone https://github.com/errinmarie/hw2redo.git
+git add -A
+https://github.com/errinmarie/hw2redo.gigit rm --cached .local/share/Trash/files/Homework1
+git rm --cached .local/share/Trash/files/Homework1
+cd '/home/errinmixon/Documents/week2/hw2redo' 
+ls
+git clone https://github.com/errinmarie/hw2redo.git
+ls
+git clone https://github.com/errinmarie/hw2redo.git
+git add -A
+git rm --cached Documents/week2/hw2redo/hw2redo
+ls
+../
+cd / 
+ls
+cd 
+ls
+cd Downloads/week2
+cd Documents/week2
+ls
+cd 2-homework
+ls
+git clone https://github.com/errinmarie/hw2redo.git
+ls
+cd hw2redo
+ls
+git commit -A
+git add -A
+git commit -m 'added all files'
+git push
+git status
+git branch ssg-bash
+git checkout ssg-bash
+git status
+cd '/home/errinmixon/Documents/week2/2-homework' 
+ls
+git clone https://github.com/errinmarie/hw2redo.git
+git add -A
+git rm --cached .local/share/Trash/files/hw2redo.2
+ls
+cd hw2redo
+ls
+git add -A
+git commit -m 'added files'
+git push
+git branch ssg-bash
+git status
+git checkout ssg-bash
+git status
+mkdir templates
+mkdir docs
+mkdir content
+bash build.sh
+git status
+git add -A
+git commit -m 'added files and ran bash script'
+git push
+git push --set-upstream origin ssg-bash
+git status
+git checkout master
+git branch ssg-python
+git checkout ssg-python
+mkdir docs
+python3 build.py
+git status
+git add -A
+git commit -m 'added files and ran python script'
+git push
+git push --set-upstream origin ssg-python
+git status
+ce '/home/errinmixon/Documents/week2/2-homework/hw2redo' 
+cd '/home/errinmixon/Documents/week2/2-homework/hw2redo' 
+ls
+git status
+git checkout master
+git pull
+git status
+cd 
+ls
+cd Desktop
+ls
+python3 build.py 
+ls
+python3 test.py
+python test.py
+python3 test.py
+cd '/home/errinmixon/Documents/week3/3-homework' 
+ls
+python3 build.py 
+python build.py 
+python3 build.py 
+clear
+cd
+ls
+cd '/home/errinmixon/Documents/week3/3-homework' 
+python3 build.py 
+cd '/home/errinmixon/Documents/week4/4.1-oop/activities' 
+ls
+python3 1_review_func_for.py 
+python3 2_hospital.py 
+cd '/home/errinmixon/Documents/week3' 
+ls
+cd '/home/errinmixon/Documents/week3/3-homework' 
+ls
+python3 build.py 
+cd '/home/errinmixon/Documents/week4/4.1-oop/activities' 
+ls
+python3 3_oop_hospital.py 
+python3 3_oop_hospital.py python3 3_oop_hospital.py 
+clear
+python3 3_oop_hospital.py 
+'/home/errinmixon/Documents/week3/3-homework' a cd 
+cd '/home/errinmixon/Documents/week3/3-homework' 
+ls
+python3 build.py 
+cd
+ls
+python3 testing
+ls
+cd Desktop
+ls
+python3 practice.py 
+clear
+python3 practice.py 
+cd
+ls
+cd Documents/week3/3-homework
+ls
+python3 build.py 
+ls
+python3 build.py 
+python3 build.py
+python3 build.py 
+https://github.com/errinmarie/homework3.git
+cd 
+ls
+cd Documents/week3/3-homework
+ls
+https://github.com/errinmarie/homework3.git
+git clone https://github.com/errinmarie/homework3.git
+git status

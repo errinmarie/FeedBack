@@ -150,11 +150,11 @@
     <url type="homepage">https://extensions.gnome.org/extension/835/alsa-mixer/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_835_ek4CPZM.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_835_PgpgrhT.png</image>
       </screenshot>
     </screenshots>
     <releases>
-      <release version="28"/>
+      <release version="29"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -548,7 +548,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="33"/>
+      <release version="34"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3082,7 +3082,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="13"/>
+      <release version="14"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3456,7 +3456,7 @@
     <id>Vitals_CoreCoding.com</id>
     <name>Vitals</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>A glimpse into your computer&apos;s temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.</p></description>
+    <description><p>A glimpse into your computer&apos;s temperature, voltage, fan speed, memory usage, processor load, system resources, network / internet speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -3470,7 +3470,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="9"/>
+      <release version="13"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3762,6 +3762,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1149_OgYzUo3.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="13"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4602,7 +4605,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="2"/>
+      <release version="3"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -4614,7 +4617,7 @@
     <id>arc-menu_linxgem33.com</id>
     <name>Arc Menu</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>The alternative applications menu for Gnome 3.</p></description>
+    <description><p>The new applications menu for Gnome 3.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -4628,7 +4631,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="20"/>
+      <release version="22"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5159,6 +5162,32 @@
     </metadata>
   </component>
   <component type="shell-extension">
+    <id>batime_martin.zurowietz.de</id>
+    <name>Battery Time</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Show the remaining time until fully charged/discharged instead of the battery charge in percent in the panel.</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1475/battery-time/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1475.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">batime@martin.zurowietz.de</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
     <id>battery-indicator_tty.gr</id>
     <name>Battery Percentage Indicator</name>
     <summary>GNOME Shell Extension</summary>
@@ -5528,7 +5557,7 @@
     <id>blyr_yozoon.dev.gmail.com</id>
     <name>Blyr</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Apply a Blur Effect to GNOME Shell UI elements.</p><p>On some Ubuntu installs the preferences dialog won&apos;t open. To fix the issue install the gtkclutter bindings as follows: sudo apt install gir1.2-gtkclutter-1.0</p></description>
+    <description><p>Apply a Blur Effect to GNOME Shell UI elements.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -5541,6 +5570,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1251.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="5"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5633,7 +5665,7 @@
     <id>bottompanel_tmoer93</id>
     <name>BottomPanel</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Moves the GNOME panel to the bottom of the screen Please report issues here: https://github.com/Thoma5/gnome-shell-extension-bottompanel</p></description>
+    <description><p>Moves the GNOME panel to the bottom of the screen. Please report issues here: https://github.com/Thoma5/gnome-shell-extension-bottompanel</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -5779,6 +5811,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_517.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="30"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6138,7 +6173,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="9"/>
+      <release version="10"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -6326,7 +6361,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="27"/>
+      <release version="29"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -7866,7 +7901,7 @@
     <id>dynamicTopBar_gnomeshell.feildel.fr</id>
     <name>Dynamic Top Bar</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Let the top bar become transparent when no window is maximized.</p></description>
+    <description><p>This extension will not be updated anymore. Please go to the GitHub page, there is more fix over there. If you are interested in taking back the maintenance of this extension, let me know.</p><p>Let the top bar become transparent when no window is maximized.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -9198,7 +9233,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="27"/>
+      <release version="28"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -9816,7 +9851,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="30"/>
+      <release version="31"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -11416,7 +11451,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="20"/>
+      <release version="21"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13133,7 +13168,7 @@
     <id>miniview_thesecretaryofwar.com</id>
     <name>Miniview</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Show live, scaled copies of windows (like picture-in-picture on television)</p><p>Scroll through window list with mouse wheel Move with left-click and drag, resize with right-click and drag Hover-over for transparency, double-click to raise window Menu bar control or Shift+F12 to show/hide</p></description>
+    <description><p>Show a mini preview of another window (like picture-in-picture on a TV)</p><p>Left-mouse drag: move preview window Right-mouse drag (or ctrl + left mouse drag): resize preview window Scroll wheel: change target window Double click: raise target window Shift + F12: toggle preview window</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -13146,6 +13181,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1459_ugeJphD.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="2"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13924,6 +13962,27 @@
     </metadata>
   </component>
   <component type="shell-extension">
+    <id>no-flash-for-clipboard-screenshots_qwerty12.com</id>
+    <name>No Flash for Clipboard Screenshots</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Don&apos;t show the screenshot flash when a screenshot is being sent to the clipboard, as opposed to a permanent file, matching the behaviour of a well-known OS. This is possibly useful if your laptop happens to have a dedicated PrtSc key in the bottom row of the keyboard, and you usually happen to like that function, but do not wish to flashbang your eyes if you press it accidentally.</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1474/no-flash-for-clipboard-screenshots/</url>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">no-flash-for-clipboard-screenshots@qwerty12.com</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
     <id>no-spring_rockon999.github.io</id>
     <name>No Spring</name>
     <summary>GNOME Shell Extension</summary>
@@ -14059,7 +14118,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="17"/>
+      <release version="18"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15646,7 +15705,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="22"/>
+      <release version="24"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15741,7 +15800,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="1"/>
+      <release version="2"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16010,7 +16069,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="9"/>
+      <release version="10"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16092,7 +16151,7 @@
     <id>rdesktop-menu_bastien.git.geekwu.org</id>
     <name>Rdesktop launcher</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Add a servers status menu for quickly running rdesktop</p></description>
+    <description><p>Add a servers status menu for quickly running rdesktop</p><p>Needs rdesktop or xfreerdp to connect to servers Configure connections via *.conf files put in ~/.config/grdesktop/</p><p>for example:  [name-in-menu] host=ip-or-hostname title=window-title user=username password=password ad=domain-name-if-ad resolution=1600x960 keyboard=en-us network=modem # or lan, or ... freerdp=0 # set to 1 to use freerdp, otherwise it uses rdesktop</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -16100,8 +16159,13 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1467/rdesktop-launcher/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1467.png</image>
+      </screenshot>
+    </screenshots>
     <releases>
-      <release version="3"/>
+      <release version="4"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -18380,7 +18444,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="21"/>
+      <release version="22"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -19149,12 +19213,33 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="6"/>
+      <release version="8"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">todolist@tomMoral.org</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>toggle-mute-on-middle-click_qwerty12.com</id>
+    <name>Toggle Mute on Middle Click</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Toggle mute by middle-clicking the volume indicator</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1473/toggle-mute-on-middle-click/</url>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">toggle-mute-on-middle-click@qwerty12.com</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -19380,7 +19465,7 @@
     <id>touchpad-indicator_orangeshirt</id>
     <name>Touchpad Indicator</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Automatically disable some or all pointing devices when a mouse is plugged in and re-enable them when unplugged. Optionally, switch the touchpad, trackpoint, fingertouch, touchscreen or a pen device on and off easily from the top panel.</p><p>You can help by reporting Issues and submitting Pull Requests for new features, bug fixes and localization at https://github.com/user501254/TouchpadIndicator.     TouchpadIndicator-extensions.gnome.org-v30     Supports GNOME Shell 3.28 and below</p></description>
+    <description><p>Switch the touchpad, trackpoint, fingertouch, touchscreen or a pen device on and off easily from the top panel. Optionally, automatically disable some or all devices when a mouse is plugged in and re-enable them when unplugged.</p><p>TouchpadIndicator-extensions.gnome.org-v31 Supports GNOME Shell 3.30 and below. See GitHub for list of known issues.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -19394,7 +19479,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="30"/>
+      <release version="31"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -19795,7 +19880,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="4"/>
+      <release version="5"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -19909,6 +19994,32 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">unix-timestamp-clock@se1exin.github.com</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>unlockDialogBackground_sun.wxg_gmail.com</id>
+    <name>Unlock dialog background</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Change unlock dialog background. You can change background picture from extension settings</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1476/unlock-dialog-background/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1476.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release version="2"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">unlockDialogBackground@sun.wxg@gmail.com</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -20469,6 +20580,32 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">web_search_from_clipboard@awamper.gmail.com</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>webcam-manager_atareao.es</id>
+    <name>Webcam manager</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>A manager for the webcam. With this extension you can enable or disable the webcam from GNOME Shell. This extension load or unloads the module uvcvideo from the Linux Kernel, to enable or disable the webcam. Simple and easy.</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1477/webcam-manager/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1477.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">webcam-manager@atareao.es</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -21437,7 +21574,7 @@
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/943/workspace-scroll/</url>
     <releases>
-      <release version="3"/>
+      <release version="4"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>

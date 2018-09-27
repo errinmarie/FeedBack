@@ -1,0 +1,68 @@
+HOMEWORK ISSUES
+
+It was not clear that opening a new branch in your terminal will generate an entirely different folder in your GUI.  (Did I miss that in the class?) That's why a few of us thought our files were disappearing! 
+
+The homework assignment doesn't specify that those source files will need to be copied from the ssg-bash branch to the ssg-python branch. I only figured this out after questioning the study group.
+
+My bash ssg directs the new output files into the  /docs subfolder, but nowhere in the homework does it say to copy the .css or image files into that folder, so my site doesn't work correctly.
+
+I combined the files in Python, but there are no instructions on how to direct these into the /docs subfolder. This created a naming problem. I already had files named 'index.html' etc in my homework folder, so I created alternate filenames such as 'index1.html'. Then I manually moved them into the /docs subfolder. But I think these alternate names created linking problems - and again, without the .css and images files in the /docs subfolder, the website won't work.
+
+
+HOMEWORK SUBMISSION:
+
+https://github.com/errinmarie/homework2
+
+https://errinmarie.github.io/homework2/
+
+https://github.com/errinmarie/homework2/commit/6f66216ffc0f66aa5a6c32b69715a79013677dac
+
+https://github.com/errinmarie/homework2/commit/eac60246fda0fe2df581abf11c3a4a6e97e424ef
+
+
+
+
+
+HOMEWORK 2 REDO
+
+Hi Michael,
+
+I had a lot of confusion with this homework, so I did it over again:
+
+https://github.com/errinmarie/hw2redo
+
+https://github.com/errinmarie/hw2redo/commit/df0327bb735bc4216d80db7c2025c28b85eb1334
+
+https://github.com/errinmarie/hw2redo/commit/8a1d67923c39cbc017401408725b95d048c9352a
+
+https://errinmarie.github.io/hw2redo/about.html
+
+
+I learned a few things with my re-do. In grading my assignment, you wrote:
+
+"You could have only done top and one bottom that you used for ALL of your content pages! You can do that since all your top files are basically identical in the code they have in them."
+
+I don't think this is true. When I tried using 1 top file for all, the navigation links didn't work. I wound up needing 4 top files: about_top, contact_top, stories_top and blog_top (which I used for each blog page, to link back to the stories page).  Otherwise I believe I would have had to put those nav links in my content, which seems complicated.
+
+I also had a problem with nested folders. This exercise doesn't explain how to get around that. In homework 1, I had my images in an image subfolder and my blog pages in a stories subfolder. My html was set up to pull these elements from their respective subfolders. But when I output everything to a docs folder, the system didn't work. My links couldn't find the images & blog pages in their respective subfolders, so I had to eliminate the subfolders and put everything in the same container. Then I had to go back into each html file and re-code appropriately.
+
+For the Python script:
+
+The instructions don't describe how to output the Python files to the docs folder, so I had to move them manually. Was that the correct thing to do?
+
+Even re-doing the assignment, it took me 4 hours! Yikes!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

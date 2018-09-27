@@ -1,0 +1,351 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=3.1 - Python
+
+[slide]
+title=Python - Control Flow
+
+
+
+[slide]
+title=Dive into Python
+markdown : '''
+![dive into python](file://./images/dive_into_python.jpg)
+'''
+
+
+[slide]
+title=Remember - Hang in there!
+markdown : '''
+# Whether you feel like this...
+
+![climbing](file://./images/climbing.gif)
+'''
+
+[slide]
+title=Remember - Hang in there!
+markdown : '''
+# ...or more like this..
+
+![drowning](file://./images/drowning.gif)
+'''
+
+
+[slide]
+title=Remember - Hang in there!
+markdown : '''
+You are learning 4 years in 4 months.
+
+* It's hard. But you can do it!
+
+* Ask questions. Study ahead.
+
+* *Code and practice every day*
+
+* You are learning a new way of thinking, your brain isn't used to this much
+  change at once.
+'''
+
+
+[slide]
+title=Python - Today's Topics
+markdown : '''
+* Review
+* "Container" data types (lists and dicts)
+* Branching
+* Pseudocode
+* Input
+* While Loops
+
+'''
+
+
+
+[slide]
+title=Python Concept Review
+markdown : '''
+![python](file://./images/python.gif)
+'''
+
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+![buckets](file://./images/variable_buckets_1.png)
+'''
+
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+* When we use data in programming, we store it into labeled "containers" known
+  as "variables"
+* You can think of them as buckets for data
+* The "=" is called the assignment operator
+* It puts the thing on the right into the thing on the left
+* Most of coding involves shuffling around and modifying data, shifting
+  from one "bucket" to another, and applying different operations to them
+
+
+![buckets](file://./images/variable_buckets_1.png)
+'''
+
+
+[slide]
+title=Variables = Labeled buckets for data
+markdown : '''
+![buckets](file://./images/variable_buckets_transfer.png)
+'''
+
+[slide]
+title=Variables
+markdown : '''
+### KEY TERMS:
+* variable - a named "bucket" that you can put data into
+* value - the data that is within a variable
+* operator - a symbol such as plus or minus, the way we can combine data or
+  variables
+* assignment - the "operator" that puts data into a variables, done with the
+  "=" sign
+* type - all data in Python is said to be of a certain "type"
+
+'''
+
+
+[slide]
+title=Types of data
+markdown : '''
+In computer programming, we categorize each piece of different information or
+data we deal with into something called a `type`
+
+We store these different types into variables.
+
+### Common types
+* str - short for "string of characters" - this data holds bits of text,
+  whether they are just as single word or sentence, or thousands of characters
+  long
+* int - integer (e.g. a number without decimal places)
+* float - short for "floating point number" (e.g.  a number with
+  decimal places)
+* bool - short for "boolean", a value that is either true or false
+'''
+
+[slide]
+title=Questions?
+
+
+[slide]
+title=ACTIVITY 1 - python warmup
+editor=./activities/1_python_warmup.py
+
+
+[slide]
+title=ACTIVITY 1 - SOLUTION
+editor=./solutions/1_python_warmup_solution.py
+terminal=./solutions/
+
+
+
+[slide]
+title=More data types
+markdown : '''
+In computer programming, we categorize each piece of different information or
+data we deal with into something called a `type`
+
+We store these different types into variables.
+### Key word
+* container - a data-type that can contain other data. Containers are "plural".
+* index - All items in a list have an index. This lets you access the "nth"
+  item.
+* key - How you "look up" data in a dictionary
+* value - The "data" stored in the dictionary on the right hand side
+
+### Container types
+* list - Sequential data, e.g. a list of things. Order matters.
+* dict - Short for dictionary. Almost like a group of variables together.
+  "Associative" data, like its namesake. Order doesn't matter.
+'''
+
+[slide]
+title=DISCUSS: Which data type?
+
+[slide]
+title=DISCUSS: What type of data?
+markdown : '''
+`dict` or `list`?
+
+* All the names in a sports team
+* An encyclopedia
+* People waiting in line for a table at a restaurant
+* The health, attack power, of a video game character
+* The titles of books that an author wrote
+* The stats of a single athlete
+* A companies job descriptions
+'''
+
+
+[slide]
+title=ACTIVITY 2 - container time
+editor=./activities/2_container_time.py
+
+
+[slide]
+title=ACTIVITY 2 - SOLUTION
+editor=./solutions/2_container_time_solution.py
+terminal=./solutions/
+
+[slide]
+title=Quiz
+markdown : '''
+![branching](file://./images/yougotthis.jpg)
+'''
+
+[slide]
+title=Quiz
+markdown : '''
+1. Cheatsheets put away
+2. Laptops closed
+3. Put your name at the top
+4. Just give it your best! You probably know more than you think.
+
+![branching](file://./images/yougotthis.jpg)
+'''
+
+
+[slide]
+title=Python - Branching
+
+[slide]
+title=Python - Branching
+markdown : '''
+Branching (aka "control flow") represents the "decision making ability" of
+coding. If-statements allow our code to do one thing in some circumstances, and
+another thing in others. They are one of the fundamental building blocks of
+computer programming.
+
+### KEY TERMS:
+* if / else - if-statements allows us to branch code into one or more
+  possibilities
+* branch - when talking about code we say it branches into different
+  possibilities based on the values in variables
+* indentation - Python syntax is based on indentation (spaces or tabs... STAY
+  CONSISTENT!)
+* condition - the bit in the if-statement that determines if one branch should
+  be followed or a different one
+'''
+
+
+[slide]
+title=Python - Branching
+markdown : '''
+
+![branching](file://./images/python_branch.jpg)
+
+'''
+
+
+[slide]
+title=DEMO - If statements
+editor=./demos/demo.py
+terminal=./demos/
+
+
+
+[slide]
+title=ACTIVITY 3 - branching
+editor=./activities/3_branching.py
+
+
+[slide]
+title=SOLUTION 3 - branching
+editor=./solutions/3_branching.py
+terminal=./solutions/
+
+
+
+[slide]
+title=Pseudocode
+
+[slide]
+title=Pseudocode
+markdown : '''
+Pseudocode is taking notes in a sort-of coding language, which we then use to
+build our actual code.
+
+### KEY TERMS:
+* pseudocode - an "in-between" between human thought and coding, lets us break
+  down complicated ideas
+'''
+editor = demos/pseudocode.txt
+
+
+[slide]
+title=Discussion 1 - Pseudocode
+markdown : '''
+### A program that triages patients at a hospital
+'''
+
+
+[slide]
+title=Discussion 2 - Pseudocode
+markdown : '''
+### A bot that automatically answers emails based on rules for customer service
+'''
+
+
+[slide]
+title=Discussion 3 - Pseudocode
+markdown : '''
+### A program that automatically grades homework based on certain properties
+'''
+
+
+[slide]
+title=ACTIVITY 4 - input branching
+editor=./activities/4_input_branching.py
+
+
+[slide]
+title=SOLUTION 4 - input branching
+editor=./solutions/4_input_branching_solution.py
+terminal=./solutions/
+
+
+[slide]
+title=While loop
+markdown : '''
+While loops are if statements that keep on repeating until false
+
+### KEY TERMS:
+* loop - A type of control flow that repeats code
+* while loop - The most essential type of loop, resembles if statement, except
+  it repeats the indented code until the condition no longer is true
+
+'''
+
+[slide]
+title=Python - While loop
+markdown : '''
+![branching](file://./images/python_loop.jpg)
+'''
+
+
+
+[slide]
+title=ACTIVITY 5 - while loop practice
+editor=./activities/5_while_loop_practice.py
+
+
+[slide]
+title=SOLUTION 5 - while loop practice
+editor=./solutions/5_while_loop_practice.py
+terminal=./solutions/
+
+[slide]
+title=Questions?
+

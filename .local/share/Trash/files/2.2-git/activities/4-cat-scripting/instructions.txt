@@ -1,9 +1,0 @@
-Challenge 1
-Redo the previous activity, but instead of running each cat command on
-the terminal, save it into a shell script file named "build.sh", then
-run the file.
-
-
-Challenge 2
-Make a change to one of the HTML fragments, then re-run the shell script
-and confirm that it "updates" from the previous time.

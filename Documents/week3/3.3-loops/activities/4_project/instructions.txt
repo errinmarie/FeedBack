@@ -1,0 +1,47 @@
+Two options for mini group projects:
+
+DATA ENTRY APPLICATION:
+
+Your goal is to make a data entry application that stores data into a
+CSV file. It should also be able to read a CSV file to restore the data,
+and allow editing of specific items of data.
+
+There is an example CSV file provided to use. Feel free to use this, or
+your own CSV file.
+
+- Role 1: Input parser. Write a function to read in data from a CSV
+  file, "parse it", and put it into an appropriate data type, such as a
+  list.
+
+- Role 2: Data crunching. Write a function that takes in a list of data,
+  and determines mean, mode, median, and other such statistics for the
+  data.
+
+- Role 3: Data entry. Write a function that shows a system of inputs
+  that allow users to add rows to the CSV file.
+
+
+
+
+BOOK STATIC SITE GENERATOR:
+
+Create a static site generator that inputs a book's text from Project
+Gutenberg, and generates a chapter-by-chapter HTML version of that text.
+An example of the text is provided ("great_expectations.txt")
+
+- Role 1: Pure front-end role! Pick this if you want more practice with
+  HTML and CSS. Using HTML, CSS, Bootstrap, etc, design a nice looking
+  page to display text. For now, write hard-coded text to store it.
+
+- Role 2: Input "parser". Parsing is taking an input file and
+  transforming it into data structures such as lists or dicts. Write a
+  function that inputs text from a file, "parses" it into appropriate
+  data types (for example, you might consider using a "list" of strings
+  to store the paragraphs).
+
+- Role 3: Output templating. Templating is combining data in variables
+  with strings to generate HTML and CSS, essentially "prettifying" the
+  data. Your goal is to write a function that takes the data from Role
+  2, and the HTML from Role 1, and transforms it into assembled HTML
+  pages.
+

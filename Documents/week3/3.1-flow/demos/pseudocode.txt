@@ -1,0 +1,20 @@
+Pseudocode for rock paper scissors
+
+Player A selects rock, paper or scissors
+Player B selects rock, paper or scissors
+
+if they both select the same thing,
+    then report that it's a tie
+if A selects paper and B selects rock,
+    then say that A wins
+if B selects paper and A selects rock,
+    then say that B wins
+if A selects scissors and B selects rock,
+    then say that B wins
+if B selects scissors and A selects rock,
+    then say that A wins
+if A selects scissors and B selects paper,
+    then say that A wins
+if B selects scissors and A selects paper,
+    then say that B wins
+
