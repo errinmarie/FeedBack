@@ -2,14 +2,14 @@
 <application-state>
   <context id="">
     <application id="gnome-control-center.desktop" open-window-count="0" score="5" last-seen="1538599953"/>
-    <application id="gnome-wifi-panel.desktop" open-window-count="0" score="0" last-seen="0"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="2724.5" last-seen="1538546193"/>
+    <application id="gedit.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="2738.5" last-seen="1538615470"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1538600005"/>
     <application id="eog.desktop" open-window-count="0" score="0" last-seen="1538107840"/>
-    <application id="chromium-browser.desktop" open-window-count="1" score="18378.25" last-seen="1538600027"/>
-    <application id="org.gnome.gedit.desktop" open-window-count="0" score="21007" last-seen="1538546194"/>
+    <application id="chromium-browser.desktop" open-window-count="1" score="18388.25" last-seen="1538615359"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="21009" last-seen="1538614996"/>
     <application id="libreoffice-calc.desktop" open-window-count="0" score="18" last-seen="1538253846"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="0" score="10028.75" last-seen="1538546074"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="10078.75" last-seen="1538615552"/>
     <application id="evince.desktop" open-window-count="0" score="1704.75" last-seen="1538546190"/>
     <application id="apport-gtk.desktop" open-window-count="0" score="1" last-seen="1538599854"/>
     <application id="org.gnome.Shell.PortalHelper.desktop" open-window-count="0" score="16" last-seen="1538599996"/>
