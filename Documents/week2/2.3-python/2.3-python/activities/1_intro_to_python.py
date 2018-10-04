@@ -6,7 +6,6 @@
 # 2. Save this file
 # 3. Run it it in a terminal
 
-print("Hello World!")
 
 # Challenge 2:
 # Write more print statements, to print out your favorite poem, song lyric, or
@@ -17,20 +16,13 @@ print("Hello World!")
 # (triple quotation marks), that lets you go across many lines.
 # Pick one (or both) and go for it!
 
-print("""Never seek to tell thy love
-love that never told can be
-for the wind doth move 
-silently
-invisibly""")
+
 
 # Challenge 3:
 # Use print and arithmetic operators to print out the results of 3 different
 # calculations. E.g., print(2 + 2) could be one, but try getting more
 # complicated!
 
-print (3+2)
-print (15 * 2)
-print ((4-2) ** 2)
 
 
 
@@ -38,10 +30,8 @@ print ((4-2) ** 2)
 # - Try to guess why print('2 + 2') is different than print(2 + 2)
 # - Try to guess why print('2' + '2') is different than print(2 + 2)
 
-print('2 + 2')
-print(2 + 2)
-print('2' + '2')
-print(2 + 2)
+
+
 
 
 # NOTE: For the bonus challenges, this is a useful blog post:

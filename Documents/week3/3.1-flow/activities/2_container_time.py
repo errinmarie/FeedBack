@@ -8,10 +8,11 @@ print('--------------- Challenge 1')
 # Modify this list to be a list of your top 5 favorite animals. This can be
 # done by following the pattern of 'kitty'.
 favorite_animals_list = [
-    'kitty', 'doggy' , 'elephant' , 'giraffe' , 'hippo'
+    'kitty', 'doggo', 'hamster', 'gerbil', 'kangaroo',
 ]
 
-print(favorite_animals_list)
+
+
 
 
 
@@ -41,13 +42,13 @@ print('--------------- Challenge 3')
 # noise that it makes. The first one (kitty) is done for you.
 favorite_animals_dict = {
     'kitty': 'meow',
-    'doggy': 'woof',
-    'elephant': 'phhmmp',
-    'giraffe': 'silence',
-    'hippo': 'bellow',
+    'doggo': 'woof',
+    'hamster': 'silence',
+    'gerbil': 'snuffle',
+    'kangaroo': 'hoppo',
 }
 
-print(favorite_animals_dict)
+
 
 
 
@@ -60,10 +61,13 @@ print('--------------- Challenge 4')
 #
 # Hint: You can use "," in print to print multiple things on the same line
 
-print('Kitty says:', favorite_animals_dict['kitty'] + ' , ' + 'doggy says:', favorite_animals_dict['doggy']  + ' , ' + 'elephant says:', favorite_animals_dict['elephant'] + ' , ' + 'giraffe says:', favorite_animals_dict['giraffe'] + ' , ' + 'hippo says:', favorite_animals_dict['hippo'])
-
-
-
+print(
+'Kitty says:', favorite_animals_dict['kitty'], ', '
+'Doggo says:', favorite_animals_dict['doggo'], ', '
+'Hamster says:', favorite_animals_dict['hamster'], ', '
+'Gerbil says:', favorite_animals_dict['gerbil'], ', '
+'Kangaroo says:', favorite_animals_dict['kangaroo'],
+)
 
 
 
@@ -78,29 +82,12 @@ print('--------------- Challenge 5')
 # where each key is the category of animal, and the values are the list of the
 # animals that fall under that category.
 
-animals = [
-    # canines
-    'dogs',
-    'wolves',
-
-    # felines
-    'cats',
-    'tigers',
-
-    # rodents
-    'mice',
-    'hamsters',
-    'gerbils',
-    'capybaras',
-
-    # notochord retaining fish
-    'hagfish',
-    'lamprey',
-    'coelacanth',
-    'sturgeon',
-]
-
-animals = {'canines': ['dogs', 'wolves'], 'felines': ['cats', 'tigers'], 'rodents': ['mice', 'hamsters', 'gerbils', 'capybaras'], 'notochard retaining fish': ['hagfish', 'lamprey', coelacanth', 'sturgeon']}
+animals = {
+    'canines': ['dogs', 'wolves'], 
+    'felines': ['cats', 'tigers'], 
+    'rodents': ['mice', 'hamsters', 'gerbils', 'capybaras'],
+    'notochord retaining fish': ['hagfish', 'lamprey', 'coelacanth', 'sturgeon'],
+}
 print(animals)
 
 
@@ -117,32 +104,4 @@ print(animals)
 # 3. Dog breeds and their average longevity
 # 4. Places in a mapping application like Google Maps or Yelp, including their
 #    latitude and longitude and reviews
-
-filepath = ['home/Documents/week2/activities', 'home/Documents/week2/solutions']
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

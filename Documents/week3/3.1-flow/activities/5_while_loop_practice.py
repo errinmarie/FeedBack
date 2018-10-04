@@ -6,10 +6,10 @@ print('------------- Challenge 1')
 # Try to predict what the following code will do. Uncomment it, and see if you
 # got the prediction correct.
 
-#x = 0
-#while x < 10:
-#    print(x)
-#    x = x + 1
+x = 0
+while x < 10:
+    print(x)
+    x = x + 1
 
 
 print('------------- Challenge 2')
@@ -19,11 +19,11 @@ print('------------- Challenge 2')
 # Hint 1: Start with Pseudocode
 # Hint 2: There is a solution as simple as Challenge 1
 
+
 x = 11
 while x < 43:
     print(x)
     x = x + 2
-
 
 
 
@@ -37,14 +37,11 @@ print('------------- Challenge 3')
 # 5 factorial: 1 * 2 * 3 * 4 * 5
 # 3 factorial: 1 * 2 * 3
 
-#Multiply by 1
-#    If the factorial is less than 5
-#Multiply by 2
-#    If the factorial is less than 5
-#Multiply by 3
-#   If the factorial is less than 5
-#Multiply by 4
-#    If the factorial is less than 5
+
+
+
+
+
 
 
 print('------------- Challenge 4')
@@ -52,12 +49,9 @@ print('------------- Challenge 4')
 # Using the pseudocode from challenge 3, write the Python code to calculate the
 # factorial of a number.
 
-x = 1
-while x < 6:
-    x * 1
-    print(x)
-    x * 2
-    print(x)
+
+
+
 
 
 
@@ -70,9 +64,9 @@ print('------------- Challenge 5')
 # 1. What will cause this loop to stop?
 # 2. Why does answer start as 'no'?
 
-#answer = 'no'
-#while answer == 'no':
-#    answer = input('Done yet? ')
+answer = 'no'
+while answer == 'no':
+    answer = input('Done yet? ')
 
 
 

@@ -3,8 +3,8 @@ print('--------------- Challenge 1')
 # called "menu". Print the value of "menu".
 spam = 100
 eggs = 200
-menu = spam + eggs
-print(menu)
+
+
 
 
 
@@ -14,14 +14,7 @@ print('--------------- Challenge 2')
 # Challenge 2: Repeat challenge 1, but for multiplication, division and
 # subtraction, printing each result.
 
-menu = spam - eggs
-print(menu)
 
-menu = spam * eggs
-print(menu)
-
-menu = spam / eggs
-print(menu)
 
 
 
@@ -34,8 +27,7 @@ print('--------------- Challenge 3')
 username = 'King Arthur'
 seperator = ', '
 title = 'who seeks the Holy Grail'
-message = username + seperator + title
-print(message)
+
 
 
 
@@ -47,13 +39,14 @@ print('--------------- Challenge 4')
 
 ## Goal 1: Should print "It is a killer rabbit!"
 
-rabbit_type = "killer"
-print("It is a " + rabbit_type + " rabbit!")
+#rabbit_type = killer
+#print('It is a ' rabbit_type ' rabbit!')
+
 
 ## Goal 2: Should print "My favorite color is: Yellow"
 
-favorite_color = "Yellow"
-print('My favorite color is: ' + favorite_color)
+#favorite_color: "Yellow"
+#print('My favorite color is: favorite_color')
 
 
 
@@ -84,13 +77,10 @@ whitney_houston = 14.2
 guns_n_roses = 15.6
 
 
-highest_album = michael_jackson
-lowest_album = dire_straits
-print(highest_album - lowest_album)
 
-total_sales = bon_jovi + bruce_springsteen + michael_jackson + prince + dire_straits + phil_collins + ac_dc + whitney_houston + guns_n_roses
-count = 9
-print(total_sales / count)
+
+
+
 
 
 
@@ -103,14 +93,12 @@ print('--------------- Challenge 6')
 # HINT: Don't just assign the variable "number" equal to 3, but instead try
 # assigning it to itself + 1.
 number = 10
-number = number + 1
-print(number)
 
-number = number + 1
-print(number)
 
-number = number + 1
-print(number)
+
+
+
+
 
 
 print('--------------- Challenge 7')
@@ -118,10 +106,10 @@ print('--------------- Challenge 7')
 # Before you "uncomment" these lines, what do you think it will print out?
 # Again, remember "=" is assignment, not equality.
 
-a = 5
-b = a
-a = 3
-print(b)
+# a = 5
+# b = a
+# a = 3
+# print(b)
 
 
 

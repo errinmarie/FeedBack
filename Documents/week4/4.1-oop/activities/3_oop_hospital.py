@@ -14,30 +14,25 @@ print('Challenge 1 -------------')
 class Patient:
     def __init__(self, first_name):
         self.first_name = first_name
-        self.last_name = 'Cleese'
-        self.is_checked_in = False
+        self.last_name = last_name
+        self.is_checked_in = True
+        self.does_smoke = None
+        self.does_drink = None
+        self.blood_pressure = None
+
 
 
 john = Patient('John')
-
-
 
 print('Challenge 2 -------------')
 # Challenge 2:
 # Add a new method to Patient called "print_info". It should print out all the
 # information of the patient. Test it out.
 
-
-
 print('Challenge 3 -------------')
 # Challenge 3:
 # Add a new method to Patient called "check_in". It should set is_checked_in to
 # be True.
-
-
-
-
-
 
 print('Challenge 4 -------------')
 # Challenge 4:
@@ -48,9 +43,6 @@ print('Challenge 4 -------------')
 #     3. Patient blood-pressure?
 # Hint: Use input() and storing the result in separate properties of the
 # patient object.
-
-
-
 
 print('Challenge 5 -------------')
 # Challenge 5:

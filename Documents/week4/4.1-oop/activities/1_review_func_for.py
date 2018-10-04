@@ -5,9 +5,10 @@ print('Challenge 1 -------------')
 # Examine the following function code. Can you write an invocation that will
 # cause it to print the phrase: "Don't Stop Believin"?
 
-def journey(verb, action='Do'):
+def journey(verb, action="Don't"):
     print(action, 'Stop', verb + 'in')
 
+journey('believ')
 
 
 
@@ -27,11 +28,11 @@ chorus = [
     "Streetlight people",
 ]
 
-for lyric in chorus:
-    pass
 
-for number in range(3):
-    pass
+for number in range(1, 4):
+    print('Chorus', number)
+    for lyric in chorus:
+        print(lyric)
 
 
 

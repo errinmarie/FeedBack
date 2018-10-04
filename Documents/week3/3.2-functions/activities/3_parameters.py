@@ -1,16 +1,14 @@
 # REMINDER: Only do one challenge at a time! Save and test after every one.
 
-print('test')
-
 print('Challenge 1 -------------')
 # Challenge 1:
 # Write the code to "invoke" the function named challenge_1, providing your
 # name, such that when you run this file it greets you.
 
-def challenge_1(name='Errin'):
+def challenge_1(name=None):
     print('Hello', name, '!')
+challenge_1(name='Errin')
 
-challenge_1()
 
 print('Challenge 2 -------------')
 # Challenge 2:
@@ -23,13 +21,13 @@ def func_1(name=None):
     print(name, ':', "I can't feel my body")
 
 def func_2(name=None, other_name=None):
-    print(name, ':', other_name, ',', 'listen to me!')
+    print(name, ':', other_name, ', listen to me!')
 
 def func_3(quality='best', item='burrito'):
     print('Winning that', item, 'was the', quality, 'thing.')
 
 def func_4(name=None, phrase=None):
-    print(name, ":", "I promise.", phrase, "," "Jack.", phrase)
+    print(name, ':', 'I promise.', phrase, ', Jack.', phrase)
 
 
 func_1(name='Rose')
@@ -51,23 +49,12 @@ def addition(a=0, b=0):
     print(a + b)
 
 addition(a=10, b=15)
-addition(a=20, b=25)
 
-def subtraction(a=0, b=0):
-    print(a - b)
-subtraction(a=20, b=25)
 
-def multiplication(a=0, b=0):
-    print(a * b)
-multiplication(a=20, b=25)
 
-def division(a=0, b=0):
-    print(a / b)
-division(a=20, b=25)
 
-def remainder(a=0, b=0):
-    print(a % b)
-remainder(a=20, b=2)
+
+
 
 
 
@@ -83,20 +70,11 @@ print('Challenge 4 -------------')
 # HINT: You'll use "while", "input", and the "in" operator or the "not in"
 # operator (for checking inclusion within the list)
 
+def asker(acceptable_options):
+    print(asker)
 
-#def challenge_1(name='Errin'):
-#    print('Hello', name, '!')
-#challenge_1()
 
-#func_2(name='Jack', other_name='Rose')
 
-def asker(acceptable_options="name"):
-    print(acceptable_options)
-    name = input("What is your name?")
-
-asker(acceptable_options=["Errin", "Matt", "Mary"])
-
-input
 
 
 

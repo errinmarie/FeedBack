@@ -5,12 +5,13 @@ print('Challenge 1 -------------')
 # Challenge 1:
 # Uncomment the following code and fix the typos to practice using the list
 # methods. If correct, we should see Shrek, Frozen, Titanic in that order.
+
 my_fave_movies = []
 
-# my_fave_movies.append(Titanic)
-# my_fave_movies append("Frozen")
-# my_fave_movies.append("Shrek"
-# my_fave_movies.reverse
+my_fave_movies.append("Titanic")
+my_fave_movies.append("Frozen")
+my_fave_movies.append("Shrek")
+my_fave_movies.reverse()
 print(my_fave_movies)
 
 
@@ -30,11 +31,11 @@ user_info = {
     'friend': 'donkey',
 }
 
-#print(user_info keys())
-#print(user_info.get('manners' 'No manners!'))
-#print(values(user_info))
-#print(user_info.get('manners' 'No manners!'))
-#print(user_info['username'] upper() center(80))
+print(user_info.keys())
+print(user_info.get('manners', 'No manners!'))
+print(user_info.values())
+print(user_info.get('manners', 'No manners!'))
+print(user_info['username'].upper().center(80))
 
 
 print('Challenge 3 -------------')
@@ -45,10 +46,10 @@ print('Challenge 3 -------------')
 # continue.
 # Hint: Look up the documentation on string methods in Python.
 
-#answer = 'yes'
+answer = 'yes'
 #while answer == 'yes':
 #    answer = input('Stay in swamp? ')
-#    # TODO: Sanitize 'answer' variable
+#    answer = answer.lower()
 #print('Leaving swamp...')
 
 
@@ -71,9 +72,9 @@ class Ogre:
         return 'Lord Farquaad'
 
 shrek = Ogre()
-# shrek.say_name
-# print(shrek['get_friend_name'])
-# print(shrek.get_enemy_name()
+shrek.say_name()
+print(shrek.get_friend_name())
+print(shrek.get_enemy_name())
 
 
 
@@ -92,7 +93,20 @@ print('Challenge 5 -------------')
 # get_name   | "Lord Farquaad"     | "Princess Fiona"    | "Prince Charming"    |
 # is_villain | True                | False               | True                 |
 
+class LordFarquaad:
+    def get_title(self):
+        return 'Lord'
 
+    def get_name(self):
+        return 'Farquaad'
+
+    def is_villain(self):
+        return 'True'
+
+little_dude = LordFarquaad()
+print(little_dude.get_title())
+print(little_dude.get_name())
+print(little_dude.is_villain())
 
 
 print('-------------')

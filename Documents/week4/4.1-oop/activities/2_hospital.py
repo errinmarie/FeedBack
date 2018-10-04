@@ -14,14 +14,15 @@ print('Challenge 1 -------------')
 # Uncomment and examine the following code. See if you can explain what every
 # line is doing.
 
-def patient_initialize(patient):
-    patient['first_name'] = 'Eric'
-    patient['last_name'] = 'Idle'
+def patient_initialize(patient, first_name, last_name):
+    patient['first_name'] = first_name
+    patient['last_name'] = last_name
     patient['is_checked_in'] = False
 
-# eric = {}
-# patient_initialize(eric)
-# print(eric)
+
+terry = {}
+patient_initialize(terry, 'Terry', 'Gilliam')
+print(terry)
 
 print('Challenge 2 -------------')
 # Challenge 2:
@@ -32,12 +33,6 @@ print('Challenge 2 -------------')
 # 3. Use print to confirm that your function is working correctly by printing
 # out the patient variable before and after the invocation of the function.
 
-
-
-
-
-
-
 print('Challenge 3 -------------')
 # Challenge 3:
 # 1. Write a new function called "patient_check_in".
@@ -45,9 +40,12 @@ print('Challenge 3 -------------')
 # modify that argument to make "is_checked_in" set to be True.
 # 3. Again, use print to verify it's working.
 
+def patient_check_in(patient):
+    patient['is_checked_in'] = True
 
 
-
+patient_check_in(terry)
+print('Terry', terry)
 
 
 print('Challenge 4 -------------')
@@ -63,7 +61,13 @@ print('Challenge 4 -------------')
 # separate variables, or assigning keys in the dictionary.
 # 4. Again, use print to verify it's working.
 
-
+def patient_nurse_check_up(patient):
+    patient['smoke'] = input('Do you smoke?')
+    patient['drink'] = input('Do you drink?')
+    patient['bp'] = int(input('What is your blood pressure?'))
+    
+patient_nurse_check_up(terry)
+print('Terry', terry)
 
 
 
@@ -81,9 +85,15 @@ print('Challenge 5 -------------')
 # Hint: Feel free to comment out the previous invocations of the above function
 # Add a prints as needed to report back on the process.
 
+def patient_visit(patient):
+    first_name = input('First name?')
+    last_name = input('Last name?')
+    patient_initialize(patient, first_name, last_name)
+    patient_check_in(patient)
+    patient_nurse_check_up(patient)
 
-
-
+patient = {}
+patient_visit(patient)
 
 print('-------------')
 # Bonus Challenge:

@@ -272,7 +272,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="31"/>
+      <release version="32"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -394,7 +394,7 @@
     <id>BingWallpaper_ineffable-gmail.com</id>
     <name>Bing Wallpaper Changer</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Lightweight GNOME shell extension to change your wallpaper every day to Microsoft Bing&apos;s wallpaper (the image you see when you visit Bing.com). It will also show a notification containing the title and the explanation of the image.</p><p> *Disclaimer*: this extension is unofficial and not affiliated with Bing or Microsoft in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>This extension is based extensively on the NASA APOD extension by Elinvention (https://github.com/Elinvention) and inspired by Bing Desktop Wallpaper Changer by Utkarsh Gupta (https://github.com/UtkarshGpta).</p><p>Features: * Fetches the Bing wallpaper of the day and sets as both lock screen and desktop wallpaper (these are both user selectable) * Optionally force a specific region (i.e. locale) * Automatically selects the highest resolution (and most appropriate wallpaper) in multiple monitor setups * Optionally clean up Wallpaper directory after between 1 and 7 days (delete oldest first) * Only attempts to download wallpapers when they have been updated * Doesn&apos;t poll continuously - only once per day and on startup (schedules a refresh when Bing is due to update) * English, German (de), Dutch (nl), Italian (it), Polish (pl), Chinese (zh_CN), French (fr_FR), Portugeuse (pt, pt_BR), Russian (ru_RU), Spanish (es) language translations (a HUGE thanks to the translators)</p><p>Please report bugs (or submit translations) to the GitHub page below:</p></description>
+    <description><p>Lightweight GNOME shell extension to change your wallpaper every day to Microsoft Bing&apos;s wallpaper (the image you see when you visit Bing.com). It will also show a notification containing the title and the explanation of the image.</p><p> *Disclaimer*: this extension is unofficial and not affiliated with Bing or Microsoft in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>This extension is based extensively on the NASA APOD extension by Elinvention (https://github.com/Elinvention) and inspired by Bing Desktop Wallpaper Changer by Utkarsh Gupta (https://github.com/UtkarshGpta).</p><p>Features: * Fetches the Bing wallpaper of the day and sets as both lock screen and desktop wallpaper (these are both user selectable) * Optionally force a specific region (i.e. locale) * Automatically selects the highest resolution (and most appropriate wallpaper) in multiple monitor setups * Optionally clean up Wallpaper directory after between 1 and 7 days (delete oldest first) * Only attempts to download wallpapers when they have been updated * Doesn&apos;t poll continuously - only once per day and on startup (schedules a refresh when Bing is due to update) * German, Dutch, Italian, Polish and Chinese translations</p><p>Please report bugs to the GitHub page below</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -404,7 +404,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1262.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1262_Dspl8C2.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -1109,7 +1109,7 @@
     <id>GoogleEarthWallpaper_neffo.github.com</id>
     <name>Google Earth Wallpaper</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Lightweight GNOME shell extension to set your wallpaper to a random photo from the curated Google Earth collection (1500 photos). An optional notification will detail the image location and copyright information.</p><p>*Disclaimer*: this extension is unofficial and not affiliated with Google in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>This extension is derived from my Bing Wallpaper Changer (https://github.com/neffo/bing-wallpaper-gnome-extension) which was itself based on the NASA APOD extension by Elinvention (https://github.com/Elinvention).</p><p>Features: * Fetches a random Google Earth wallpaper and sets as both lock screen and desktop wallpaper * User selectable refresh intervals (default is once per day) * Optional: keep images or clean up after (later is default) * View location on Google Maps, Bing Maps, Gnome Maps, OpenStreetMaps (in v2+) * In-extension map view (in v3+ - note this needs WebKitGTK+ GIR packages installed to function - gir1.2-webkit-3.0 in Ubuntu) *  German, Dutch and Chinese translations</p><p>Please report any bugs or suggestions to extension GitHub page below.</p></description>
+    <description><p>Lightweight GNOME shell extension to set your wallpaper to a random photo from the curated Google Earth collection (1500 photos).</p><p>*Disclaimer*: this extension is unofficial and not affiliated with Google in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>See also my other extension, Bing Wallpaper Changer (https://github.com/neffo/bing-wallpaper-gnome-extension) which was itself based on the NASA APOD extension by Elinvention (https://github.com/Elinvention).</p><p>Features: * Fetches a random Google Earth wallpaper and sets as both lock screen and desktop wallpaper * User selectable refresh intervals (default is once per day) * Optional: keep images or clean up after (later is default) * View location on Google Maps, Bing Maps, Gnome Maps, OpenStreetMaps (in v2+) * In-extension map view (in v3+ - note this needs WebKitGTK+ GIR packages installed to function - gir1.2-webkit-3.0 in Ubuntu) *  German, Dutch and Chinese translations</p><p>Please report any bugs or suggestions to extension GitHub page below.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -1119,7 +1119,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1295/google-earth-wallpaper/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1295.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1295_x5PSxQS.png</image>
       </screenshot>
     </screenshots>
     <metadata>
@@ -1263,7 +1263,7 @@
     <id>IP-Finder_linxgem33.github.com</id>
     <name>IP Finder</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>IP Finder displays information about your public IP address (hostname, country, AS block etc) as well as show a map and flag image of the IP&apos;s geolocation this extension is also useful for informational purposes to monitor VPN geolocation and public network IP addresses.</p><p>IMPORTANT!</p><p>Version 7 of IP Finder now lets you copy to clipboard just right click or click on a IP value to copy to clipboard  ... more work on this feature hopefully to follow soon.</p></description>
+    <description><p>IP Finder displays information about your public IP address (hostname, country, AS block etc) as well as show a map and flag image of the IP&apos;s geolocation this extension is also useful for informational purposes to monitor VPN geolocation and public network IP addresses.</p><p></p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -1694,7 +1694,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="17"/>
+      <release version="18"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -1987,7 +1987,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="27"/>
+      <release version="28"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -6361,7 +6361,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="29"/>
+      <release version="27"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -9233,7 +9233,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="28"/>
+      <release version="30"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13965,7 +13965,7 @@
     <id>no-flash-for-clipboard-screenshots_qwerty12.com</id>
     <name>No Flash for Clipboard Screenshots</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Don&apos;t show the screenshot flash when a screenshot is being sent to the clipboard, as opposed to a permanent file, matching the behaviour of a well-known OS. This is possibly useful if your laptop happens to have a dedicated PrtSc key in the bottom row of the keyboard, and you usually happen to like that function, but do not wish to flashbang your eyes if you press it accidentally.</p></description>
+    <description><p>Don&apos;t show the screenshot flash when a screenshot is being sent to the clipboard, as opposed to a permanent file, matching the behaviour of a well-known OS. This is possibly useful if your laptop happens to have a dedicated PrtSc key in the bottom row of the keyboard, and you usually happen to like that function, but do not wish to flashbang your eyes if you press it accidentally. Use version 1 of this extension for GNOME Shell 3.28.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -15019,7 +15019,7 @@
     <id>pause-night-light_tijnschuurmans.nl</id>
     <name>Pause Night Light</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Disable Night Light for 10 second. A small pause enables you to scan a colour code (e.g. Crontosign) from your screen.</p></description>
+    <description><p>Disable Night Light for 10 seconds. A small pause enables you to scan a colour code (e.g. Crontosign) from your screen.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -16685,7 +16685,7 @@
     <id>right-click-gesture_andrej.gricenko</id>
     <name>Right-click Gesture</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Tap with two fingers followed by tap with one finger causes right-click.</p></description>
+    <description><p>Tap with two fingers followed by tap with one finger causes right-click.</p><p>At the moment, Wayland does not support the generation of mouse events with Atspi, so this extension can only work with Xorg.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -19447,7 +19447,7 @@
     <id>touch-screen-right-click_andrej.gricenko</id>
     <name>Right-click For Touch Screen</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Adds right-click emulation for touch screen when long press. </p><p>If you need right-click without left click, use extension https://extensions.gnome.org/extension/1370/right-click-gesture/</p></description>
+    <description><p>Adds right-click emulation for touch screen when long press. </p><p>If you need right-click without left click, use extension https://extensions.gnome.org/extension/1370/right-click-gesture/</p><p>At the moment, Wayland does not support the generation of mouse events with Atspi, so this extension can only work with Xorg.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -19597,7 +19597,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="22"/>
+      <release version="23"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -21861,7 +21861,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1392/you2ber/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1392_YscDL18.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1392_8kafUwJ.png</image>
       </screenshot>
     </screenshots>
     <releases>

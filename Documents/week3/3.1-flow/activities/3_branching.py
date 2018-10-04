@@ -2,6 +2,7 @@
 # file you are working with?
 # (Answer: add a "print", to make sure you are editing the right file!)
 
+
 print('------------- Challenge 1')
 # Challenge 1:
 # Remember this? After line 11, each portion of code has one or more typos.
@@ -46,33 +47,13 @@ print('------------- Challenge 2')
 person_a = 'johann'    # is person_a equal to 'samantha'?
 person_b = 'samantha'  # is person_b equal to 'samantha'?
 
-print("is person_a equal to 'samantha'?")
-if person_a == 'samantha':
-    print("yes")
-else:
-    print("no")
-
-print("is person_b equal to 'samantha'?")
-if person_b == 'samantha':
-    print("yes")
-else:
-    print("no")
-
-
 x = 100  # is x greater than 50?
 y = 13   # is y equal 50?
 
-print("is x greater than 50?")
-if x > 50:
-    print("yes")
+if person_a == 'samantha':
+    print("Hi Samantha!")
 else:
-    print("no")
-
-print("is y equal 50?")
-if y == 50:
-    print("yes")
-else:
-    print("no")
+    print("Oops")
 
 
 
@@ -88,14 +69,7 @@ print('------------- Challenge 3')
 # you want to check for.
 
 
-person_c = 'peter'    # is person_c equal to 'peter'?
-person_d = 'paul'  # is person_d equal to 'peter'?
 
-print("is person_c equal to 'peter'?")
-if person_c == 'peter':
-    print("yes")
-elif: person_c == 'paul':
-    print("no")
 
 
 
@@ -106,10 +80,14 @@ print('-------------')
 # Bonus Challenge 1:
 # Try uncommenting the following code. Can rewrite the if statements from the
 # top to depend on user input?
-# name = input('Name? ')
-# age_string = input('Age? ')
-# age = int(age_string)
+name = input('Name? ')
+age_string = input('Age? ')
+age = int(age_string)
 
+if name == 'Errin':
+    print('Hello Errin!')
+elif name == 'Matt':
+    print('Oops, sorry sir.')
 
 
 

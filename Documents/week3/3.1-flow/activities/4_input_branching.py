@@ -19,10 +19,6 @@ print('------------- Challenge 2')
 # Challenge 2:
 # Uncomment the following line of code. Use "print" to say what the user typed
 # back at them.
-# username = input('Username? ')
-# password = input('Password? ')
-
-
 
 
 
@@ -37,7 +33,13 @@ print('------------- Challenge 3')
 #
 # Can you write it in Python?
 
+username = input('Username?')
+password = input('Password?')
 
+if username == 'AzureDiamond' and password == 'hunter2':
+    print('Logged on!')
+else:
+    print('Incorrect, go away')
 
 
 

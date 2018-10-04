@@ -1,13 +1,10 @@
 # REMINDER: Only do one challenge at a time! Save and test after every one.
 
-print("test")
-
 print('Challenge 1 -------------')
 # Challenge 1:
 # Write the code to "invoke" the function named lets_start
 def lets_start():
     print('Time to code!')
-
 lets_start()
 
 print('Challenge 2 -------------')
@@ -46,11 +43,11 @@ print('Challenge 3 -------------')
 # and once using the name of a student next to you.
 
 
-#name = input ("Please enter a name")
+def hello(name):
+    print('Hi', name)
 
-#def who_r_u(name):
-#    print('Hi', name)
-#who_r_u(name)
+hello('errin')
+
 
 
 
@@ -59,12 +56,11 @@ print('Challenge 4 -------------')
 # 1. Write a while loop that will count down from 100 to 48, by increments of 7.
 # 2. Print each number on a separate line
 
-i = 100
+x = 100
 
-while i > 47:
-    print(i)
-    i = i - 7
-
+while x > 47:
+    print(x)
+    x = x - 7
 
 
 
@@ -82,10 +78,17 @@ data = [
     ["I Can't Stop Loving You", 'Ray Charles'],
     ["Blowin' in the Wind", 'Bob Dylan'],
 ]
+i = 0
+length = len(data)
+while i < length:
+    row = data[i]
+    song = row[0]
+    artist = row[1]
+    print('Top hit from the 60s:', song, 'Artist:', artist)
+    i = i + 1
 
 
-
-
+    
 
 print('Challenge 6 -------------')
 # Challenge 6:
@@ -97,6 +100,9 @@ print('Challenge 6 -------------')
 # HINT: It should use another variable to keep track of alternation between
 # "two steps forward" and "one step back". Within the while loop it should have
 # an if-statement. Consider using Boolean values True and False.
+
+
+
 
 
 
@@ -112,9 +118,9 @@ print('Challenge 7 -------------')
 # 3. Return the option the user selected.
 # 4. Add print code to remind the user of the valid choices.
 
-#answer = 'quit'
-#while answer != 'quit':
-#    answer = input('Choice? ')
+answer = 'quit'
+while answer != 'quit':
+    answer = input('Choice? ')
 
 
 print('-------------')

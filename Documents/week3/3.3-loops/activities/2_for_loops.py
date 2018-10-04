@@ -1,7 +1,5 @@
 # REMINDER: Only do one challenge at a time! Save and test after every one.
 
-print("test")
-
 print('Challenge 1 -------------')
 # Challenge 1:
 # Can you write the code to do a for-loop across "fave_things" printing out
@@ -11,8 +9,10 @@ fave_things = [
     'doggos',
     'books',
 ]
-for n in fave_things:
-    print(n)
+
+for item in fave_things:
+    print(item)
+
 
 print('Challenge 2 -------------')
 # Challenge 2:
@@ -46,15 +46,13 @@ data = [
     ["Blowin' in the Wind", 'Bob Dylan'],
 ]
 
-
 for row in data:
     song = row[0]
     artist = row[1]
-    print("Top hit from the 60s: ", song, "... Artist: ", artist)
+    print('Top hit from the 60s:', song, 'Artist:', artist)
 
 for song, artist in data:
-    print("Top hit from the 60s: ", song, "... Artist: ", artist)
-
+    print('Top hit from the 60s:', song, 'Artist:', artist)
 
 
 # Hint: Once you get it working, see if you can refactor it using the following
@@ -96,6 +94,15 @@ data = [
     },
 ]
 
+for dict in data:
+    print('---Product---')
+    print('Name: ', dict['product_name'])
+    print('Supplied by: ', dict['supplier'])
+    print('Available: ', dict['quantity'], '(at ', dict['unit_cost'], 'a piece)') 
+        
+
+
+
 
 
 print('-------------')
@@ -109,7 +116,12 @@ print('-------------')
 # An article describing: https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
 # A much more thorough article: https://realpython.com/python-f-strings/
 
-
+for dict in data:
+    print(f'''---Product---'
+Name: {dict['product_name']}
+Supplied by: {dict['supplier']}
+Available: {dict['quantity']} (at {dict['unit_cost']} a piece)
+-------------------------------''')
 
 print('-------------')
 # Advanced Bonus Challenges:

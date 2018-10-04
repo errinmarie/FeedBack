@@ -9,38 +9,43 @@
 # Python but not good for running files.
 
 # Challenge 1: Write Python code to print "Hello World!", save, and run it
-
-print("Hello World!")
+print("Hello world!")
 
 # Challenge 2:
 # Expand it to print out the first stanza of the Jabberwocky Poem. There are
 # two ways to do this, either using many print calls, or by using Python's
 # "multi-line" strings, which are done with ''' (or """).
 
-print("""’Twas brillig, and the slithy toves 
+print('''
+’Twas brillig, and the slithy toves 
       Did gyre and gimble in the wabe: 
 All mimsy were the borogoves, 
-      And the mome raths outgrabe.""")
+      And the mome raths outgrabe. 
+''')
+      
+      
 
 # Challenge 3:
 # Use a combination of print and arithmetic operators to print out the results
 # of 3 different calculations. E.g., 2+2 could be one, but try getting more
 # complicated!
 
-print(2 + 2)
-print(17 - 5)
-print(22 / 11)
+print(2+2)
+print(7*9)
+print(12/3)
+
+
 
 # Challenge 4:
 # Try copying the following code, and remove the "#" from the beginning to
 # transform it from being a comment:
 #
-# print(open('example_file.txt').read())
+text = open('example_file.txt').read()
+print('Here is a lovely poem: ')
+print(text)
 #
 # What is it doing? Can you modify it to print out the contents of one of the
 # previous activities?
-
-print(open('pickles/index.html').read())
 
 
 # ADVANCED CHALLENGE:
@@ -49,7 +54,6 @@ print(open('pickles/index.html').read())
 # and use the "replace" method to print out the contents of this file, but with
 # all mentions of the word "print" replaced with the word "echo"
 
-print(open('6_python.py').read())
-print (str.replace("print", "echo"))
+print(open('6_python.py').read().replace('print', 'echo'))
 
 

@@ -23,6 +23,10 @@ print('Challenge 2 -------------')
 # variable.
 # 3. Print the value of the variable.
 
+def prepare_greeting(name):
+    return 'Hello ' + name
+
+prepare_greeting('Rosa')
 
 
 

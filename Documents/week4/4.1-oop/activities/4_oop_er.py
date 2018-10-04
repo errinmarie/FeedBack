@@ -53,8 +53,8 @@ print('Challenge 1 -------------')
 # first", it causes a Python error.  Why is that? Can you fix it?
 # HINT: This requires editing the original class.
 
-#eric = Patient('Eric', 'Idle')
-#eric.doctor_diagnose()
+eric = Patient('Eric', 'Idle')
+eric.doctor_diagnose()
 
 
 

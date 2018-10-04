@@ -1,7 +1,5 @@
 # REMINDER: Only do one challenge at a time! Save and test after every one.
 
-print('test')
-
 print('Challenge 1 -------------')
 # Challenge 1:
 # Write the code to "invoke" the function named challenge_1
@@ -37,6 +35,10 @@ func_3()
 func_4()
 
 
+
+
+
+
 print('Challenge 3 -------------')
 # Challenge 3:
 # 1. Uncomment the following code. What does it do?
@@ -44,15 +46,6 @@ print('Challenge 3 -------------')
 # repetitive. This will require putting the repetitive bits of the code into a
 # new function of your creation, then invoking the function in lieu of
 # repeating the code.
-
-def ask_name():
-    print("We need to ask your name 3 times.")
-    name = input('What is your name? ')
-    
-ask_name()
-ask_name()
-ask_name()
-
 
 #print("We need to ask your name 3 times.")
 #name = input('What is your name? ')
@@ -63,6 +56,16 @@ ask_name()
 #name = input('What is your name? ')
 #print("Hi", name)
 
+print("We need to ask your name 3 times.")
+def ask():
+    name = input('What is your name? ')
+    print("Hi", name)
+    name = input('What is your name? ')
+    print("Hi", name)
+    name = input('What is your name? ')
+    print("Hi", name)
+ask()
+
 
 print('Challenge 4 -------------')
 # Challenge 4:
@@ -70,45 +73,29 @@ print('Challenge 4 -------------')
 # 2. You need to add an invocation to get it to work.
 # 3. Follow the same pattern to add a function that includes a hallway scene.
 
-def bedroom():
-     print('You are in a bedroom. A window is open and the sun is shining in.')
-     print('There is a cell phone, resting on top of a chest of drawers.')
-     print('north: Hallway')
-     print('south: Bathroom')
-     choice = input('? ')
-     if choice == 'north':
-         hallway()
-     elif choice == 'south':
-         bathroom()
-     else:
-         bedroom()
-
-def bathroom():
-     print('You are in a small bathroom. Everything is sparkling clean, except')
-     print('there is toothpaste smeared on the counter. One small window lets')
-     print('a bright beam of sunshine in.')
-     print('north: Bedroom')
-     choice = input('? ')
-     if choice == 'north':
-         bedroom()
-     else:
-         bathroom()
-
-def hallway():
-     print('You are in a long hallway. There are no windows for you to get your bearings.')
-     print('There are 2 doors to choose from.')
-     print('south: Bedroom')
-     choice = input('? ')
-     if choice == 'south':
-         bedroom()
-     else:
-         bathroom()
-
-hallway()
-
-
-
-
+# def bedroom():
+#     print('You are in a bedroom. A window is open and the sun is shining in.')
+#     print('There is a cell phone, resting on top of a chest of drawers.')
+#     print('north: Hallway')
+#     print('south: Bathroom')
+#     choice = input('? ')
+#     if choice == 'north':
+#         hallway()
+#     elif choice == 'south':
+#         bathroom()
+#     else:
+#         bedroom()
+#
+# def bathroom():
+#     print('You are in a small bathroom. Everything is sparkling clean, except')
+#     print('there is toothpaste smeared on the counter. One small window lets')
+#     print('a bright beam of sunshine in.')
+#     print('north: Bedroom')
+#     choice = input('? ')
+#     if choice == 'north':
+#         bedroom()
+#     else:
+#         bathroom()
 
 
 print('-------------')

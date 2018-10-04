@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <oor:items xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<item oor:path="/org.openoffice.Office.Calc/Dialogs/CSVImport"><prop oor:name="FixedWidthList" oor:op="fuse"><value></value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="FirstRun" oor:op="fuse"><value>false</value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="Persona" oor:op="fuse"><value>no</value></prop></item>
 <item oor:path="/org.openoffice.Office.Common/Misc"><prop oor:name="PersonaSettings" oor:op="fuse"><value></value></prop></item>
@@ -17,7 +18,6 @@
 <item oor:path="/org.openoffice.Office.Linguistic/ServiceManager/SpellCheckerList"><prop oor:name="en-US" oor:op="fuse" oor:type="oor:string-list"><value><it>org.openoffice.lingu.MySpellSpellChecker</it></value></prop></item>
 <item oor:path="/org.openoffice.Office.Linguistic/ServiceManager/ThesaurusList"><prop oor:name="en-US" oor:op="fuse" oor:type="oor:string-list"><value><it>org.openoffice.lingu.new.Thesaurus</it></value></prop></item>
 <item oor:path="/org.openoffice.Office.Recovery/RecoveryInfo"><prop oor:name="SessionData" oor:op="fuse"><value>false</value></prop></item>
-<item oor:path="/org.openoffice.Office.Recovery/RecoveryList"><node oor:name="recovery_item_1" oor:op="remove"/></item>
 <item oor:path="/org.openoffice.Office.UI.Sidebar/Content/DeckList/org.openoffice.Office.UI.Sidebar:Deck['GalleryDeck']"><prop oor:name="ContextList" oor:op="fuse"><value><it>any, any, visible</it></value></prop></item>
 <item oor:path="/org.openoffice.Office.UI.Sidebar/Content/DeckList/org.openoffice.Office.UI.Sidebar:Deck['NavigatorDeck']"><prop oor:name="ContextList" oor:op="fuse"><value><it>any, any, visible</it></value></prop></item>
 <item oor:path="/org.openoffice.Office.UI.Sidebar/Content/DeckList/org.openoffice.Office.UI.Sidebar:Deck['PropertyDeck']"><prop oor:name="ContextList" oor:op="fuse"><value><it>any, any, visible</it></value></prop></item>

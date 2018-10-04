@@ -5,7 +5,7 @@ print('Challenge 1 -------------')
 # It's as easy as 1
 # It's as easy as 2
 
-for x in range(3):
+for x in range(0, 3):
     print("It's as easy as", x)
 
 
@@ -20,19 +20,17 @@ print('Challenge 2 -------------')
 # c. 9 11 13 15
 # d. 15 14 13 12 11
 
-#for n in range(5):
-#    print(n)
+#for item in range(0, 5):
+    #print(item)
+    
+#for item in range(3, 8):
+    #print(item)
 
-#for n in range(3, 8):
-#    print(n)
+for item in range(9, 16, 2):
+    print(item)
 
-#for n in range(9, 16, 2):
-#    print(n)
-
-#for n in range(15, 10, -1):
-#    print(n)
-
-
+for item in range(15, 10, -1):
+    print(item)
 
 print('Challenge 3 -------------')
 # Challenge 3:
@@ -49,8 +47,8 @@ translations = {
     'tofu': 'tofu',
 }
 
-for key, value in translations.items():
-    print(key, ': ', value)
+for en, pt in translations.items():
+    print(en, ':', pt)
 
 
 print('Challenge 4 -------------')
@@ -60,27 +58,16 @@ print('Challenge 4 -------------')
 #     1 banana
 #     2 apple
 #     3 pear
-
-foods = ['banana' 'apple' 'pear']
-
-for n, food in foods:
-    print(n(1, 4))
-    print(food)
-    
-
-
-
-
-
 # 2. Refactor your loop to use "enumerate" (Google Python enumerate)
+
 fave_foods = [
     'banana',
     'apple',
     'pear',
 ]
 
-
-
+for food in fave_foods:
+    print(range(0, 2), food)
 
 
 
@@ -90,14 +77,31 @@ print('Challenge 5 -------------')
 # good to know, and easily confused with for-loops.
 
 # 1. Uncomment and try the following code as an example:
-#if 'banana' in fave_foods:
-#    print('Banana is a favorite food')
-#else:
-#    print('Banana is not a favorite food')
+
+if 'banana' in fave_foods:
+    print('Banana is a favorite food')
+else:
+    print('Banana is not a favorite food')
 
 # 2. Write an if statement to check if bread is a favorite food
+
+if 'bread' in fave_foods:
+    print('Bread is a favorite food')
+else:
+    print('Bread is not a favorite food')
+
+
+
 # 3. Write an if statement to check if bread is in the English Portuguese
 # dictionary
+
+if 'bread' in translations:
+    print('Bread is in there')
+else:
+    print('Bread is not in there')
+
+
+
 # 4. Write an if statement using "in" and "range" to check if 55 is an odd
 # number between 51 and 100 (Hint: use range)
 

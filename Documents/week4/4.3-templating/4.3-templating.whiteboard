@@ -1,0 +1,154 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=4.3 - Templating
+
+[slide]
+title=Import & Modules Review
+markdown : '''
+
+### What are the 3 uses of `import`?
+'''
+
+
+
+
+[slide]
+title=Terminology Review
+markdown : '''
+### What are the 3 uses of `import`?
+
+1. **importing your code** - Python files (modules) you wrote
+
+2. **importing standard library** - modules the Python developers wrote and
+included when you download Python
+
+3. **importing code other people wrote** - modules downloaded from PyPI, using
+pipenv, into a "virtualenv" (which you know you are in if you have the
+parenthesis before your prompt)
+'''
+
+
+[slide]
+title=ACTIVITY 1: import warmup
+editor=./activities/1_import_warmup/activity.py
+markdown : '''
+Pipenv Commands Reminder:
+
+Initialize new project virtualenv (ONLY do in a project or activity directory):
+
+`pipenv --python 3`
+
+Enter virtualenv:
+
+`pipenv shell`
+
+Download & install packages as needed:
+
+`pipenv install` (some package name)
+'''
+
+
+[slide]
+title=SOLUTION 1: import warmup
+editor=./solutions/1_import_warmup/activity.py
+terminal=./solutions/1_import_warmup/
+
+
+[slide]
+title=Templating
+
+
+[slide]
+title=Templating
+markdown : '''
+The idea of "Templating" is to use a string or files like `Hello {{ name }}`,
+and then allow values to be inserted in placeholders.
+
+* You have already been doing something similar for homework, now we are doing
+  it "the right way"
+
+### KEY TERMS
+* templating language - a "mini language" that is used for processing text. It
+  is very good at inserting values into HTML documents.
+* context - a dictionary that specifies which "variables" are to be inserted
+  into the template
+* render - the process of replacing placeholders in a template with the
+  template variables in the context
+* filter - a special type of function that is usable within a template for a
+  few different types of text and list transformations
+'''
+
+
+[slide]
+title=DEMO: Jinja Templating
+editor=./demos/jinja_example.py
+terminal=./demos/
+
+
+
+[slide]
+title=DISCUSSION
+markdown : '''
+Spend a minute to discuss with a student near you the following topics:
+
+1. Why is templating in general (and jinja in particular) so great?
+2. What could it be useful for?
+'''
+
+[slide]
+title=ACTIVITY 2 - jinja
+editor=./activities/2_jinja/activity.py
+
+
+[slide]
+title=SOLUTION 2 - jinja
+editor=./solutions/2_jinja/activity.py
+terminal=./solutions/
+
+
+[slide]
+title=DEMO: Jinja Control Flow
+editor=./demos/jinja_example_flow.py
+terminal=./demos/
+
+
+
+[slide]
+title=ACTIVITY 3 - jinja control flow
+editor=./activities/3_jinja_control_flow/activity.py
+
+
+[slide]
+title=SOLUTION 3 - jinja control flow
+editor=./solutions/3_jinja_control_flow/activity.py
+terminal=./solutions/
+
+
+[slide]
+title=Jinja + HTML
+
+
+[slide]
+title=ACTIVITY 4 - html templates
+editor : '''
+./activities/4_html_templates/instructions.txt
+./activities/4_html_templates/build.py
+./activities/4_html_templates/template.html
+./activities/4_html_templates/wonderland.json
+'''
+browser=./solutions/4_html_templates/output.html
+
+[slide]
+title=SOLUTION 4 - html templates
+editor : '''
+./solutions/4_html_templates/template.html
+./solutions/4_html_templates/build.py
+./solutions/4_html_templates/wonderland.json
+'''
+browser=./solutions/4_html_templates/output.html
+
+[slide]
+title=Questions?

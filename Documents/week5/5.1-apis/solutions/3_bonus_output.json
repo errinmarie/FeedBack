@@ -1,0 +1,114 @@
+[
+    {
+        "url": "https://blog.archive.org/2018/10/01/more-than-9-million-broken-links-on-wikipedia-are-now-rescued/",
+        "caption": "Internet Archive Has Now Rescued More Than 9 Million Broken Links on Wikipedia"
+    },
+    {
+        "url": "https://github.com/ampproject/worker-dom",
+        "caption": "WorkerDOM \u2013 The Same DOM API and Frameworks You Know, but in a Web Worker"
+    },
+    {
+        "url": "http://www.jbkempf.com/blog/post/2018/Introducing-dav1d",
+        "caption": "Introducing Dav1d: a new AV1 decoder"
+    },
+    {
+        "url": "https://defcon.org/images/defcon-26/DEF%20CON%2026%20voting%20village%20report.pdf",
+        "caption": "DEF CON report on vulnerabilities in US election infrastructure [pdf]"
+    },
+    {
+        "url": "https://techcrunch.com/2018/10/01/apollo-contacts-data-breach/",
+        "caption": "Sales engagement startup Apollo says its massive contacts database was stolen"
+    },
+    {
+        "url": "https://blog.anp.lol/rust/2018/09/29/lolbench/",
+        "caption": "lolbench: automagically and empirically discovering Rust performance regressions"
+    },
+    {
+        "url": "https://micromdm.io/",
+        "caption": "MicroMDM \u2013 Open Source MDM Server for Apple Devices"
+    },
+    {
+        "url": "https://algorithmsoup.wordpress.com/2018/10/01/what-made-godels-incompleteness-theorem-hard-to-prove-its-about-how-you-say-it-not-just-what-you-say/",
+        "caption": "What Made G\u00f6del\u2019s Incompleteness Theorem Hard: It\u2019s All in the Details"
+    },
+    {
+        "url": "https://krebsonsecurity.com/2018/10/voice-phishing-scams-are-getting-more-clever/",
+        "caption": "Voice Phishing Scams Are Getting More Clever"
+    },
+    {
+        "url": "https://arxiv.org/abs/1808.04728",
+        "caption": "CosmoFlow: Using Deep Learning to Learn the Universe at Scale"
+    },
+    {
+        "url": "https://cen.acs.org/analytical-chemistry/art-&amp;-artifacts/mysteries-Louis-Pasteurs-mislaid-lab/96/i39",
+        "caption": "The mysteries of Louis Pasteur\u2019s mislaid lab books"
+    },
+    {
+        "url": "https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html",
+        "caption": "Trustworthy Chrome Extensions, by default"
+    },
+    {
+        "url": "https://blog.reversinglabs.com/blog/cvs-dde-exploits-and-obfuscation",
+        "caption": "Three New DDE Obfuscation Methods"
+    },
+    {
+        "url": "https://hackaday.com/2018/10/01/remember-when-blockbuster-video-tried-burning-game-cartridges-on-demand/",
+        "caption": "When Blockbuster Video Tried Burning Game Cartridges on Demand"
+    },
+    {
+        "url": "https://www.bloomberg.com/news/articles/2018-10-01/institutional-investors-are-using-back-door-for-crypto-purchases",
+        "caption": "Institutional Investors Are Using Back Door for Crypto Purchases"
+    },
+    {
+        "url": "https://blog.cloudflare.com/webassembly-on-cloudflare-workers/",
+        "caption": "You can now run WebAssembly on Cloudflare Workers"
+    },
+    {
+        "url": "https://neurosciencenews.com/sleep-teen-behavior-9938/",
+        "caption": "Insufficient Sleep Associated with Risky Teen Behavior"
+    },
+    {
+        "url": "https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=en&amp;rurl=translate.google.ca&amp;sl=ru&amp;sp=nmt4&amp;tl=en&amp;u=https://habr.com/company/ua-hosting/blog/413733/&amp;xid=17259,15700023,15700124,15700149,15700186,15700190,15700201,15700214&amp;usg=ALkJrhhGeGnM2dmElwuzH_75R3RaQXuSgw#habracut",
+        "caption": "Interesting look at the history of Soviet personal computers"
+    },
+    {
+        "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "caption": "Operating Systems: Three Easy Pieces"
+    },
+    {
+        "url": "http://m.nautil.us/blog/impossibly-hungry-judges",
+        "caption": "Impossibly Hungry Judges (2017)"
+    },
+    {
+        "url": "http://demo.hyperfiddle.net/:quick-demo/",
+        "caption": "Show HN: We made a real-time editor for web database apps"
+    },
+    {
+        "url": "https://github.com/jaroslov/knuth-plass-thoughts/blob/master/plass.md",
+        "caption": "Description and implementation of the core Knuth-Plass line-wrapping algorithm"
+    },
+    {
+        "url": "http://www.emshort.com/ifmu/inform.html",
+        "caption": "Inform: Past, Present, Future"
+    },
+    {
+        "url": "https://www.bmj.com/content/362/bmj.k3788",
+        "caption": "Causal effects between subjective wellbeing and cardiometabolic health"
+    },
+    {
+        "url": "https://qz.com/1408120/yahoo-japan-is-shutting-down-its-website-hosting-service-geocities/",
+        "caption": "GeoCities Japan is shutting down"
+    },
+    {
+        "url": "https://www.wsj.com/articles/m-b-a-applications-keep-falling-in-u-s-this-year-hitting-even-elite-schools-1538366461",
+        "caption": "M.B.A. Applications Decline at Elite Schools as Degree Loses Luster"
+    },
+    {
+        "url": "https://techcrunch.com/2018/10/01/google-gets-into-game-streaming-with-project-stream-and-assassins-creed-odyssey-in-chrome/",
+        "caption": " Google gets into game streaming with Project Stream"
+    },
+    {
+        "url": "https://www.theguardian.com/science/2018/oct/01/james-p-allison-and-tasuku-honjo-win-nobel-prize-for-medicine",
+        "caption": "James P Allison and Tasuku Honjo win Nobel prize for medicine"
+    }
+]

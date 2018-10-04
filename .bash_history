@@ -1247,3 +1247,497 @@ ls
 https://github.com/errinmarie/homework3.git
 git clone https://github.com/errinmarie/homework3.git
 git status
+cd
+ls
+Documents/week3/3-homework/homework3
+ls
+cd '/home/errinmixon/Documents/week3/3-homework/homework3' 
+ls
+python3 build.py 
+cd .
+ls
+cd '/home/errinmixon/Documents/week3/3-homework' 
+ls
+git add -A
+cd '/home/errinmixon/Documents/week3/3-homework/homework3' 
+ls
+git add -A
+git commit -m 'added all files'
+git push
+git pull
+git push
+git pull
+cd '/home/errinmixon/Documents/week3/3-homework' 
+git clone https://github.com/errinmarie/hw3.git
+git add -A
+git commit -m 'add files'
+git push
+git remote add cd
+cd
+cd '/home/errinmixon/Documents/week3/3-homework' 
+ls
+git clone https://github.com/errinmarie/3homework.git
+git add -A
+git commit -m 'add files'
+git push
+cd '/home/errinmixon/Documents/week3' 
+ls
+git clone https://github.com/errinmarie/3homework.git
+git addls
+ls
+cd 3homework
+ls
+git add -A
+git commit -m 'added files'
+git push
+git status
+cd '/home/errinmixon/Documents/week4/4.2-modules/activities' 
+ls
+python3 game.py 
+python3 buil
+python3 game.py 
+python3 game
+python3 game.py 
+cd 2_modules/
+ls
+import library
+ls
+python3 mod
+python3 mod_challenge.py 
+library.greeter(name='Jill'
+python3 mod_challenge.py 
+python3 mymod.py 
+ls
+rm __pycache__/
+rm -r __pycache__/
+python3 mymod.py 
+python3 mod_challenge.py 
+cd /
+ls
+cd '/home/errinmixon/Documents/week4/4.2-modules/activities' 
+ls
+python3 3_standard_library.py 
+sudo apt-get install python3-pip -y && sudo pip3 install pipenv
+cd 
+ls
+cd Documents
+ls
+mkdir pipenv_project_directory
+ls
+cd pipenv_project_directory/
+pipenv --python 3.6
+pipenv shell
+pipenv install silly
+import silly
+python3
+pipenv install silly_content_generator
+pipenv install filesmudge
+python3
+pipenv install filesmudge
+import filesmudge
+python3
+pipenv install sillysort
+python3
+pipenv install text-generator
+cd Documents/week2/2.1-bash/activities/2-cli-challenge
+ls
+cd challenge_4_fish/
+ls
+mv fish1 coral_reef
+mv fish* coral_reef
+cd /
+ls
+cd
+ls
+cd Documents/week2/2.1-bash/activities
+ls
+cd ../
+ls
+cd activities/2-cli-challenge/
+cd chalenge_5
+cd challenge_5_student_dirs/
+ls
+mkdir rudy
+mk dir kasheena
+mkdir kasheena
+mkdir ginger
+cd ginger
+mkdir red
+cd ../
+cd rudy
+ls
+mkdir blue
+cd ../
+cd kasheena
+mkdir green
+cd ../
+cd challenge_6_html/
+ls
+touch empty_file.html
+gedit empty_file.html
+open empty_file.html 
+cd ../
+cd challenge_7
+ls
+cd challenge_7
+cd challenge_7_deletion/
+ls
+rm 0_Use_rm_and_rmdir_to_delete_these_files_and_directories 
+rm 1-Delete_this_file 
+rm 2-Delete_this_file_too 
+rmdir 3-Delete_this_filled_dir/
+ls
+rmdir 3-Delete_this_filled_dir/
+rm -r 3-Delete_this_filled_dir/
+cd ../
+cd challenge_8_reading/
+ls
+cat down_the_rabbit_hole 
+cat less down_the_rabbit_hole 
+catless down_the_rabbit_hole 
+cat less down_the_rabbit_hole 
+cat more down_the_rabbit_hole 
+cat less down_the_rabbit_hole 
+cat jabberwocky 
+cat less jabberwocky 
+cat more jabberwocky 
+cat down_the_rabbit_hole jabberwocky 
+cd ../
+cd challenge_9_bonus/
+ls
+cd jabberwocky/
+ls
+cd 0
+ls
+cat jabberwocky.txt > ../new.txt
+cd 1
+ls
+cd ../
+ls
+cd 1
+ls
+mv jabberwocky.txt ../
+cd ../
+ls
+cat new.text jabberwocky.txt 
+cat new.txt jabberwocky.txt > new1.txt
+rm new.txt
+rm jabberwocky.txt 
+cd 2
+ls
+mv jabberwocky.txt ../
+cd ../
+ls
+cat new1.txt jabberwocky.txt > a.txt
+rm new1.txt 
+rm jabberwocky.txt 
+rm -r 0
+rm -r 1
+rm -r 2
+cd 3
+ls
+mv jabberwocky.txt ../
+rm -r 3
+cd ../
+ls
+rm -r 3
+cat a.txt jabberwocky.txt > b.txt
+rm a.txt 
+rm jabberwocky.txt 
+cd 4
+ls
+mv jabberwocky.txt ../
+cd ../
+rm -r 4
+cat b.txt jabberwocky.txt > c.txt
+rm b.txt 
+rm jabberwocky.txt 
+cd 5
+ls
+mv jabberwocky.txt ../
+cd ../
+rm -r 5
+cat c.txt jabberwocky.txt > d
+rm ja
+rm jabberwocky.txt 
+rm c.txt 
+cd 6
+ls
+mv jabberwocky.txt ../
+cd ../
+rm -r 6
+cat d jabberwocky.txt > e.txt
+rm jabberwocky.txt 
+rm d 
+cd 7
+ls
+cd ../
+ls
+rm -r 7
+cd 8
+ls
+cd ../
+ls
+rm -r 8
+cd ../
+ls
+cd jabberwocky/
+ls
+mv e.txt jabberwocky.txt
+gedit jabberwocky.txt 
+cd ../../
+cd ../../../
+ls
+Documents/week2/2.2git/activities
+cd Documents/week2/2.2git/activities
+cd Documents/week2
+ls
+cd 2.2-git
+ls
+cd activities/
+ls
+cd 3-cat-redirect/
+ls
+cd 2-html-site/
+ls
+mkdir docs
+cd templates/
+ls
+cd ../
+ls
+cat templates/top.html content/index.html > docs/index.html
+cat templates/top.html content/index.html templates/bottom.html > docs/index.html
+cat templates/top.html content/contact.html templates/bottom.html > docs/contact.html
+cat templates/top.html content/projects.html templates/bottom.html > docs/projects.html
+mv css/style.css docs
+cd img/
+ls
+mv * ../
+cd ../
+mv sunset.jpg docs
+mv funky-lines.png docs
+mv profile.jpg docs
+clear
+cd ../
+cd 4-cat-scripting/
+ls
+build.sh
+bash build.sh
+ls
+bash build.sh
+quit
+build.sh
+bash build.sh 
+bash build.sh
+bash script.sh
+bash build.sh
+cd ../
+ls
+python3 6_python.py 
+ls
+cd '/home/errinmixon/Documents/week2/2.3-python/2.3-python/activities' 
+ls
+python3 1_intro_to_python.py 
+pipenv install pint
+python3 activity.py 
+cd ../
+ls
+cd 2_jinja/
+ls
+quit
+pipenv --python 3
+pipenv shell
+pipenv exit
+exit
+install jinja2
+python3 activity.py 
+import jinja2
+python3 activity.py 
+pipenv install jinja2
+python3 activity.py 
+pythone activity.py 
+python3 activity.py 
+exit
+pipenv import jinja2
+pipenv install jinja2
+python3 activity.py 
+exit
+cd '/home/errinmixon/Documents/week4/4.3-templating/activities/1_import_warmup' 
+ls
+activity.py
+python3 activity.py 
+pipenv --python3
+pipenv --python 3
+pipenv shell
+cd ../
+cd 2_jinja/
+ls
+pipenv --python 3
+pipenv shell
+cd ../
+ls
+cd 3_jinja_control_flow/
+ls
+python3 activity.py 
+python3 3
+pipenv --python 3
+pipenv shell
+cd
+ls
+cd Documents/week4/4.3-templating/activities/4_html_templates/
+ls
+pipenv --python 3
+pipenv shell
+pipenv install jinja2
+python3 build.py 
+cd '/home/errinmixon/Documents/week2/2.3-python/2.3-python/activities' 
+ls
+python3 1_intro_to_python.py 
+ls
+python3 2_variable_marathon.py 
+cd 3_reading_from_file/
+ls
+python3 3_file_reading_challenge.py 
+python3 2
+python3 3_file_reading_challenge.py 
+python3 3_file_reading_challenge.py > page.html
+cd ../
+cd 4_writing_to_file/
+ls
+python3 4_writing_to_file_challenges.py 
+cd ../
+ls
+cd 5_static_site_generation/
+ls
+cd '/home/errinmixon/Documents/week3/3.1-flow/activities' 
+ls
+python3 1_python_warmup.py 
+clear
+python3 1_python_warmup.py 
+cd '/home/errinmixon/Documents/week3/3.1-flow/activities' 
+ls
+python3 1_python_warmup.py 
+python3 1
+python3 1_python_warmup.py 
+open sports_story.txt
+python3 2_container_time.py 
+python3 3_branching.py 
+python3 4_input_branching.py 
+python3 5_while_loop_practice.py 
+cd '/home/errinmixon/Documents/week3/3.2-functions/activities' 
+ls
+python3 1_python_review.py 
+python3 2_functions.py 
+python3 3_parameters.py 
+python3 4_positional_return.py 
+cd '/home/errinmixon/Documents/week3/3.2-functions/activities' 
+ls
+python3 5_methods.py 
+cd '/home/errinmixon/Documents/week4/4-homework' 
+ls
+import glob
+python3 import glob
+import glob
+all_html_files = glob.glob('content/*.html')
+all_html_files = glob.glob("content/*.html")
+python3 test.py
+print(type(all_html_files))
+python3 test.py
+cd ../
+cd 4.1-oop/
+ls
+cd activities/
+ls
+python3 1_review_func_for.py 
+cd
+ls
+cd Documents/week4/4.1-oop/activities
+ls
+python3 1_review_func_for.py 
+python3 2_hospital.py 
+cd '/home/errinmixon/Documents/week3/3.3-loops/activities' 
+ls
+python3 1_review_functions.py 
+python3 2_for_loops.py 
+python3 3_more_for.py 
+cd '/home/errinmixon/Documents/week4/4.1-oop/activities' 
+ls
+python3 1_review_func_for.py 
+python3 2_hospital.py 
+python3 3_oop_hospital.py 
+python3 4_oop_er.py 
+cd '/home/errinmixon/Documents/week4/4.2-modules/activities' 
+ls
+cd 2_modules/
+ls
+python3 mod_challenge.py 
+cd ../
+ls
+python3 3_standard_library.py 
+cd '/home/errinmixon/Documents/week4/4-homework' 
+ls
+python3 build.py 
+clear
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+ls
+python3 1_dict_review.py 
+curl -v google.com
+quit
+curl -v google.com
+sudo apt install curl
+curl -v google.com
+curl -v https://www.google.com
+curl -v http://wttr.in/Oakland
+cleara
+clear
+ls
+pipenv --python 3
+pipenv shell
+pipenv install requests
+clear
+python3 3_intro_to_requests.py 
+python3 4_requests_marathon.py 
+python3 44
+python3 4_requests_marathon.py 
+pipenv install jinja2
+pipenv --python 3.6
+pipenv shell
+pipenv install jinja2
+python3 build.py 
+pipenv shell
+ls -
+ls -a
+pipenv shell
+rm virtualenv
+rm pipenv
+rm UNKNOWN_VIRTUAL_ENVIRONMENT
+rmvirtualenv
+ls -a
+ls
+pipenv --python 3.6
+pipenv shell
+pipenv install jinja2
+/home/errinmixon/.local/share/virtualenvs/4-homework-TVT9Kkpq
+rm UNKNOWN_VIRTUAL_ENVIRONMENT
+exit
+cd '/home/errinmixon/Documents/week4/4-homework' 
+python3 build.py 
+clear
+pipenv --python 3
+pipenv shell
+cd'/home/errinmixon/Documents/week4/4-homework' 
+cd '/home/errinmixon/Documents/week4/4-homework' 
+ls
+pipenv --python 3.6
+pipenv shell
+pipenv install jinja2
+python3 build.py 
+from jinja2 import template
+python3 build.py 
+install jinja 2
+install jinja2
+pipenv install jinja2
+python3 build.py 
+python3 manage.py 
+python manage.py 
+python3 manage.py 
