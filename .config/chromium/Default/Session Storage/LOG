@@ -1,3 +1,6 @@
 2018/11/27-18:04:43.745 2138 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/Session Storage/MANIFEST-000001
 2018/11/27-18:04:43.745 2138 Recovering log #659
 2018/11/27-18:04:43.746 2138 Reusing old log /home/errinmixon/.config/chromium/Default/Session Storage/000659.log 
+2018/11/27-18:46:26.649 4599 Level-0 table #663: started
+2018/11/27-18:46:26.663 4599 Level-0 table #663: 20070 bytes OK
+2018/11/27-18:46:26.667 4599 Delete type=0 #659

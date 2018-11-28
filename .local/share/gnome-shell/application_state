@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="603.73348999023438" last-seen="1543371692"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="631.73348999023438" last-seen="1543372065"/>
     <application id="update-manager.desktop" open-window-count="0" score="0.25" last-seen="1543085878"/>
-    <application id="chromium-browser.desktop" open-window-count="1" score="14246.923599243164" last-seen="1543371548"/>
+    <application id="chromium-browser.desktop" open-window-count="1" score="14246.923599243164" last-seen="1543372013"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="2385.9718627929688" last-seen="1543371133"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="172.03515625" last-seen="1543371687"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="255.03515625" last-seen="1543372524"/>
     <application id="evince.desktop" open-window-count="0" score="61.434432983398438" last-seen="1543093791"/>
     <application id="org.gnome.Shell.PortalHelper.desktop" open-window-count="0" score="1.5" last-seen="1543179864"/>
   </context>

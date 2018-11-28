@@ -1,10 +1,3 @@
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd 2.2-git
 ls
 cd activities
 ls
@@ -1998,3 +1991,10 @@ ls
 git commit -m 'added files'
 git status
 git add -A
+ls
+git clone https://github.com/errinmarie/FeedBack.git
+git add -A
+git commit -m 'adding files'
+git push
+git push https://github.com/errinmarie/FeedBack.git
+git push --set-upstream https://github.com/errinmarie/FeedBack.git master
