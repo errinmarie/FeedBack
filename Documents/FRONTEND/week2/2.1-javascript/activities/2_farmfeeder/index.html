@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" />
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+
+<body>
+
+<img 
+    onClick="feedPig()"
+    src="img/pig.png" />
+    
+<h1>Pig fed count: <span id="pig-eaten">0</span></h1>
+
+<img 
+    onClick="feedHorse()"
+    src="img/horse.png" />
+    
+<h1>Horse fed count: <span id="horse-eaten">0</span></h1>
+
+<img src="img/goat.png" />
+
+<script>
+    /*
+        Challenge 1: As a matter of good practice, add a console.log to this
+        script tag (outside of the comments) and confirm you can see it in your
+        browser console. 
+
+        E.g.:
+            console.log('Hello Farm World!')
+    */
+
+console.log('Hello Farm World!')
+
+
+
+    /*
+        Challenge 2:
+        
+        1. Can you explain to nearby students what the following code is
+        supposed to do do?
+        
+        Hint: The code is written, but it's not yet "hooked up" to get run when
+        you click on the pig.
+
+        2. Add an onClick attribute on the pig image to call feedPig to the pig
+        image.
+
+        Hint: You will need to use code like
+            onClick="feedPig()"
+        on the image in the HTML code above.
+    */
+    let pigFedCount = 0;
+    function feedPig() {
+        console.log("Pig is getting fed.");
+        pigFedCount++; // increment pigFedCount
+        let span = document.querySelector('#pig-eaten');
+        span.textContent = pigFedCount;
+    }
+
+    /*
+        Challenge 3: Now it's time to allow feeding of the horse. Copy & paste
+        the code for the pig, but modify it so that it can it keeps track of
+        a new "horseFedCount".
+
+        Hint #1: You will need to modify both the HTML and the JavaScript for
+        this challenge.
+
+        Hint #2: Don't worry about being DRY for now.
+        
+    */
+    
+    let horseFedCount = 0;
+    
+    function feedHorse() {
+        console.log("Horse is getting fed.");
+        horseFedCount++; // increment horseFedCount
+        
+        let span = document.querySelector('#horse-eaten');
+        span.textContent = horseFedCount;
+        
+        if (horseFedCount > 10) {
+            span.textContent = 'Too full';
+        }
+    }
+
+    /*
+        Challenge 4: Horses can only eat so much before they get full. Modify
+        your code to use an if-statement to prevent the horse "fed count" from
+        exceeding 10.
+    */
+
+
+    /*
+        Challenge 5: Horses don't like being overfed. If the horse is getting
+        over fed, make the page display an alert saying "Stop feeding me, I'm
+        full!".
+    */
+
+
+    /*
+        Challenge 6: Repeat Challenge 3, except for the goat. As before, don't
+        worry about it being DRY.
+    */
+
+
+    /*
+        Challenge 7: The goat is the hungriest of them all and steals food from
+        the other animals. Whenever the goat is fed, halve the number of times
+        each of the other animals were fed (rounding down).
+    */
+
+
+    /*
+        Bonus Challenge #1:
+        - Time to DRY things out! Identify patterns in your code, and refactor
+          it to be more DRY.
+
+        - Hint: A logical thing to DRY out is the DOM updating code. You might
+          want to move that into it's own function called "render" and have
+          that be called at the end of each of the event functions.
+    */
+
+
+    /*
+        Bonus Challenge #2:
+        - Uncomment the following code.
+        - Modify this game so that all the counters start at 10, and tick down
+          rapidly using setInterval
+        - If any of them get to 0, that animal "starves", and the player loses.
+        - When you lose, you should display somehow "You lose".
+        - Hint: setInterval causes the given code to repeat, ad infinitum.
+    */
+
+    /*
+        setInterval(() => {
+            console.log('ticking...');
+            // Add code here to tick down everything & rerender
+        }, 1000);
+    */
+
+
+    /*
+        Bonus Challenge #3: Look up online how to play sound effects. Can you
+        make it so that when you feed an animal, it plays the eating MP3 sound
+        effect included with this activity?
+    */
+
+</script>
+</body>
+</html>

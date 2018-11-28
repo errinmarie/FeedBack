@@ -1,1 +1,3 @@
-2018/09/09-17:16:27.053 9781 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_pxlsfmde-a.akamaihd.net_0.indexeddb.leveldb/MANIFEST-000001
+2018/11/06-16:43:14.738 3764 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_pxlsfmde-a.akamaihd.net_0.indexeddb.leveldb/MANIFEST-000001
+2018/11/06-16:43:14.738 3764 Recovering log #3
+2018/11/06-16:43:14.739 3764 Reusing old log /home/errinmixon/.config/chromium/Default/IndexedDB/https_pxlsfmde-a.akamaihd.net_0.indexeddb.leveldb/000003.log 

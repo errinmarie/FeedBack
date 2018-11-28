@@ -1,3 +1,3 @@
-2018/09/06-19:04:40.156 5910 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.forbes.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/09/06-19:04:40.156 5910 Recovering log #3
-2018/09/06-19:04:40.156 5910 Reusing old log /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.forbes.com_0.indexeddb.leveldb/000003.log 
+2018/10/19-21:51:31.751 3855 Reusing MANIFEST /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.forbes.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/19-21:51:31.751 3855 Recovering log #3
+2018/10/19-21:51:31.752 3855 Reusing old log /home/errinmixon/.config/chromium/Default/IndexedDB/https_www.forbes.com_0.indexeddb.leveldb/000003.log 

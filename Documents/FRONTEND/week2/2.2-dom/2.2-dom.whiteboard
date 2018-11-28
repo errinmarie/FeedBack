@@ -1,0 +1,152 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=2.2 - DOM Manipulation
+
+
+[slide]
+title=ACTIVITY 1 - syntax warmup
+editor=./activities/1_syntax_warmup.html
+
+
+[slide]
+title=SOLUTION 1 - syntax warmup
+editor=./activities/1_syntax_warmup.html
+
+[slide]
+title=DOM - Review
+
+
+[slide]
+title=ACTIVITY 2 - div creator
+editor : '''
+./activities/2_div_creator/index.html
+./activities/2_div_creator/js/main.js
+'''
+browser = ./solutions/2_div_creator/index.html
+
+
+[slide]
+title=SOLUTION 2 - div creator
+editor : '''
+./solutions/2_div_creator/index.html
+./solutions/2_div_creator/js/main.js
+./solutions/2_div_creator/index_bonus.html
+./solutions/2_div_creator/js/main_bonus.js
+'''
+browser = ./solutions/2_div_creator/index.html
+
+
+
+[slide]
+title=DOM Manipulation
+
+
+[slide]
+title=DOM Manipulation
+markdown : '''
+* Create - `let element = document.createElement('p');`
+* Read   - `let element = document.querySelector('query')`, `document.querySelectorAll`
+* Update - `element.textContent = 'New text'`, `element.innerHTML = '<strong>Ok!</strong>'`
+* Delete - `element.remove()`
+'''
+
+
+[slide]
+title=ACTIVITY 3 - shopping crud
+editor=./activities/3_shopping_crud.html
+browser=./solutions/3_shopping_crud.html
+
+
+[slide]
+title=SOLUTION 3 - shopping crud
+editor=./solutions/3_shopping_crud.html
+
+
+[slide]
+title=JavaScript Coding Techniques
+
+[slide]
+title=JS Techniques: State & Render
+markdown : '''
+- Use a "state variable" & "render function"
+
+- Instead of "reaching into the DOM" to change things one at a time, like we
+  have been doing, we change the value of "state", and then "rebuild from
+  scratch" all the HTML that we care about each time
+
+- **This activity is intended to get your feet wet with a technique used in
+  modern JS Frameworks** (notably, React.js)
+
+## The "State & Render" Approach:
+
+1. Modify a "state" object ("dictionary" in Python)
+
+2. Invoke (call) a render function
+
+3. The render function deletes the existing DOM and builds a new DOM, based on
+the value in the "state" object
+
+'''
+
+
+[slide]
+title=DEMO - render from state
+editor=./demos/state_example.html
+browser=./demos/state_example.html
+
+
+[slide]
+title=JS Techniques: Templating
+markdown : '''
+Another useful technique for rendering HTML is by using innerHTML in
+conjunction with "templating"
+
+## Key Terms
+- **innerHTML** - lets us use HTML to add content to the page
+
+- **templating** - lets us combine HTML with variable values
+
+- **template literals** - JavaScript (2015 and newer) has a built-in
+  "templating" system known as "template literals", specified with "backticks".
+  We use `${nameOfVariable}` to add data into our page
+'''
+
+
+[slide]
+title=DEMO - render from state
+editor=./demos/state_example_backticks.html
+browser=./demos/state_example_backticks.html
+
+
+[slide]
+title=ACTIVITY 4 - render from state
+editor=./activities/4_render_from_state.html
+browser=./solutions/4_render_from_state.html
+
+
+[slide]
+title=SOLUTION 4 - render from state
+editor=./solutions/4_render_from_state.html
+
+[slide]
+title=Preview from next class: Fetch & APIs
+
+[slide]
+title=DEMO - fetching from APIs
+editor=./demos/fetch_example.html
+browser=./demos/fetch_example.html
+
+#[slide]
+#title=ACTIVITY 5 - api
+#editor=./activities/4_api.html
+#browser=./solutions/4_api.html
+
+
+#[slide]
+#title=SOLUTION 5 - api
+#editor=./solutions/4_api.html
+
+

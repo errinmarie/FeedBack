@@ -1,0 +1,53 @@
+This is how you deploy Django applications to Heroku.
+
+
+1. Ensure you have a (free) Heroku account, and can remember the
+password. This can be done by simply signing up at the website.
+
+2. Install the Heroku CLI
+    - macOS:
+        - Use Homebrew: brew install heroku/brew/heroku
+    - Ubuntu Linux:
+        - Go to the Software Center, search for Heroku, and install
+
+3. Go to the directory of your Django project
+
+4. Ensure your Django project has a Procfile (see the
+5.3/activities/minidjango example) - this tells Heroku which file is the
+main "entry point" to your server, in other words, which file to run to
+kick everything off.
+
+5. Ensure your Django project has a Pipfile - again, see the mindjango
+example. If you have been using pipenv, you should be good to go on this
+front.
+
+6. IMPORTANT: Your project MUST be in a git repository. You can either
+do this the normal way by going to GitHub and creating a new repo, then
+cloning that, OR you can use the "git init" command to make a local-only
+repo. However you do it, Heroku absolutely requires your project to be
+in a single git repo, such that the Procfile, Pipfile, and manage.py are
+all at the "top level" next to README.md and .git, etc.
+
+7. Login to Heroku (should only have to do this once):
+    - heroku login
+
+8. Create a new Heroku Application on your account for your project
+    - heroku create
+
+9. If all went well... you are good to go! Deploy your app to Heroku:
+    - git push heroku master
+
+If it's working, you should see text like "Python app detected", then
+after a 30 seconds or so, something like:
+remote: -----> Launching...
+remote:        Released v4
+remote:        https://secure-lake-12038.herokuapp.com/ deployed to
+
+That strange URL "secure-lake-12038" will be a different combo of random
+words and numbers for you, but will be the URL of your new app! Click on
+that link or copy and paste it into your browser to see your application
+live for the world to see.
+
+As you work on your project, after every change that you want to test on
+Heroku, make a commit and then repeat step 9 (git push heroku master).
+

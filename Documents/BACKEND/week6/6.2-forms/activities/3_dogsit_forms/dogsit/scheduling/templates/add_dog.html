@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Add Dog Sitting Appointment</h2>
+
+
+{% if error_message %}
+    <div class="alert alert-danger">
+        <strong>You're in deep sit!</strong> {{ error_message }}
+    </div>
+{% endif %}
+
+<form action="." method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input name="dogname" placeholder="The Dog's Name" />
+    <input name="age" type="number" placeholder="Age" />
+    <input name="time" placeholder="Appt Time" />
+    <input name="date" placeholder="Appt Date" />
+    <button>Submit</button>
+</form>
+
+{% endblock content %}
+

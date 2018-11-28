@@ -1,0 +1,194 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=3.3 - For Loops & Diagramming
+
+
+[slide]
+title=Today's class
+markdown : '''
+* Review activity
+* For loops
+* Diagramming
+* Group mini-project
+'''
+
+
+[slide]
+title=ACTIVITY 1 - functions review
+editor=./activities/1_review_functions.py
+
+
+[slide]
+title=SOLUTION 1 - functions review
+editor=./solutions/1_review_functions.py
+terminal=./solutions/
+
+
+[slide]
+title=For loops
+markdown : '''
+For loops are for container data-types.
+
+Remember "container" data-types?
+'''
+
+[slide]
+title=For loops
+markdown : '''
+* while loops are not the most common type of loop
+* for loops are the most common type, they allow us to "loop through" iterable
+  data-types
+* This means we can write code that will apply to every item in a container
+  data-type, such as lists or dicts
+* range - allows us to loop through just numbers
+
+### KEY TERMS
+* for loop - allows us to write code that will be sequentially looped over the
+  contents of a list, dict, or range function (among others)
+* iterable - a data-type we can "loop through" with a for-loop, aka "iterate through"
+* range - a Python function that iterates over numbers
+'''
+
+[slide]
+title=DEMO 1 - For loops
+editor=./demos/for_loops.py
+terminal=./demos/
+
+
+[slide]
+title=ACTIVITY 2 - for loops
+editor=./activities/2_for_loops.py
+
+
+[slide]
+title=SOLUTION 2 - for loops
+editor=./solutions/2_for_loops.py
+terminal=./solutions/
+
+
+
+[slide]
+title=DEMO 1 - More for
+editor=./demos/for_loops.py
+terminal=./demos/
+
+
+[slide]
+title=ACTIVITY 3 - more for
+editor=./activities/2_more_for.py
+
+
+[slide]
+title=SOLUTION 3 - more for
+editor=./solutions/3_more_for.py
+terminal=./solutions/
+
+
+[slide]
+title=Diagramming
+markdown : '''
+## What tools have we learned so far for planning coding?
+
+* Hint 1: One starts with "pseudo"
+
+* Hint 2: Another we learned for front-end
+'''
+
+
+[slide]
+title=Diagramming
+markdown : '''
+## What tools have we learned so far for planning coding?
+
+* Pseudocoding
+
+* Wireframing
+'''
+
+
+[slide]
+title=Diagramming
+markdown : '''
+Here's a new one: State diagrams
+
+Use these to map how a program does different behavior over time. Break down
+what information you might need to store in variables to make the program go
+from one "state" to another
+
+### KEY TERMS
+* state diagram - "flow charts" of how programs should change, what data should
+  be stored in variables at different times in the program's execution
+'''
+
+
+[slide]
+title=Discussion 1 - State Diagram
+markdown : '''
+### A program that triages patients at a hospital
+'''
+
+
+[slide]
+title=Discussion 2 - State Diagram
+markdown : '''
+### A bot that automatically answers emails based on rules for customer service
+'''
+
+
+[slide]
+title=Discussion 3 - State Diagram
+markdown : '''
+### A program that automatically grades homework based on certain properties
+'''
+
+
+[slide]
+title=Group mini-project
+markdown : '''
+* For the rest of class, we'll be guiding you in building a mini project that
+  resembles one of these 2 example programs.
+
+* While there are example solutions, this activity is open ended meaning you can build
+'''
+
+[slide]
+title=Group mini-project
+markdown : '''
+* Data Entry / Data Analysis CSV Tool
+    * Write an text-based CSV editor
+    * Must save and load from CSV format
+    * "Sacramento Real-estate Transactions" is provided as an example
+    * Add "spreadsheet" capabilities, that can report the mean, mode, and sum
+      of any column
+* Gutenberg Site Generator
+    * Create a static site generator that takes TXT texts from Project
+      Gutenberg and generates nice HTML based on them.
+    * "Great Expectations" by Charles Dickens is provided as an example
+    * Must input the text format Project Gutenberg supplies
+'''
+
+
+[slide]
+title=Group mini-project
+markdown : '''
+1. Milestone 1
+    * Read instructions.txt file for each program
+    * Form groups
+    * Do state diagram and pseudocode diagramming for all aspects
+    * Break down tasks -- these tasks can be worked on semi-independently!
+2. Milestone 2
+    * Get initial / limited functionality working for each task
+    * Each participant should work on different functions that contribute
+      different functionality
+3. Milestone 3
+    * Combine work
+    * Once everyone is done, combine the functionality into a single,
+      functioning file
+4. Milestone 4
+    * Debug, polish, and finish remaining features
+'''
+
+

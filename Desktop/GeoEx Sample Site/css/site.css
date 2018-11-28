@@ -1,0 +1,105 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 50px;
+    grid-gap: 0;
+    max-height: 100vh;
+}
+
+.Responsive {
+    width: 100%;
+    height: auto;
+}
+
+.Navigation {
+    grid-row: 1;
+    background-image: linear-gradient(to bottom, #00173a, #33578c);
+}
+
+.Nav1 {
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+}
+
+.Left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social {
+    padding-top: 43px;
+    padding-left: 30px;
+}
+
+.Icon {
+    max-width: 30px;
+}
+
+.Nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #404c5e;
+    border-top: 1px solid #404c5e;
+
+}
+
+.NavText {
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-size: 1.2rem;
+    background: #404c5e;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #00173a;
+    padding: 5px 10px;
+}
+
+.NavText:hover {
+    color: #f79f5d;
+}
+
+.Globes {
+    list-style-type: none;
+    max-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Globe {
+    max-width: 180px;
+    height: auto;
+}
+
+.Globe:hover {
+    transform: scale(1.25);
+    transition: all 1s ease;
+}
+
+.Text {
+    color: white;
+    text-align: center;
+}
+
+.Slideshow {
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+    max-height: 500px;
+}
+
+.Interest {
+    grid-row: 3;
+    display: grid;
+}
+
+.Footer {
+    grid-row: 4;
+}

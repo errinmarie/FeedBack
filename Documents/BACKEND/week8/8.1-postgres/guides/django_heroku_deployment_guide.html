@@ -1,0 +1,93 @@
+<h1 id="launching-to-heroku">Launching to Heroku</h1>
+<p>This is how you deploy a Django applications to Heroku, if you started it using <code>django-admin startproject</code>. For an example project that was created using <code>django-admin startproject</code> and deployed, see here: <a href="https://github.com/michaelpb/djtestproj"><code>github.com/michaelpb/djtestproj</code></a></p>
+<blockquote>
+<p><em>NOTE:</em> If you started your project using the <code>cookiecutter</code> guide, this guide also applies, except skipping steps <strong>4</strong>, <strong>6</strong>, and <strong>9</strong> (assuming you using the provided <code>production.py</code> file as instructed).</p>
+</blockquote>
+<ol style="list-style-type: decimal">
+<li><p>Ensure you have a (free) Heroku account, and can remember the password. This can be done by simply signing up at the website.</p></li>
+<li>Install the Heroku CLI
+<ul>
+<li>macOS: <code>brew install heroku/brew/heroku</code></li>
+<li>Ubuntu Linux: <code>sudo snap install heroku --classic</code></li>
+<li>Ubuntu Linux (alternative): Go to the Software Center, search for Heroku, and install</li>
+</ul></li>
+<li><p>Go to the directory of your Django project</p></li>
+<li><p><em>If you used <code>django-admin startproject</code></em>, create a file called <code>Procfile</code> with the following contents:<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">web</span>: python manage.py runserver 0.0.0.0:<span class="va">$PORT</span></code></pre></div></li>
+<li><p>Heroku requires you that your project is in a git repository in a standard way: The <code>Procfile</code>, <code>Pipfile</code>, and <code>manage.py</code> are all at the &quot;top level&quot; next to <code>README.md</code> and <code>.git</code>, etc.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> Refer to the <code>djtestproj</code> example project if you are uncertain what it should look like.</p></li>
+<li><p><em>If you used <code>django-admin startproject</code></em>, allow Django to be served on any domain, by changing the list called <code>ALLOWED_HOSTS</code> in your <code>settings.py</code>, as such:<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">ALLOWED_HOSTS <span class="op">=</span> [<span class="st">&quot;*&quot;</span>]</code></pre></div></li>
+<li><p>Login to Heroku (should only have to do this once):</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">heroku</span> login</code></pre></div></li>
+<li><p>Create a new Heroku Application on your account for your project:</p>
+<pre><code>heroku create</code></pre></li>
+<li><p><em>If you used <code>django-admin startproject</code></em>, configure this Heroku app to skip a step which likely will break:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">heroku</span> config:set DISABLE_COLLECTSTATIC=1</code></pre></div></li>
+<li><p>Do do a git add and git commit. You will have to do this before every launch to Heroku: <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> add -A
+<span class="fu">git</span> comit -m <span class="st">&quot;your commit note goes here....&quot;</span></code></pre></div></li>
+<li><p>Launch your site on Heroku:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> push heroku master</code></pre></div></li>
+</ol>
+<p>If it's working, you should see text like &quot;Python app detected&quot;, then after a 30 seconds or so, something like:</p>
+<pre><code>remote: -----&gt; Launching...
+remote:        Released v4
+remote:        https://pure-crag-68.herokuapp.com/ deployed to</code></pre>
+<p>That strange URL &quot;pure-crag-68&quot; will be a different combo of random words and numbers for you. Click on that link or copy and paste it into your browser to see your application live for the world to see.</p>
+<h2 id="more-tips" class="unnumbered">More Tips</h2>
+<ul>
+<li><p>To push to git hub, you will use <code>git push</code> as before.</p></li>
+<li><p>Going forward, you will only need to repeat repeat step 10 &amp; 11 (<code>git push   heroku master</code>) to create a new git commit and release it to the world. The rest of the steps you won't have to repeat.</p></li>
+<li><p>If stuff still isn't working, use the <code>heroku logs</code> command to see error messages.</p></li>
+<li><p>Consider using the Heroku online interface to change the app name from the random nonsense name to be something more appropriate.</p></li>
+</ul>
+<h2 id="tip-postgres-on-heroku">Tip: Postgres on Heroku</h2>
+<p>By default, Django is set-up to use SQLite. This has a big drawback: Every time you push to Heroku, it might clear your data. While it is not necessary to receive full credit on the homework, you may choose to use Postgres instead.</p>
+<h3 id="provisioning-on-heroku">Provisioning on Heroku</h3>
+<p><em>NOTE:</em> For the these last commands, you will need to change &quot;pure-crag-68&quot; to the similarly random name your app got when you created it.</p>
+<ol style="list-style-type: decimal">
+<li>Local installation (only need to do once)
+<ul>
+<li>Ubuntu Linux: <code>sudo apt-get install postgresql-client</code></li>
+<li>macOS: <code>brew install postgres</code></li>
+</ul></li>
+<li><p>Creating a new Heroku Postgres Database (only need to do this once per Heroku):</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">heroku</span> create <span class="co"># Create a Heroku app (only run this if you haven&#39;t already)</span>
+<span class="ex">heroku</span> addons:create heroku-postgresql:hobby-dev --app pure-crag-68</code></pre></div></li>
+<li><p>Confirm that the database is working by connecting to it with the command-line client:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">heroku</span> pg:psql --app pure-crag-68</code></pre></div></li>
+</ol>
+<h3 id="configuring-django-to-use-postgres">Configuring Django to use Postgres</h3>
+<ul>
+<li><p><em>If you used <code>django-admin startproject</code></em>, then follow this guide: <a href="https://devcenter.heroku.com/articles/django-app-configuration"><code>devcenter.heroku.com/articles/django-app-configuration</code></a></p></li>
+<li><p>Once Heroku &amp; Django is properly configured for Django, you'll need to run the migrations on the remote Postgres database. That can be done as follows:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">heroku</span> run python manage.py migrate</code></pre></div></li>
+</ul>
+<hr />
+<h1 id="setting-up-individual-features">Setting up individual features</h1>
+<h3 id="mailgun">Mailgun</h3>
+<p>Add env variables to Heroku as such: * MAILGUN_API_KEY * MAILGUN_DOMAIN</p>
+<p>Then, add the following to your production.py:</p>
+<pre><code># Anymail (Mailgun)
+# ------------------------------------------------------------------------------
+# https://anymail.readthedocs.io/en/stable/installation/#installing-anymail
+INSTALLED_APPS += [&#39;anymail&#39;]  # noqa F405
+EMAIL_BACKEND = &#39;anymail.backends.mailgun.EmailBackend&#39;
+# https://anymail.readthedocs.io/en/stable/installation/#anymail-settings-reference
+ANYMAIL = {
+    &#39;MAILGUN_API_KEY&#39;: env(&#39;MAILGUN_API_KEY&#39;),
+    &#39;MAILGUN_SENDER_DOMAIN&#39;: env(&#39;MAILGUN_DOMAIN&#39;)
+}</code></pre>
+<h3 id="redis">Redis</h3>
+<p>Django Cookiecutter's default configuration uses a powerful NoSQL database known as Redis by default for caching. - Provision a (free) Redis database after setting up your credit card: - heroku addons:create heroku-redis:hobby-dev</p>
+<h3 id="aws-s3">AWS S3</h3>
+<p>Django Cookiecutter's default configuration uses AWS S3 (Amazon Web Services) by default for uploaded file storage. Typically, this is exactly what you need: AWS supports as many and as large of files that your users might want to upload. - Use AWS: - Setup AWS and get your keys (follow this guide: https://devcenter.heroku.com/articles/s3#s3-setup) - Configure your keys using heroku config:add for each of the AWS settings specified by config/settings/production.py</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>This tells Heroku where your Python code is found and how to run it to get to get your app going. See the file <code>5.3/activities/minidjango/Procfile</code> for an example example)<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Check the location of the <code>.git</code> directory with <code>ls -a</code>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>If you prefer, you can instead add this line to the end of your <code>settings.py</code>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>This is because Heroku acts like &quot;another GitHub&quot;, and only accepts files and changes that are put into a git commit.<a href="#fnref4">↩</a></p></li>
+</ol>
+</div>

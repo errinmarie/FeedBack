@@ -1,0 +1,175 @@
+
+/* --------Body, header & nav - will not change--------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #8ab8a7;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 50px 5fr 1fr;
+    grid-gap: 0;
+    max-height: 100vh;
+}
+
+.Header {
+    grid-row: 1;
+    border-bottom: 1px solid white;
+}
+
+.Nav {
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.element {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.element:hover {
+    color: #52767b;
+}
+
+/* --------Month names - will not change--------- */
+
+.Labels {
+    grid-row: 4;
+    justify-content: space-between;
+    display: flex;
+}
+
+.name {
+    text-align: center;
+    margin: 3px;
+    flex-grow: 1;
+}
+
+
+/* --------Chart layout - will not change--------- */
+
+.Chart--far,
+.Chart--cel {
+    grid-row: 3;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.Chart--far {
+    display: flex;
+}
+
+.Chart--cel {
+    display: none;    
+}
+
+.Nav-Fahrenheit {
+    font-weight: ;
+    color: ;
+}
+
+.Nav-Celcius {
+    font-weight: normal;
+    color: ;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.bar {
+    display: flex;
+    background: #6d8d82;
+    margin: 3px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.Temp {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.Bars-Jan {
+    height: 68%;
+}
+
+.Bars-Feb {
+    height: 70%;
+}
+
+.Bars-Mar {
+    height: 73%;
+}
+
+.Bars-Apr {
+    height: 82%;
+}
+
+.Bars-May {
+    height: 90%;
+}
+
+.Bars-Jun {
+    height: 93%;
+}
+
+.Bars-Jul {
+    height: 91%;
+}
+
+.Bars-Aug {
+    height: 91%;
+}
+
+.Bars-Sep {
+    height: 90%;
+}
+
+.Bars-Oct {
+    height: 86%;
+}
+
+.Bars-Nov {
+    height: 79%;
+}
+
+.Bars-Dec {
+    height: 73%;
+}
+
+/* --------Celcius chart--------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Color palette for future reference:
+
+background = #8ab8a7
+odd bars = #6d8d82
+even bars = #6c9997 
+header = #52767b
+
+*/

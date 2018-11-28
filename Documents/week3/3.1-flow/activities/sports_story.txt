@@ -1,5 +1,0 @@
-<p>The most anticipated game today: Packers vs Patriots</p>
-<p>Packers won against Patriots</p>
-<p>Packers managed to score 59 points </p>
-<p>The pathetic Patriots only scored 22 points </p>
-<p></p>

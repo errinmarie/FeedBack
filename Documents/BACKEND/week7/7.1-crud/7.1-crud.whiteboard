@@ -1,0 +1,181 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=7.1 - CRUD
+
+[slide]
+title=URL parameters, ORM & CRUD, & Project Work
+
+
+[slide]
+title=URL Parameters
+markdown : '''
+### Key Word
+
+* **URL parameter** - a feature of Django that let us receive a portion of the
+  URL as a variable in our view function
+'''
+
+
+[slide]
+title=DISCUSSION - URL Parameters
+markdown : '''
+
+* Answer this question: What part of the URL stays the same? Is different? What
+  might be happening behind the scenes to make this work?
+
+
+Stack Overflow - *some Python questions*
+
+* `stackoverflow.com/questions/3323591/`
+* `stackoverflow.com/questions/50912566/`
+* `stackoverflow.com/questions/2149697/`
+
+Instagram - *a few famous Instagram accounts*
+
+* `instagram.com/cristiano/`
+* `instagram.com/kickstartcoding/`
+* `instagram.com/kimkardashian/`
+'''
+
+
+[slide]
+title=ACTIVITY 1: faceboop params
+editor = ./activities/1_faceboop_params/instructions.md
+terminal = ./solutions/1_faceboop_params/faceboop/
+
+
+[slide]
+title=REVIEW 1: faceboop params
+editor : '''
+./solutions/1_faceboop_params/faceboop/wall/models.py
+./solutions/1_faceboop_params/faceboop/wall/views.py
+./solutions/1_faceboop_params/faceboop/faceboop/urls.py
+./solutions/1_faceboop_params/faceboop/wall/templates/*.html
+'''
+terminal = ./solutions/1_faceboop_params/faceboop/
+
+
+
+
+[slide]
+title=ORM
+markdown : '''
+
+
+### KEY TERMS (Review)
+* ORM - Object Relational Mapping - a library that handles saving Python
+  objects to a database, and retrieving them again later
+* Django ORM - the methods that we've already been using to store and retrieve
+  the User objects
+* model - the M in MVC, a class that can be "persisted" using the ORM
+* migration - the ORM code necessary to update the database to support a
+  given data-model
+
+### KEY TERMS
+* field - a property of a model that gets persisted to the database
+* id field - each model automatically gets assigned an "id" field which is a
+  unique number starting at 1
+* CRUD - Create, Read, Update, Delete - the basic operations in most/all web
+  apps
+'''
+
+
+[slide]
+title=DEMO: CRUD
+terminal = ./demos/forms_example/
+editor : '''
+./demos/forms_example/dmv/views.py
+./demos/forms_example/dmv/templates/*.html
+'''
+
+[slide]
+title=DISCUSSION: CRUD
+markdown : '''
+Just about all operations on a website can be broken down into one or more of
+the CRUD operations. Discuss with students near you which CRUD operation(s)
+might be involved with each of the following operations on a social network:
+
+- Writing a status message
+- Sending a friend request
+- Accepting a friend request
+- Editing a post
+- Liking a post
+- Unfriending someone
+- Deleting a post
+- Posting a photo
+
+'''
+
+
+[slide]
+title=CRUD
+markdown : '''
+* Getting good at backend is about 90% getting good at CRUD operations
+
+* It's been said that every web app is just a database with a different UI
+
+* *NOTE:* Chances are, in real life, things aren't so clear cut, so likely ALL
+  CRUD operations would apply to ALL of these operations in a sufficiently
+  complicated website.
+'''
+
+[slide]
+title=Quiz
+markdown : '''
+1. Cheatsheets put away
+2. Laptops closed
+3. Put your name at the top
+4. Just give it your best! You probably know more than you think.
+'''
+
+
+[slide]
+title=ACTIVITY 2: faceboop crud
+editor = ./activities/2_faceboop_crud/instructions.md
+terminal = ./solutions/2_faceboop_crud/faceboop/
+
+
+[slide]
+title=REVIEW 2: faceboop crud
+editor : '''
+./solutions/2_faceboop_crud/faceboop/wall/models.py
+./solutions/2_faceboop_crud/faceboop/wall/views.py
+./solutions/2_faceboop_crud/faceboop/faceboop/urls.py
+./solutions/2_faceboop_crud/faceboop/wall/templates/*.html
+'''
+terminal = ./solutions/2_faceboop_crud/faceboop/
+
+
+
+[slide]
+title=ACTIVITY 3: boop chat crud (bonus)
+editor = ./activities/3_boop_chat_crud/instructions.md
+terminal = ./solutions/3_boop_chat_crud/faceboop/
+
+
+[slide]
+title=ACTIVITY 3: boop chat crud (bonus)
+editor : '''
+./solutions/3_boop_chat_crud/faceboop/wall/models.py
+./solutions/3_boop_chat_crud/faceboop/wall/views.py
+./solutions/3_boop_chat_crud/faceboop/faceboop/urls.py
+./solutions/3_boop_chat_crud/faceboop/wall/templates/*.html
+'''
+terminal = ./solutions/2_faceboop_crud/faceboop/
+
+[slide]
+title=Questions?
+
+[slide]
+title=Project Work
+markdown : '''
+# Finalize your MVP featureset today!
+
+![mvp](file://./images/mvppyramid.png)
+'''
+
+
+

@@ -1,0 +1,23 @@
+For this activity, you will be making a series of alteration to this
+Kitty City website. You should ONLY be altering the CSS -- don't touch
+the HTML.
+
+Challenge 1: Examine the code. Can you explain what the "variables"
+prefixed with -- are doing? Can you explain why the CSS classes are
+named the way they are?  Hint: It's on your cheatsheet.
+
+Challenge 2: Add CSS to make every other list item have a gray background.
+
+Challenge 3: Make the first list item have no bullet point, have a
+larger font, and have the same color as the header elements using the
+CSS variable.
+
+Challenge 4: Make each "lead" (subheader below each headline) be in
+large curly, double quotation marks which are white. Make the lead
+itself be in a gray block.  (DO NOT edit the HTML code)
+
+Challenge 5: Make each paragraph have "small-caps" for the first line,
+and have the first letter be much bigger ("drop caps" effect).
+
+Bonus Challenge: Make the headlines proceed "Article #1 - ", "Article #2
+- " etc, with numbers that count up (entirely with CSS).

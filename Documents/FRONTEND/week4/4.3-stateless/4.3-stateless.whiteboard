@@ -1,0 +1,143 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=4.3 - Stateless Components
+
+[slide]
+title=ACTIVITY 1 - component library
+editor=./activities/1_component_library/instructions.md
+browser=./solutions/1_component_library/build/index.html
+
+[slide]
+title=SOLUTION 1 - component library
+editor=./solutions/1_component_library/src/App.js
+
+[slide]
+title=Functional Components
+
+[slide]
+title=Functional Components
+markdown : '''
+
+Instead of using `class`, we can also write a component as a function.
+
+This is a separate syntax that accomplishes the exact same thing, but with one
+exception: Functional components cannot have state.
+
+Depending on where you work, one or the other might be preferred or enforced in
+certain circumstances.
+
+### KEY TERM
+
+* functional components - another syntax for writing components, only
+  useful for compononets which have no state, aka "dumb components"
+'''
+
+
+
+[slide]
+title=Alternative Component Syntaxes
+markdown : '''
+
+### KEY TERM
+
+* functional components - another syntax for writing components, only useful
+  for compononets which have no state, aka "dumb components"
+'''
+editor = demos/altcomponentsyntaxes.js
+
+
+[slide]
+title=ACTIVITY 2 - componentathon
+editor=./activities/2_componentathon/instructions.md
+browser=./solutions/2_componentathon/build/index.html
+
+[slide]
+title=SOLUTION 2 - componentathon
+editor=./solutions/2_componentathon/src/App.js
+
+
+[slide]
+title=Questions
+markdown : '''
+* Can React directly access databases?
+
+* Can React talk with other browsers?
+'''
+
+
+[slide]
+title=Full Stack
+
+
+[slide]
+title=Full Stack
+markdown : '''
+* In the real world, React is used as a "Client" that interacts with a back-end
+  "Server"
+
+* We use the same concepts we've used before:
+    * `.fetch` to send `POST` and `GET` requests to the server
+    * The server thus functions as an API
+    * And the server sends JSON back as the response
+    * When we get the response, we do a `.setState` with the data we want, in
+      order to render the new data
+'''
+
+
+[slide]
+title=The Server for a Single Page App
+markdown : '''
+* "Backend API servers" for Single Page Apps DON'T "serve up HTML", like they
+  do in Multi Page Apps.
+
+* Instead, they ONLY send back JSON, which the React app (the "client") then
+  saves in its state and re-renders what we see
+
+* Thus, the backend becomes simpler, just a "gate-keeper" to the database with
+  some basic "business logic"
+'''
+editor : '''
+./activities/3_fullstack/server.py
+'''
+
+
+
+
+[slide]
+title=Python + React Challenge
+markdown : '''
+* In this challenge exercise, an API server is already written for you in
+  Python
+
+* Run this server, and figure out how to enhance the front-end so it displays
+  all the movies and allows you to search for movies
+
+* Note: You'll have to run 2 servers at once: React, and Python
+'''
+
+
+[slide]
+title=ACTIVITY 3 - full stack
+editor : '''
+./activities/3_fullstack/instructions.md
+./activities/3_fullstack/server.py
+./activities/3_fullstack/client/src/App.js
+'''
+
+[slide]
+title=SOLUTION 3 - full stack
+editor=./solutions/3_fullstack/client/src/App.js
+
+
+[slide]
+title=Bonus - Book Search Challenge
+browser=http://vast-retreat-72383.herokuapp.com/
+
+
+[slide]
+title=Questions?
+browser=http://vast-retreat-72383.herokuapp.com/
+

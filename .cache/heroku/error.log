@@ -1,0 +1,29 @@
+2018-10-06T22:38:43.154Z Error: EACCES: permission denied, write
+2018-10-06T22:38:43.154Z     at Object.info (/snap/heroku/3572/node_modules/cli-ux/lib/index.js:49:24)
+2018-10-06T22:38:43.154Z     at Object.log (/snap/heroku/3572/node_modules/cli-ux/lib/index.js:52:14)
+2018-10-06T22:38:43.154Z     at UpdateCommand.debounce (/snap/heroku/3572/node_modules/@oclif/plugin-update/lib/commands/update.js:121:40)
+2018/10/06 22:46:22 Error: getaddrinfo ENOTFOUND api.heroku.com api.heroku.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+2018-10-12T02:27:13.786Z Error: invalid json response body at https://buildpack-registry.heroku.com/buildpacks/heroku%2Fdjango reason: Unexpected end of JSON input
+2018-10-12T02:27:13.786Z     at Object.error (/snap/heroku/3578/node_modules/@oclif/errors/lib/index.js:22:17)
+2018-10-12T02:27:13.786Z     at BuildpackCommand.registryNameToUrl (/snap/heroku/3578/node_modules/@heroku-cli/plugin-buildpacks/lib/buildpacks.js:59:30)
+2018-10-23T02:50:50.065Z Error: EACCES: permission denied, write
+2018-10-23T02:50:50.065Z     at Object.info (/snap/heroku/3631/node_modules/cli-ux/lib/index.js:50:24)
+2018-10-23T02:50:50.065Z     at Object.log (/snap/heroku/3631/node_modules/cli-ux/lib/index.js:53:14)
+2018-10-23T02:50:50.065Z     at UpdateCommand.debounce (/snap/heroku/3631/node_modules/@oclif/plugin-update/lib/commands/update.js:122:40)
+2018-10-23T02:51:46.888Z Error: Missing required flag:
+2018-10-23T02:51:46.888Z  -a, --app APP  app to run command against
+2018-10-23T02:51:46.888Z See more help with --help
+2018-10-23T02:51:46.888Z     at validateFlags (/snap/heroku/3631/node_modules/@oclif/parser/lib/validate.js:34:27)
+2018-10-23T02:51:46.888Z     at Object.validate (/snap/heroku/3631/node_modules/@oclif/parser/lib/validate.js:39:5)
+2018-10-23T02:51:46.888Z     at Object.parse (/snap/heroku/3631/node_modules/@oclif/parser/lib/index.js:26:7)
+2018-10-23T02:51:46.888Z     at V5.parse (/snap/heroku/3631/node_modules/@oclif/command/lib/command.js:68:41)
+2018-10-23T02:51:46.888Z     at V5.run (/snap/heroku/3631/node_modules/@oclif/plugin-legacy/lib/index.js:90:52)
+2018-10-23T02:51:46.888Z     at V5._run (/snap/heroku/3631/node_modules/@oclif/command/lib/command.js:29:31)
+2018-10-23T02:52:33.644Z Error: Flag --app expects a value
+2018-10-23T02:52:33.644Z     at parseFlag (/snap/heroku/3631/node_modules/@oclif/parser/lib/parse.js:73:27)
+2018-10-23T02:52:33.644Z     at Parser.parse (/snap/heroku/3631/node_modules/@oclif/parser/lib/parse.js:95:21)
+2018-10-23T02:52:33.644Z     at Object.parse (/snap/heroku/3631/node_modules/@oclif/parser/lib/index.js:25:27)
+2018-10-23T02:52:33.644Z     at V5.parse (/snap/heroku/3631/node_modules/@oclif/command/lib/command.js:68:41)
+2018-10-23T02:52:33.644Z     at V5.run (/snap/heroku/3631/node_modules/@oclif/plugin-legacy/lib/index.js:90:52)
+2018-10-23T02:52:33.644Z     at V5._run (/snap/heroku/3631/node_modules/@oclif/command/lib/command.js:29:31)

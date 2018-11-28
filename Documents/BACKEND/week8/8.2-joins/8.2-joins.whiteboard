@@ -1,0 +1,112 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=8.2 - DB Optimization: Joins & Indices
+
+
+
+[slide]
+title=DISCUSS: SQL Recap
+markdown : '''
+1. Name the SQL command for each of the 4 CRUD operations
+
+2. Explain to someone next to you what each the following statements are doing:
+
+```
+SELECT * FROM users WHERE username = 'turtlefan';
+
+SELECT user_id, text FROM tweets WHERE like_count > 5;
+
+SELECT name, state FROM travel_destinations WHERE country = 'Mexico';
+
+INSERT INTO travel_destinations (name, state, country, package_available)
+VALUES ('Miami', 'Florida', 'USA', True);
+
+UPDATE travel_destinations
+SET package_available = False
+WHERE country = 'Germany';
+```
+'''
+
+
+[slide]
+title=DISCUSS with students next to you
+markdown : '''
+
+1. Name `database`, `table`, `column`, `row`, for all these?
+
+2. Explain how the columns are related between tables?
+
+3. Pseudocode the following: retrieve 100 users, and their photos, and the
+photos' tags.
+
+4. Discuss the pros and cons of your approach. Note: We will later learn how to
+transform this into 1 query. For now, you should write it as as many queries as
+necessary, even if it takes 100s.
+
+# instagrim
+
+|      | users         |
+| ----:|---------------|
+| id   | username      |
+| `1`  | `morticia   ` |
+| `2`  | `gomez      ` |
+| `3`  | `unc_fester ` |
+| `4`  | `wednesday  ` |
+
+
+|      | photos   |                    |
+| ----:|---------:|--------------------|
+| id   | user_id  | photo              |
+| `1`  | `1`      | `/ph/fa29aec3.jpg` |
+| `2`  | `3`      | `/ph/3aec49ef.jpg` |
+| `3`  | `4`      | `/ph/63dd3fc0.jpg` |
+| `4`  | `3`      | `/ph/b3759be4.jpg` |
+
+
+|      | tags       |            |
+| ----:|-----------:| ---------- |
+| id   | photo_id   | text       |
+| `1`  | `1`        | `nofilter` |
+| `2`  | `1`        | `deadtome` |
+| `3`  | `3`        | `nofilter` |
+'''
+
+
+[slide]
+title=Many queries: Too slow
+markdown : '''
+* Ideally, everything you get from the database should be done in a single
+  query
+
+* Many "round-trips" to the database is what can cause websites to take a long
+  time to load and handle few visitors
+'''
+
+
+[slide]
+title=Introducing: SQL Joins
+markdown : '''
+* Joins let us fetch data from multiple tables in query
+
+* It lets us form correlations between tables
+'''
+
+[slide]
+title=Join Simulator
+browser = https://sql-joins.leopard.in.ua/
+
+
+[slide]
+title=DEMO: Joins + Indices
+terminal=demos/companydata/
+
+
+[slide]
+title=ACTIVITY: Company Data
+terminal=activities/companydata/
+
+
+

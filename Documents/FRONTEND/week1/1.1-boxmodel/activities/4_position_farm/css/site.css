@@ -1,0 +1,24 @@
+body {
+    background: url('../img/grass_top.png');
+}
+
+
+.River {
+    background: url('../img/water.png');
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.AnimalPen {
+    border: 3px solid brown;
+    background: rgba(127, 100, 100, 0.2);
+}
+
+.Wheat {
+    display: block;
+    position: absolute;
+}
+
+/* ********************************** */
+
+

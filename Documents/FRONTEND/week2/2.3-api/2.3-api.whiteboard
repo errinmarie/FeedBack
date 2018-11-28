@@ -1,0 +1,228 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=2.3 - APIs
+
+
+[slide]
+title=JavaScript is a lot to learn, but worth it
+
+
+[slide]
+title=It's in high demand...
+markdown : '''
+![jobs](file://./images/javascript_jobs.png)
+'''
+
+[slide]
+title=...and very useful.
+markdown : '''
+
+* **React** - Build advanced, interactive web applications
+
+* **React Native** - Build native apps for iOS, Android
+
+* **Electron** - Build desktop applications for macOS, GNU/Linux, Windows (how
+  VSCode, Atom, and Whiteboard were built)
+
+* **node.js** - Can even be used in a similar capacity to Python or Ruby
+
+![jobs](file://./images/react-native.thumb.png)
+'''
+
+[slide]
+title=ACTIVITY 1 - js review
+editor=./activities/1_js_review.md
+
+
+[slide]
+title=SOLUTION 1 - js review
+editor=./solutions/1_js_review.md
+
+[slide]
+title=External scripts
+markdown : '''
+
+You don't have to cram all your JS code into `<script>` tags. Instead, you will
+want to put all (if possible) of your JS code into a separate `.js` file. You
+can include separate JS files into your HTML as such:
+
+```
+<script src="./js/main.js">
+</script>
+```
+
+* Traditionally, this is put at the bottom of your page, right before the
+  closing tag `</body>`
+
+* Just like CSS, multiple HTML pages can include the same JS file
+
+* **Gotcha:** Need to always include `</script>` (unlike CSS)
+
+'''
+
+
+[slide]
+title=ACTIVITY 2 - cognize
+editor : '''
+./activities/2_cognize/js/main.js
+./activities/2_cognize/index.html
+'''
+browser=./solutions/2_cognize/index.html
+
+
+[slide]
+title=SOLUTION 2 - cognize
+editor=./solutions/2_cognize/js/main.js
+
+[slide]
+title=APIs & Single Page Apps
+
+[slide]
+title=API
+markdown : '''
+What are these acronyms?
+
+* GUI
+* CLI
+* API
+'''
+
+
+[slide]
+title=API
+markdown : '''
+What are these acronyms?
+
+* GUI - Graphical User Interface
+* CLI - Command-Line Interface
+* API - Application Program Interface
+    * The "interface" for code
+'''
+
+
+[slide]
+title=API
+markdown : '''
+- An API is interface our code can use to access other people's data and/or
+  code.
+
+- Web API's are based on requests and responses
+
+### KEY TERMS
+
+* API - The interface our code can use to access other people's data and code.
+
+* JSON - JavaScript Object Notation, most popular file format to structure data
+  for web APIs
+'''
+
+
+[slide]
+title=APIs & fetch
+markdown : '''
+- Using JavaScript's `fetch`, we can retrieve data from Web APIs to use in our
+  applications
+
+- These are typically done via the JSON file format
+
+- We can use this to build "Single Page Apps" (you'll learn about these in a
+  moment)
+'''
+
+[slide]
+title=DEMO: fetch example
+editor=./demos/fetch_example.html
+browser=./demos/fetch_example.html
+
+[slide]
+title=Single Page Apps
+
+[slide]
+title=Single Page Apps
+markdown : '''
+**Single Page** vs *Multi Page**
+
+Single Page Apps are popular. They are JavaScript-based websites that  use
+"fake links", that don't actually move the browser to a new page, but just load
+new data using API requests made from JavaScript and use DOM manipulation to
+display it.
+
+Many modern websites are Single Page Apps
+
+### KEY TERMS
+
+* Single Page Apps - A web app that loads a single page that has JavaScript,
+  which in turn uses extra requests (using, for example, "fetch") to load
+  subsequent data.
+* Multi-Page Apps - A web app that has "real links" that go to new pages --
+  the standard Django, Rails, or PHP site is considered a multi-page app
+'''
+
+
+[slide]
+title=Showdown: SPA vs MPA
+markdown : '''
+![good bad ugly](file://./images/goodbadugly.gif)
+'''
+
+[slide]
+title=Showdown: SPA vs MPA
+markdown : '''
+
+
+|                     | SEO (Searchability)    | Browser strain | Sharing / linking| Browser history    | Error reporting | Real-time interaction        |
+|--------------------:|------------------------|----------------|------------------|--------------------|-----------------|------------------------------|
+| **Multi-Page Apps** | Easy                   | Light          | Easy             | Easy               | Easy            | Impossible                   |
+| **Single-Page Apps**| Hard                   | Heavy          | Hard             | Hard               | Hard            | Easy                         |
+
+
+|                     | Languages                     | Frameworks                        | Trendiness       |
+|--------------------:|-------------------------------|-----------------------------------|------------------|
+| **Multi-Page Apps** | Python, Ruby, PHP, Java       | Django, Rails, Laravel, Spring    | 🙄 Bagel         |
+| **Single-Page Apps**| JavaScript (& variants)       | React, Vue, Angular, jQuery       | 👌Avocado toast  |
+
+'''
+
+[slide]
+title=ACTIVITY 3: spa vs mpa
+editor=./activities/3_spa_vs_mpa.md
+
+
+[slide]
+title=ACTIVITY 4 - api gif search
+editor=./activities/4_api_gif_search.html
+browser=./solutions/4_api_gif_search.html
+
+[slide]
+title=SOLUTION 4 - api gif search
+editor:'''
+./solutions/4_api_gif_search.html
+./solutions/4_api_gif_search_innerhtml.html
+'''
+
+
+[slide]
+title=Lightning Project: Single page app
+
+[slide]
+title=Random group formation!
+markdown : '''
+![jobs](file://./images/adevglasses.gif)
+'''
+
+[slide]
+title=ACTIVITY 5: api activity
+markdown : '''
+* Work on an API-driven Single Page App with your group.
+
+* There are example topics + APIs at the bottom, which, if time is constrained,
+  it might be best to just go with one of these
+
+* Short on time? Focus on getting at least a simple proof of concept for your
+  API working.
+'''
+editor=./activities/5_api_activity.md
+

@@ -1,0 +1,98 @@
+/*
+Challenge 1
+Make it so that the AnimalPen takes 3 seconds to transitions to the "brown"
+background, instead of instantly switching.
+*/
+
+.AnimalPen {
+    background: transparent;
+}
+
+.AnimalPen:hover {
+    background: brown;
+}
+
+
+
+
+/*
+Challenge 2
+Make each part of the river grow in size (taking 2 seconds) when you move the
+mouse over it.
+
+HINT: Think about adjusting the height and width or padding on hover. Selectors
+are written for you below.
+*/
+
+.River {
+}
+
+.River--part1:hover {
+}
+
+.River--part2:hover {
+}
+
+.River--part3:hover {
+}
+
+
+
+
+/*
+Challenge 3
+Make it so that the Rabbit repeatedly "hops" when you hover your cursor over
+it.
+
+HINT: The "Hop" animation is already written for you. Make sure you set
+"animation-direction: alternate;" to make sure it bounces "back and forth" as
+opposed to just leaping then "teleporting" back down, and also make sure you
+make "animation-iteration-count: infinite" to make the bunny continually jump
+for joy. Code below:
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+*/
+
+.Rabbit:hover {
+    /* Add code here! */
+}
+
+@keyframes Hop {
+  from { transform: translate3d(0, 0, 0);    }
+  to   { transform: translate3d(0, 50px, 0); }
+}
+
+
+/*
+Challenge 4
+The "rhythm" or timing of the motion of the hop isn't so great, is it? It
+doesn't look very much like a hop. This is where a "timing function" comes into
+play, also known in animation as "tweening" (since it refers to the
+"in-between" states in an animation). We need to use a
+
+HINT: Getting a good timing function can be difficult
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1,0.5);
+*/
+
+
+/*
+Challenge 5
+Make the bear slide around the screen continually.
+*/
+
+
+/*
+Bonus Challenge:
+Make it so that when you hover over the animals in the pen, they hop up and
+spin around once.
+*/
+
+
+/*
+Advanced Bonus Challenge:
+Check out CSS filters to animate the grass and wheat appearance, such as by
+gradually enhancing brightness and contrast.
+
+(No solution provided.)
+*/
+

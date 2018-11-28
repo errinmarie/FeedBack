@@ -1,0 +1,163 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=Kickstart Coding - 5.3
+
+[slide]
+title=Django + Heroku
+
+[slide]
+title=The Internet
+markdown : '''
+![The internet](file://./images/world-submarine-cable-map.png)
+'''
+
+[slide]
+title=Requests & Responses - 1
+markdown : '''
+![requests and responses](file://./images/request_response_1.png)
+'''
+
+
+[slide]
+title=Requests & Responses - 2
+markdown : '''
+![requests and responses](file://./images/request_response_2.png)
+'''
+
+[slide]
+title=Routing
+markdown : '''
+![routing](file://./images/routing.png)
+'''
+
+[slide]
+title=ACTIVITY 1: django
+editor=./activities/1-django/instructions.md,./activities/1-django/manage.py
+terminal=./solutions/1-django/
+
+
+[slide]
+title=SOLUTION 1: django
+editor=./solutions/1-django/manage.py
+terminal=./solutions/1-django/
+
+
+[slide]
+title=ACTIVITY 2: django improved
+editor=./activities/2-django-improved/instructions.md,./activities/2-django-improved/manage.py
+terminal=./solutions/2-django-improved/
+
+
+[slide]
+title=SOLUTION 2: django improved
+editor=./solutions/2-django-improved/manage.py
+terminal=./solutions/2-django-improved/
+
+
+[slide]
+title=Group formation! Take a number...
+markdown : '''
+![Goats](file://./images/musical_chairs_goats.gif)
+'''
+
+
+[slide]
+title=DISCUSSION 3: Research time!
+markdown : '''
+Instructions also in: `activities/3_group_research.txt`
+
+Which of the following concepts are the weakest or fuzziest for members of your
+group? Can you formulate in your own words definitions of all of the
+terminology, or answers to each of the following terms or questions?
+
+### Web
+
+**Terms:** `internet` `server` `request` `response` `routing` `API` `TCP` `HTTP`
+`IP Address`
+
+1. What are some examples of clients?
+
+2. How does HTTP work to deliver content from servers to clients?
+
+
+### Python modules
+
+**Terms:** `module` `import` `standard library` `PyPI` `pipenv` `virtualenv`
+
+**Libraries:** `jinja` `markdown` `django`
+
+1. What are the use of Python Modules?
+
+2. How can we download new libraries and put them into use?
+
+
+### Python OOP
+
+**Terms:** `class` `method` `constructor` `instantiate` `instance`
+
+1. What is the object oriented programming paradigm?
+
+2. How do we create new classes and objects using Python OOP?
+
+'''
+
+[slide]
+title=Lightning Projects
+
+[slide]
+title=Mini-Django Introduction
+editor=./activities/minidjango/*.py
+terminal=./activities/
+
+[slide]
+title=Lightning Projects - Planning
+markdown : '''
+# Phase 1
+
+Plan your app. DO NOT take more than 15 minutes for this. If
+you cannot agree upon an idea in 15 minutes, then just pick one person
+at random in your group who had an idea and everyone must go with that
+idea.
+
+'''
+editor=./activities/4_group_projects.txt
+
+
+[slide]
+title=Lightning Projects - Work work work
+editor=./activities/4_group_projects.txt
+markdown : '''
+![Work](file://./images/work.gif)
+'''
+
+[slide]
+title=Heroku
+markdown : '''
+To launch our Django projects, we must go beyond GitHub pages, which is only
+appropriate for static sites.
+
+We must use a "real" server, such as those provided by **Heroku**.
+
+See `./guides/heroku_deployment_guide.txt`
+
+
+### KEY TERMS
+* heroku - a company that will run your HTTP server application for you, and
+  expose it to the web (subsidiary of SalesForce)
+'''
+
+[slide]
+title=Everyone: Launch minidjango to Heroku!
+editor=./guides/heroku_deployment_guide.txt
+
+
+[slide]
+title=Lightning Projects - Work work work
+editor=./activities/4_group_projects.txt
+markdown : '''
+![Work](file://./images/work.gif)
+'''
+

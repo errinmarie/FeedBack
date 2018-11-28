@@ -1,400 +1,3 @@
-ls
-cd
-cd Desktop
-ls
-cd ..
-ls
-mkdir
-mkdir packers
-ls
-mkdir heyya
-cd packers
-cd p
-mkdir ladders
-ls
-mkdir packers
-cd packers/
-touch empty_file.html
-ls
-touch 20_point_lead.html
-rm 20_point_lead.html 
-mv empty_file.html coolthing.html
-ls
-mkdir new_spot
-mv coolthing.html new_spot/
-ls
-cd
-cd challenge_1_turles
-cd challenge_1_turtles
-cd challenge_1_turtles
-cd turtle/
-ls
-cd enter_if_you_dare/
-ls
-cd enter_if_you_dare/
-ls
-cd go_here/
-ls
-cd correct_path_this_way/
-ls
-cd door_three
-ls
-ls*
-ls *
-cd 7
-ls
-cd the_path_onward/
-ls
-ls -a
-ls
-ls -a
-ls-a
-ls -a
-ls
-ls 
-ls -a
-ls
-ls_-a
-ls-a
-ls -a
-ls
-mv Basketball 3_hoops
-mv Basket_ball hoop
-git init
-sudo apt install git
-git init
-ls -a
-touch index.html
-ls
-pwd
-mv index.html ~/
-ls
-cd downloads
-cd ..
-ls
-cd ..
-ls
-cd /tmp
-ls
-cd
-/tmp
-ls
-mkdir rep0
-cd
-ls
-cd rep0/
-ls
-touch file.txt
-ls
-cd /tmp/
-ls
-cd
-ls
-cd /tmp
-ls
-mkdir rep0
-cd rep0/
-touch file.txt
-cd /tmp/
-ls
-cd /tmp
-ls
-mkdir rep0
-cd rep0/
-touch file.txt
-cd /tmp/
-ls
-cd /tmp/
-ls
-mkdir rep1
-cd rep1
-touch file.txt
-cd /tmp/
-ls
-cd /tmp/
-ls
-mkdir rep2
-cd rep2
-touch file.txt
-cd /tmp/
-ls
-cd /tmp/
-ls
-mkdir rep3
-cd rep3
-touch file.txt
-cd /tmp/
-ls
-cd /tmp/
-ls
-mkdir rep4
-ls
-cd rep4
-touch file.txt
-ls
-cd /tmp/
-ls
-cd rep4
-ls
-cd /tmp
-mkdir rep0
-cd rep0
-ls
-cd rep1
-ls
-cd rep1
-cd rep2
-cd rep0
-mkdir rep0
-cd rep0
-ls
-cd rep0
-git init practice
-ls -a
-cd practice
-ls
-touch index.html
-ls
-gedit index.html 
-git add -A
-git commit -m 'created header'
-git config --global user.email "errinmixon@gmail.com"
-git config --global user.name "Errin Mixon"
-cd practice
-ls
-cd practice
-ls
-git add -A
-git commit -m 'added header'
-git log
-git branch my-test-branch
-git status
-git checkout my-test-branch
-git status
-gedit index.html
-git add -A
-git commit -m 'added paragraph text'
-git log
-git checkout master
-git merge my-test-branch
-git log
-git checkout my-test-branch
-ls
-gedit index.html
-git add -A
-git commit -m 'added more paragraph text'
-git log
-git checkout master
-git merge my test-branch
-git merge my-test-branch
-git log
-git checkout master
-gedit index.html
-git add -A
-git commit -m 'simulate conflict'
-git checkout master
-git merge my-test-branch
-git clone 
-git clone https://github.com/errinmarie/pickles
-cd pickles/
-git remote -v
-gedit index.html
-git add -A
-git commit -m 'added pickle header'
-git log
-git diff
-gedit text.html
-gedit index.html
-git add -A
-git commit -m 'added more pickle text'
-git log
-git diff
-git push
-gedit index.html
-git add -a
-git add -A
-git commit -m 'people want pickle news'
-git log
-git diff
-git push
-mkdir pickles 2
-cd pickles 2
-mkdir pickles2
-cd pickles2
-git clone https://github.com/errinmarie/pickles/blob/master/index.html
-cd home
-ls
-cd ..
-mkdir pickles2
-mkdir morepickles
-cd 
-ls
-cd 
-mkdir pickles2
-cd pickles
-cat about.html
-cat index.html
-cd 
-clear
-cd 
-ls
-cd downloads
-cd download
-cd 
-ls
-cd desktop
-cd downloads
-cd download
-cd Downloads
-ls
-cd Downloads/week2
-cd Downloads week2
-cd Downloads
-cd '/home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/1-jabberwocky' 
-ls
-cat jabberwocky_a jabberwocky_b jabberwocky_c > combined file
-cat jabberwocky_a.txt jabberwocky_b.txt jabberwocky_c.txt > combined_file.txt
-gedit combined_file.txt
-clear
-cd 
-'/home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/content' 
-ls
-ls
-templates/top.html content/index.html content/projects.html content/contact.html templates/bottom.html > homework1.html
-gedit homework1.html
-cd 
-cat templates/top.html content/index.html content/projects.html content/contact.html templates/bottom.html > homework1.html
-cat templates/top.html content/indext.html templates/bottom.html
-cd 
-'/home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site' ls
-cat https://github.com/errinmarie/pickles/blob/master/index.html
-cat templates/top.html content/index.html templates/bottom.html
-https://github.com/errinmarie/pickles/blob/master/index.html > homework1.html
-'/home/errinmixon/Downloads/week2/2.2-git/activities/3-cat-redirect/2-html-site/templates' ls
-cat templates/top.html content/index.html content/projects.html content/contact.html templates/bottom.html > homework1.html
-python3
-'/home/errinmixon/Downloads/week2/2.1-bash/activities/2-cli-challenge/challenge_1_turtles/turtle' ls
-cd turtle
-cd 
-ls
-cd Documents
-ls
-cd 
-cd Documents
-ls
-cd Downloads
-cd 
-ls
-cd Downloads
-ls
-cd week2
-ls
-cd 2.1-bash
-ls
-cd activities
-ls
-cd 2-cli-challenge
-ls
-cd challenge_1_turtles
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-cd turtle/
-ls
-clear
-cd 
-ls
-cd Downloads/week_2
-cd Downloads/week2
-ls
-cd 2.1-bash
-ls
-cd activities
-ls
-cd 4-git-challenge/
-ls
-cd ../
-cd 4-git-challenge
-ls
-gedit cd 4-git-challenge
-gedit 4-git-challenge
-ls
-cd ../
-ls
-gedit 4-git-challenge-instructions.txt
-git init
-ls -a
-gedit index.html
-git add -A
-git rm --cached .local/share/Trash/files/pickles.2
-cd 
-ls
-git add -A
-git init
-ls -a
-gedit index.html
-git add -A
-git commit -m 'added header'
-clear
-cd 
-ls
-gedit index.html
-git add -a
-git add -A
-git commit -m 'added paragraph text'
-git log
-git diff
-gedit index.html
-git add -A
-git commit -m 'added another paragraph'
-git log
-git status
-gedit index.html
-git add -A
-git commit -m 'last paragraph before bed'
-git log
-git status
-gedit index.html
-git status
-cd Downloads/week2/activities
-cd Downloads/week2
-ls
-cd 2.1-bash
-ls
-cd activities
-ls
-cd 4-git-challenge
-ls
 cd ..
 ls
 cd ..
@@ -1741,3 +1344,657 @@ python3 build.py
 python3 manage.py 
 python manage.py 
 python3 manage.py 
+cd '/home/errinmixon/Documents/week4/4-homework' 
+ls
+git clone https://github.com/errinmarie/homework4.git
+git add -A
+ls
+ls -a
+git clone https://github.com/errinmarie/homework4.git
+git add -A
+git commit -m "added all files"
+git push
+git remote <name> <url>
+cd '/home/errinmixon/Documents/week4' 
+ls
+git clone https://github.com/errinmarie/4homework.git
+git add -A
+git rm --cached Documents/week4/4homework
+cd '/home/errinmixon/Documents/week4' 
+ls
+git clone https://github.com/errinmarie/hw4.git
+git add -A
+git commit -m 'add files'
+git push
+git remote add https://github.com/errinmarie/hw4.git
+git push https://github.com/errinmarie/hw4.git
+git push --set-upstream https://github.com/errinmarie/hw4.git master
+git pull
+git branch --set-upstream-to=<remote>/<branch> master
+git puoll
+git pull
+git pull git branch --set-upstream-to=<remote>/<branch> master
+cd hw4
+ls
+git push
+git status
+git add -A
+git commit -m 'added all files'
+git push
+git status
+clear
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+ls
+cd '/home/errinmixon/Documents/week5/5.2-web' 
+ls
+cd activities/
+cd 1_api_review/
+python3 api_review.py 
+clera
+clear
+cd ../
+python3 2_tcp_to_http.py 
+python3 3_http_guestbook.py 
+ls
+python3 3_http_guestbook.py 
+python3 '/home/errinmixon/Documents/week5/5.2-web/activities/3_http_guestbook.py' 
+cd '/home/errinmixon/Documents/week5/5.2-web/activities' 
+ls
+python3 3_http_guestbook.py 
+cd 4-minidjango/
+ls
+pipenv --python 3.6
+pipenv shell
+pipenv install django
+python3 manage.py
+python manage.py runserver
+python manage.py
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+python3 1_dict_review.py 
+curl -v google.com
+curl -v http://www.google.com
+cd
+ls
+Documents/week5
+ls
+quit
+Documents/week5
+exit
+pipenv install
+exit
+pipenv install
+python manage.py
+pipenv install django
+python manage.py
+python manage.py runserver
+exit
+cd Documents/week5
+ls
+cd 5.1-apis/
+ls
+cd activities/
+ls
+python3 3_intro_to_requests.py 
+cd ..
+cd 5.3-heroku/
+ls
+pipenv --python3.6
+pipenv --python 3.6
+pipenv shell
+cd activities/
+ls
+cd 1-django/
+ls
+pipenv python 3.6
+pipenv --python 3.6
+pipenv shell
+pipenv --python 3.6
+exit
+pipenv install
+pipenv install django
+python manage.py runserver
+install requests
+install django
+install Django
+pip install django
+python manage.py runserver
+pip install requests
+python manage.py runserver
+exit
+cd ..
+cd Desktop
+cd ~/Desktop
+ls
+cd API_test/
+ls
+touch
+touch newfile.py
+gedit newfile.py 
+cd Documents/week5/5.3-heroku
+ls
+cd activities/
+ls
+cd 2-django-improved/
+ls
+pipenv --python 3.6
+pipenv shell
+heroku
+heroku login
+cd ..
+ls
+cd minidjango/
+ls
+git init
+ls -a
+heroku create
+git push heroku master
+git add -A
+git commit -m 'adding files'
+git push heroku master
+cd '/home/errinmixon/Documents/week5/5.3-heroku/activities/practice' 
+ls
+git clone https://github.com/manananggal/cat-dog-love-match.git
+git pull
+git pull https://github.com/manananggal/cat-dog-love-match.git
+quit
+exit
+cd '/home/errinmixon/Documents/week5/5.3-heroku/activities/practice' 
+ls
+ls -a
+cd ..
+ls
+cd '/home/errinmixon/Documents/week5/5.3-heroku/activities' 
+ls -a
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+ls
+python3 3_intro_to_requests.py 
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+ls
+python3 3_intro_to_requests.py 
+pipenv --python 3.6
+pipenv shell
+pipenv install requests
+python3 3_intro_to_requests.py 
+exit
+pipenv install requests
+pip install requests
+python3 test.py
+ls
+cd practice/
+python3 test.py 
+cd ..
+ls -a
+exit
+pipenv install requests
+pip install requests
+python3 test.py 
+install requests
+pip install requests
+pipenv install
+pip install requests
+python test.py 
+python3 test.py 
+python test.py 
+exit
+pipenv install django
+django-admin startapp adoptacat
+ls
+python manage.py runserver
+ls
+cd adoptacat/
+ls
+mkdir templates
+cd templates/
+ls
+gedit adoption_homepage.html
+ls
+cd ..
+ls
+cd ..
+ls
+python manange.py runserver
+python mannge.py runserver
+python manage.py runserver
+ls
+cd adoptacat/
+ls
+cd templates/
+ls
+gedit new_test_page.html
+python manage.py runserver
+ls
+cd ..
+ls
+cd ..
+ls
+python manage.py runserver
+clear
+exit
+pipenv install
+python manage.py runserver
+ls
+cd adoption/
+ls
+cd templates/
+ls
+gedit adoption.html
+python manage.py runserver
+cd ..
+ls
+cd ..
+ls
+python manage.py runserver
+exit
+pipenv install
+python manage.py runserver
+ls
+cd shibadopt/
+ls
+python manage.py runserver
+exit
+pipenv install
+python manage.py runserver
+exit
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities' 
+ls -a
+pipenv shell
+ls
+ls -a
+python3 4_requests_marathon.py 
+cd '/home/errinmixon/Documents/week5/5.1-apis/activities/practice' 
+ls
+python3 test.py 
+pipenv --python 3.6
+pipenv shell
+pipenv --python 3.6
+pipenv shell
+clear
+cd '/home/errinmixon/Documents/week6/6.1-django/activities' 
+ls
+sudo pip3 install django
+django-admin startproject kittyadopt
+ls
+cd kittyadopt/
+ls
+pipenv --python 3.6
+pipenv shell
+cd '/home/errinmixon/Documents/week6/6.1-django/activities/3_shiba' 
+ls
+cd shibadopt/
+ls
+pipenv --python 3.6
+ls
+pipenv shell
+cd ..
+ls
+cd 4_shiba_post/
+ls
+pipenv --python 3.6
+pipenv shell
+ls
+cd shibadopt/
+ls
+pipenv --python 3
+pipenv shell
+cd ..
+ls
+cd 5_shiba_db/
+los
+ls
+sudo apt install sqlitebrowser
+cd '/home/errinmixon/Documents/week5/5-homework/minidjango' 
+ls
+pipenv --python 3
+pipenv shell
+pipenv install django
+python manage.py runserver
+exit
+cd '/home/errinmixon/Documents/week6/6.2-forms/activities/1_dogsdb' 
+ls
+pipenv --python 3
+pipenv shell
+cd '/home/errinmixon/Documents/week6/6.2-forms/activities/1_dogsdb/dogsit' 
+ls
+pipenv --python 3
+pipenv shell
+pipenv install django
+python manage.py runserver
+cd '/home/errinmixon/Documents/week6/6.2-forms/activities/2_dogsit/dogsit' 
+ls
+python manage.py runserver
+CD '/home/errinmixon/Documents/week6/6.2-forms/activities/3_dogsit_forms/dogsit' 
+cd '/home/errinmixon/Documents/week6/6.2-forms/activities/3_dogsit_forms/dogsit' 
+ls
+python manage.py runserver
+pipenv install django
+pip install django
+python manage.py runserver
+install requests
+python install requests
+pipenv shell
+python manage.py runserver
+ls -a
+heroku create
+git push heroku master
+heroku buildpacks:set heroku/python
+git push heroku master
+heroku buildpacks:set heroku/django
+heroku buildpacks:clear
+git push heroku master
+clear
+install django-heroku
+install django heroku
+ls
+ls -a
+install django
+exit
+cd '/home/errinmixon/Documents/week5' 
+ls
+git clone https://github.com/errinmarie/hw5.git
+ls
+cd hw5
+ls
+pipenv --python 3
+pipenv shell
+cd '/home/errinmixon/Documents/week6/6.3-users/6.3-users/activities/1_faceboop' 
+ls
+cd faceboop/
+ls
+pipenv --python 3
+pipenv shell
+pipenv install django
+pip install django
+python manage.py runserver
+cd '/home/errinmixon/Documents/week6/6.3-users/6.3-users/activities/2_faceboop_users/faceboop' 
+ls
+pipenv shell
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+cd '/home/errinmixon/Documents/week6/6.3-users/6.3-users/activities/3_faceboop_models/faceboop' 
+ls
+pipenv shell
+python manage.py runserver
+ls
+python manage.py runserver
+ls
+pipenv shell
+python manage.py runserver
+python manage.py createsuperuser
+cd '/home/errinmixon/Documents/week6/6.3-users/6.3-users/activities/3_faceboop_models/faceboop' 
+ls
+pipenv --python 3
+pipenv shell
+python manage.py runserver
+pipenv install django
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+pipenv shell
+python manage.py createsuperuser
+cd '/home/errinmixon/Documents/week7/7.1-crud/activities/1_faceboop_params/faceboop' 
+ls
+pipenv --python 3
+pipenv shell
+pipenv install django
+python manage.py migrate
+python manage.py runserver
+cd '/home/errinmixon/Documents/week7/7.1-crud/activities/2_faceboop_crud/faceboop' 
+ls
+python manage.py runserver
+pipenv shell
+python manage.py runserver
+pipenv install django
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+cd '/home/errinmixon/Documents/week7/7.2-models/activities/2_twitten_modelforms/twitten' 
+ls
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+exit
+cd '/home/errinmixon/Documents/week7/7.2-models/activities/1_twitten/twitten' 
+ls
+pipenv --python 3
+pipenv shell
+cd '/home/errinmixon/Documents/week7/7.3-testing/activities/2_twitten_testing/twitten' 
+ls
+python manage.py test
+python 3
+pipenv --python 3
+pipenv shell
+pipenv install django
+python manage.py test
+cd '/home/errinmixon/Documents/week7/7.3-testing/activities/1_twitten_broken/twitten' 
+ls
+pipenv --python 3
+pipenv shell
+pipenv install django
+python manage.py migrate
+python manage.py runserver
+cd '/home/errinmixon/Documents/week7/7.3-testing/activities/2_twitten_testing/twitten' 
+ls
+python manage.py runserver
+cd '/home/errinmixon/Documents/backend group project/project' 
+bash build.sh
+python build.py
+python 3.6
+python3 build.py
+python3 build2.py
+python3 build1.py
+python3 build2.py
+cd '/home/errinmixon/Documents/week8/8.1-postgres/activities' 
+ls
+heroku create
+heroku addons:create heroku-postgresql:hobby-dev
+heroku addons:create heroku-postgresql:hobby-dev -a
+heroku addons:create heroku-postgresql:hobby-dev -a ancient-temple-22650
+heroku pg:psql --app ancient-temple-22650
+sudo apt-get install postgresql-client
+heroku pg:psql --app ancient-temple-22650
+cd '/home/errinmixon/Documents/backend group project/project' 
+ls
+python3 build2.py
+xkill
+cd '/home/errinmixon/Documents/backend group project/project' 
+ls
+python3 build2.py
+python3 build3.py
+curl GET https://api.exchangeratesapi.io/latest HTTP/1.1
+curl https://api.exchangeratesapi.io/latest HTTP/1.1
+cd Desktop/
+python3 api_reference.py 
+cd '/home/errinmixon/Documents/FRONTEND/week1' 
+ls
+python3 api_reference.py 
+cd '/home/errinmixon/Documents/FRONTEND/week1/homework1' 
+ls
+git clone https://github.com/errinmarie/currency.git
+ls -a
+git add -A
+exchangeratesapi.io/api/latest
+git rm --cached .local/share/Trash/files/5.3-heroku/activities/minidjango
+ls
+ls -a
+cd currency
+ls
+git add -A
+git commit
+git commit -m 'first commit'
+git status
+git push
+git status
+cd '/home/errinmixon/Documents/FRONTEND/week1/homework1/currency' 
+ls
+git add -A
+git commit -m "fixing transition"
+git push
+la
+ls
+git add -A
+git commit -m "fixing transition"
+git push
+cd '/home/errinmixon/Documents/FRONTEND/week2/2.3-api/activities' 
+ls
+git clone https://github.com/jbotwins/api_sandbox.git
+curl 'api.giphy.com/v1/gifs/search'
+curl 'api.giphy.com/v1/gifs/searchq="hello"'
+curl 'api.giphy.com/v1/gifs/search/?api_key="CNW8AUft8YEVatWrmORrCt52xAjHrIOT"'
+curl 'api.giphy.com/v1/gifs/search/?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT'
+curl 'api.giphy.com/v1/gifs/search/?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q=hello'
+curl 'api.giphy.com/v1/gifs/search?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q=hello'
+clear
+curl 'api.giphy.com/v1/gifs/search?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q=hello&limit=1'
+curl 'api.giphy.com/v1/gifs/search?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q="Independence Day"&limit=1'
+curl 'api.giphy.com/v1/gifs/search?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q="Independence Day"&limit="1"'
+clear
+curl 'api.giphy.com/v1/gifs/search?api_key=CNW8AUft8YEVatWrmORrCt52xAjHrIOT&q=Doubtfire&limit="1"'
+clear
+ls
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.1-react/activities' 
+ls
+node --version
+sudo apt install nodejs
+node
+ls
+node
+node helloworld.js
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.1-react/activities' 
+ls
+node
+ls
+2_node_js_parctice.js
+node 2_node_js_pratice.js 
+ls
+mkdir npm-installation
+ls
+cd npm-installation/
+ls
+npm init
+sudo apt install npm
+npm init
+npm install weather-js
+npm install
+node main.js
+cd //
+ls
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.1-react/activities' 
+ls
+create-react-app
+node --version
+npm --version
+mkdir ~/.local
+npm config set prefix ~/.local
+gedit ~/.bashrc
+npm install -g create-react-app
+create-react-app
+create-react-app my-react-app
+create-react-app
+create-react-app my-react-app
+create-react-app my-new-project
+cd my-new-project
+ls
+npm run start
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.2-state/activities/1_reactify_got' 
+ls
+npm run start
+ls
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.2-state/activities/1_reactify_got' 
+ls
+npm install
+npm run start
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.2-state/activities/2_got_state' 
+ls
+npm run start
+cd '/home/errinmixon/Documents/FRONTEND/week3/3.2-state/activities/3_career_forms' 
+ls
+npm run start
+cd '/home/errinmixon/Documents/FRONTEND/week1/homework1' 
+ls
+git clone https://github.com/errinmarie/weather.git
+git add +A
+git add -A
+cd '/home/errinmixon/Documents/FRONTEND/week1' 
+ls
+cd '/home/errinmixon/Documents/FRONTEND/week1/homework1/weather' 
+ls
+git add -A
+git commit -m "added files"
+git push
+git status
+python
+python3
+npm run start
+create-react-app
+create-react-app weather
+npm run start
+ls
+npm run start
+ls
+npm run start
+cd '/home/errinmixon/Documents/FRONTEND/week2/homework2' 
+ls
+npm install
+-g node-static
+node --version
+npm --version
+npm install -g node static
+ls
+install create-react-app
+npm install -g create-react-app
+npm install -g node-static
+static
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+ls
+npm run start
+npm run start
+node server.js
+npm run start
+ls
+npm run start
+python3 server.py
+cd client
+npm run start
+npm install react-date-picker
+react-date-picker
+ls
+npm run start
+npm install react-select
+npm run start
+yarn add react-select
+sudo apt install cmdtest
+yarn add react-select
+npm run start
+npm install react-router-dom
+npm run start
+git clone https://github.com/errinmarie/FeedBack.git
+git add -A
+git clone https://github.com/errinmarie/FeedBack.git
+git add -A
+ls
+git commit -m 'added files'
+git status
+git add -A

@@ -1,0 +1,173 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=7.2 - Models & Relations
+
+[slide]
+title=Project Milestone II Due Tonight!
+markdown : '''
+
+![group work](file://./images/workworkworkwork.jpg)
+
+> 1. Have a GitHub repo made
+> 2. Code started
+> 3. API's proven
+> 4. Full wireframes mapped out
+'''
+
+
+[slide]
+title=Reminder: How to learn frameworks
+markdown : '''
+Focus now on the more realistic scenario of learning how to work within a
+framework, since in real life you will almost never be generating code from a
+blank file, but instead working with copying and repeating existing code and
+structures.
+
+**The best skill you can have for the day-to-day in a junior web development
+position is identifying patterns in existing code and repeating those patterns
+to add functionality.**
+'''
+
+
+
+[slide]
+title=ACTIVITY 1: twitten
+editor = ./activities/1_twitten/instructions.md
+
+
+[slide]
+title=REVIEW 1: twitten
+terminal=./solutions/1_twitten/twitten/
+editor : '''
+./solutions/1_twitten/twitten/microblog/admin.py
+./solutions/1_twitten/twitten/microblog/models.py
+./solutions/1_twitten/twitten/microblog/views.py
+./solutions/1_twitten/twitten/twitten/urls.py
+./solutions/1_twitten/twitten/microblog/templates/pages/*.html
+./solutions/1_twitten/twitten/microblog/templates/snippets/*.html
+'''
+
+
+
+
+[slide]
+title=GROUP DISCUSSION: Is this DRY?
+markdown : '''
+* Take 5 minutes to discuss DRYing this out
+
+![is this dry](file://./images/is_this_dry.jpg)
+'''
+editor=./solutions/1_twitten/twitten/microblog/views.py
+
+
+
+[slide]
+title=Introducing: ModelForms
+markdown : '''
+Django can auto-generate forms directly from models.
+'''
+editor=./demos/modelform.py
+
+
+[slide]
+title=ACTIVITY 2: twitten modelforms
+editor = ./activities/2_twitten_modelforms/instructions.md
+
+
+[slide]
+title=REVIEW 2: twitten modelforms
+terminal=./solutions/2_twitten_modelforms/twitten/
+editor : '''
+./solutions/2_twitten_modelforms/twitten/microblog/models.py
+./solutions/2_twitten_modelforms/twitten/microblog/views.py
+./solutions/2_twitten_modelforms/twitten/twitten/urls.py
+./solutions/2_twitten_modelforms/twitten/microblog/templates/pages/*.html
+./solutions/2_twitten_modelforms/twitten/microblog/templates/snippets/*.html
+'''
+
+
+[slide]
+title=GROUP DISCUSSION
+markdown : '''
+# What's happens when we change our username?
+
+* Take 5 minutes to discuss what happens, and how to fix it
+
+![is this dry](file://./images/is_this_dry.jpg)
+'''
+editor=./solutions/2_twitten_modelforms/twitten/microblog/views.py
+
+[slide]
+title=Introducing... Relations!
+
+[slide]
+title=Relating one model to another
+markdown : '''
+
+### KEY TERMS
+* relation - when software architecting: one model has to do with another
+* One to Many - a model of type A is related to any number of type B, but type
+  B can be related to only up to 1 of type A (example, "users to tweets")
+* Many to Many - a model of type A is related to any number of type B, and vice
+  versa (example, "users to users", following)
+* One to One - when exactly one item is related to another
+* foreign key - how we implement "one to many", the "child" object stores a key
+  to its parent
+'''
+
+[slide]
+title=ACTIVITY 3: GROUP DISCUSSION
+markdown : '''
+Discuss with the person next to you the categorization of the following data
+items:
+
+`ManyToMany`, `OneToMany`, `OneToOne`
+
+* Authors writing Books
+
+* Users friending other Users on a social network
+
+* A User on a social network and their ProfilePicture
+
+* A User on Instagram with the photos they posted
+
+* A photo on Instagram with the comments it attracted
+
+* A photo on Instagram with the hashtags it used
+'''
+
+
+
+[slide]
+title=ACTIVITY 4: twitten relations
+editor = ./activities/4_twitten_relations/instructions.md
+
+[slide]
+title=REVIEW 4: twitten relations
+terminal=./solutions/4_twitten_relations/twitten/
+editor : '''
+./solutions/4_twitten_relations/twitten/microblog/models.py
+./solutions/4_twitten_relations/twitten/microblog/views.py
+./solutions/4_twitten_relations/twitten/twitten/urls.py
+./solutions/4_twitten_relations/twitten/microblog/templates/pages/*.html
+./solutions/4_twitten_relations/twitten/microblog/templates/snippets/*.html
+'''
+
+[slide]
+title=Questions?
+
+[slide]
+title=Milestone 2 Due Tonight!
+markdown : '''
+
+![group work](file://./images/workworkworkwork.jpg)
+
+> 1. Have a GitHub repo made
+> 2. Code started
+> 3. API's proven
+> 4. Full wireframes mapped out
+'''
+

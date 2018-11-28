@@ -1,0 +1,398 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=Kickstart Frontend
+
+[slide]
+title=Welcome to Kickstart Frontend
+markdown : '''
+![waving](file://./images/waving.gif)
+'''
+
+[slide]
+title=Welcome to Kickstart Frontend
+markdown : '''
+![React](file://./images/react.png)
+'''
+
+[slide]
+title=Welcome to Kickstart Frontend
+markdown : '''
+> ![React](file://./images/react.png)
+
+* Learn the cutting edge and industry standard in front-end and full-stack
+  development
+
+* You'll be learning a new programming language: JavaScript
+
+* Similar structure to Kickstart Backend
+'''
+
+
+[slide]
+title=Structure
+markdown : '''
+> ![waving](file://./images/waving.gif)
+
+* **Projects**
+    * Solo Project Homework (first 5-6 weeks) - building a charting component
+      in HTML/CSS/JavaScript, and then release to NPM (like PyPI for
+      JavaScript)
+    * Group Project (last 2-3 weeks) - Any topic, but this time with a React.js
+      front-end, and a Python (or MERN) backend
+
+* **Quizes**: Weekly
+
+* **Attendance:** 100% attendance is vital
+'''
+
+
+[slide]
+title=Structure: Grading
+markdown : '''
+> ![waving](file://./images/waving.gif)
+
+* 25% - homework (personal project)
+* 35% - group project
+* 25% - attendance
+* 15% - weekly quizes
+
+### Absence policy
+- If you know you'll be gone or remote for a day, get the absence excused
+- How to "make up" an absence? Watch through the video on your own time, and
+  attempt the activities we do in class
+'''
+
+
+[slide]
+title=Kickstart Coding - Career
+markdown : '''
+![shaking_hands](file://./images/shaking_hands.gif)
+'''
+
+
+[slide]
+title=Kickstart Coding - Career
+markdown : '''
+> ![shaking_hands](file://./images/shaking_hands.gif)
+
+* "Career Milestones" -- These are to help you keep on track with improving
+  your competitiveness in the job market
+    * Polishing resume, online presence
+    * Networking
+    * Job application goals
+
+* Last few weeks: CS focus
+    * CS & Algorithms in last few weeks
+    * Mock interviews and whiteboarding
+
+* Post-bootcamp material:
+    * huntr.co: Online job application tracking
+    * Contributing to Open Source in a "Kickstart Coding launched" project
+    * Some other really cool things in the works
+
+**(all optional)**
+'''
+
+
+[slide]
+title=Ultimately: We want you to achieve your educational & career objectives
+
+
+[slide]
+title=Questions?
+
+
+
+[slide]
+title=Today
+markdown : '''
+- Front-end Review: HTML & CSS
+
+- New concepts:
+    1. Selector Specificity
+    2. Box Model
+    3. The Pseudos
+    4. Pseudo-classes & Pseudo-elements
+    5. Positioning
+'''
+
+
+[slide]
+title=Frontend Review
+
+[slide]
+title=Frontend Review
+markdown : '''
+# There are 3 languages of the (front-end) web
+'''
+
+[slide]
+title=Frontend Review
+markdown : '''
+# There are 3 languages of the (front-end) web
+
+* HTML
+* CSS
+* JavaScript
+'''
+
+[slide]
+title=Frontend Review
+markdown : '''
+# There are 3 languages of the (front-end) web
+
+* HTML - Content
+* CSS - Style
+* JavaScript - Interaction and behavior
+'''
+
+
+
+[slide]
+title=HTML
+markdown : '''
+
+`<a href="http://google.com/">Check out this site</a>`
+
+`<a>` -- ("opening tag")
+
+`href="http://google.com/"` -- ("tag attribute")
+
+`</a>` -- ("closing tag")
+'''
+
+
+
+
+[slide]
+title=CSS Review
+markdown : '''
+* css
+* css selector
+* css property
+* css value
+* id
+* class
+* responsive design
+'''
+
+[slide]
+title=CSS - Review
+markdown : '''
+
+> ![CSS Declaration](file://./images/css_declaration.png)
+
+### Key terms
+* **CSS**: "Cascading Style Sheets" - the way we add styling to HTML
+  documents
+* **selector**: "targets" CSS to hit a certain HTML element
+* **property**: modifies one visual aspect of an HTML document
+* **value**: the value of the property. Depending on the property, can describe
+  qualities like "red" or "invisible", or can be sizes with units like `3px` or
+  `5in` or relative ones like `50%`
+* **declaration**: a property and a value together
+'''
+
+
+[slide]
+title=CSS Rules
+markdown=![CSS Block](file://./images/css_block.png)
+
+
+[slide]
+title=Demo: HTML/CSS Review
+editor=./demos/review.html
+browser=./demos/review.html
+
+
+[slide]
+title=CSS - New Topics
+markdown : '''
+* specificity - the more specific the selector it is, the more likely it is to
+  "win" against other selectors that have conflicting instructions
+* media query - the "if-statements" in our CSS that let us target certain
+  screen sizes to make responsive design
+'''
+
+[slide]
+title=ACTIVITY 1: Selector Wars
+editor=./activities/1_selector_wars.html
+
+
+[slide]
+title=SOLUTION 1: Selector Wars
+editor=./activities/1_selector_wars.html
+browser=./activities/1_selector_wars.html
+
+
+[slide]
+title = The Box Model
+
+
+[slide]
+title = The Box Model
+markdown : '''
+
+**Can you explain each of these?**
+
+* margin
+* padding
+* inline
+* block
+* div
+* span
+'''
+
+
+[slide]
+title = The Box Model
+markdown : '''
+![Box Model Diagram](file://./images/box_model_diagram.svg.png)
+'''
+
+[slide]
+title = The Box Model
+markdown : '''
+
+### Key Terms
+
+* margin - spacing between elements
+* padding - spacing within elements
+* inline - an element that word-wraps in a paragraph (as an example an "em" tag
+  making text italic in a paragraph)
+* block - an element that takes up a square amount of space, by default
+  stretching horizontally to take up all available space
+* div - a HTML element that has no default behavior other than being styled by
+  CSS (block by default)
+* span - a HTML element that has no default behavior other than being styled by
+  CSS (inline by default)
+'''
+
+
+[slide]
+title = The Box Model
+markdown : '''
+### Key  Terms
+* box model - the way sizes of block elements are computed in CSS
+* `box-sizing` - how the width is calculated, by default "content-box".  Change
+  to "border-box" to have border and padding included in size calculations.
+'''
+
+
+[slide]
+title=ACTIVITY 2: Box Model Math
+editor=./activities/2_box_model.css
+
+
+[slide]
+title=SOLUTION 2: Box Model Math
+browser=./solutions/2_box_model.html
+
+
+[slide]
+title=CSS: Meet the Pseudos
+markdown: '''
+* "Pseudo-Selectors" - a type of CSS selector we haven't covered yet. They have
+  colons (":").
+
+### KEY TERMS
+* pseudo-classes - selectors that check on some extra things like hover or
+  ordering on the page
+* pseudo-elements - selectors that allow insertion and styling of content
+  before or after other elements
+'''
+
+
+[slide]
+title=CSS Pseudo-Class Example
+editor=./demos/pseudoclass.html
+browser=./demos/pseudoclass.html
+
+[slide]
+title=CSS Pseudo-Element Example
+editor=./demos/pseudoelement.html
+browser=./demos/pseudoelement.html
+
+[slide]
+title=ACTIVITY 3: Kitty City
+editor=./activities/3_kittycity/instructions.txt
+
+[slide]
+title=SOLUTION 3: Kitty City
+editor=./activities/3_kittycity/static/css/base_styles.css
+browser=./solutions/3_kittycity/index.html
+
+
+[slide]
+title=The DOM
+
+[slide]
+title=The DOM
+markdown : '''
+![DOM](file://./images/dom_perignon.png)
+'''
+
+[slide]
+title=The DOM
+markdown : '''
+![DOM](file://./images/DOM_example.png)
+'''
+
+
+[slide]
+title=The DOM
+markdown : '''
+
+### KEY TERMS
+* DOM - Document Object Model - tree-like structure that represents the
+    current state of the page (as opposed to the original state, as expressed
+    by the HTML code)
+* parent - the "containing" element is called the "parent"
+* child - the "contained" element is called a child
+* ancestor - any parent or grandparent or greatgrandparent, etc
+* descendent - any child or grandchild or greatgrandchild, etc
+'''
+
+
+[slide]
+title=DISCUSSION: In your own words...
+markdown : '''
+
+1. What is the difference between the DOM and the HTML?
+
+2. What is the DOM tree?
+
+3. Name parent, child, and sibling relationships for this example DOM:
+
+![DOM](file://./images/DOM_example.png)
+'''
+
+[slide]
+title=Positioning
+markdown : '''
+### KEY TERMS
+* position - CSS property that lets us move stuff "manually" around the
+    page
+* static - the default, implied setting ("going with the flow", or not
+    positioned)
+* relative - "deliberately positioned"
+* absolute - position this element w.r.t to the first relative positioned
+  ancestor
+* fixed - position this element w.r.t to the screen
+'''
+
+
+[slide]
+title=Demo: Positioning
+editor=./demos/positioning.html
+browser=./demos/positioning.html
+
+
+[slide]
+title=ACTIVITY 4: Position Farm
+markdown : '''
+![mockup](file://./images/mockup.png)
+'''

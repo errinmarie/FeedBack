@@ -1,0 +1,230 @@
+  {
+    "id": 32,
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "monthlyAvg": [
+      {
+        "high": 20,
+        "low": 14,
+        "dryDays": 17,
+        "snowDays": 0,
+        "rainfall": 26
+      },
+      {
+        "high": 21,
+        "low": 15,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 25.1
+      },
+      {
+        "high": 23,
+        "low": 18,
+        "dryDays": 10,
+        "snowDays": 0,
+        "rainfall": 46.9
+      },
+      {
+        "high": 28,
+        "low": 22,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 92.5
+      },
+      {
+        "high": 32,
+        "low": 24,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 154.8
+      },
+      {
+        "high": 34,
+        "low": 26,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 181.7
+      },
+      {
+        "high": 33,
+        "low": 26,
+        "dryDays": 12,
+        "snowDays": 0,
+        "rainfall": 221.3
+      },
+      {
+        "high": 33,
+        "low": 26,
+        "dryDays": 13,
+        "snowDays": 0,
+        "rainfall": 234.2
+      },
+      {
+        "high": 32,
+        "low": 25,
+        "dryDays": 15,
+        "snowDays": 0,
+        "rainfall": 137
+      },
+      {
+        "high": 30,
+        "low": 22,
+        "dryDays": 19,
+        "snowDays": 0,
+        "rainfall": 96.4
+      },
+      {
+        "high": 26,
+        "low": 18,
+        "dryDays": 21,
+        "snowDays": 0,
+        "rainfall": 59
+      },
+      {
+        "high": 23,
+        "low": 15,
+        "dryDays": 21,
+        "snowDays": 0,
+        "rainfall": 21.6
+      }
+    ]
+  },
+  
+  
+  
+JAN
+hi: 20
+lo: 14
+rain: 26 mm
+rain: 1.02 in
+
+FEB
+hi: 21
+lo: 15
+rain: 25.1 mm
+rain: 0.99 in
+
+MAR
+hi: 23
+lo: 18
+rain: 46.9 mm
+rain: 1.85 in
+
+APR
+hi: 28
+lo: 22
+rain: 92.5 mm
+rain: 3.64 in
+
+MAY
+hi: 32
+lo: 24
+rain: 154.8 mm
+rain: 6.09 in
+
+JUN
+hi: 34
+lo: 26
+rain: 181.7 mm
+rain: 7.15 in
+
+JUL
+hi: 33
+lo: 26
+rain: 221.3 mm
+rain: 8.71 in
+
+AUG
+hi: 33
+lo: 26
+rain: 234.2 mm
+rain: 9.22 in
+
+SEP
+hi: 32
+lo: 25
+rain: 137 mm
+rain: 5.39 in
+
+OCT
+hi: 30
+lo: 22
+rain: 96.4 mm
+rain: 3.79 in
+
+NOV
+hi: 26
+lo: 18
+rain: 59 mm
+rain: 2.32 in
+
+DEC
+hi: 23
+lo: 15
+rain: 21.6 mm
+rain: 0.85 in
+
+
+
+
+
+
+JAN
+hi: 68
+lo: 57
+rain: .84 mm
+
+FEB
+hi: 70
+lo: 59
+rain: .90 mm
+
+MAR
+hi: 73
+lo: 64
+rain: 1.51 mm
+
+APR
+hi: 82
+lo: 72
+rain: 3.08 mm
+
+MAY
+hi: 90
+lo: 75
+rain: 4.99 mm
+
+JUN
+hi: 93
+lo: 79
+rain: 6.06 mm
+
+JUL
+hi: 91
+lo: 79
+rain: 7.14 mm
+
+AUG
+hi: 91
+lo: 79
+rain: 7.55 mm
+
+SEP
+hi: 90
+lo: 77
+rain: 4.57 mm
+
+OCT
+hi: 86
+lo: 72
+rain: 3.11 mm
+
+NOV
+hi: 79
+lo: 64
+rain: 1.97 mm
+
+DEC
+hi: 73
+lo: 59
+rain: .70 mm

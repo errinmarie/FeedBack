@@ -1,0 +1,91 @@
+<!doctype html>
+
+<!--
+- This is a trickier activity, where we build a "To-Do" application in
+  JavaScript. Less is done for you, you will be building it mostly from
+  scratch!
+
+- This is the first time you will encounter a "render" function. There is
+  nothing special about the name "render", except it is a common practice
+  (especially as we go forward) to have a single function called render be in
+  charge of creating the DOM elements (e.g. HTML) necessary to show what you
+  want on the screen.
+-->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-earthly.css" />
+    </head>
+    <body>
+        <h1>To-do List</h1>
+        <div id="todo-list">
+        </div>
+
+        <input placeholder="Enter item" id="todo-input" />
+        <button onCLick="addItem()">Add</button>
+
+        <script>
+            let todoItems = [
+                'Work on homework',
+                'Work on career milestones',
+                'Eat',
+                'Do more homework',
+                'Stay up late with more HW neglecting SO',
+            ];
+
+            function render() {
+                // Challenge #1: Using document.querySelector, fetch the div
+                // with ID "todo-list", and then console log it.
+                
+                let list = document.querySelector('#todo-list');
+                console.log('list');
+                
+
+                // Challenge #2: Using document.createElement and appendChild,
+                // add a paragraph tag with the word "Todo List" (for now, just
+                // a single paragraph to test).
+                
+                
+                let p = document.createElement('p');
+                p.textContent = 'Todo List';
+                list.appendChild(p);
+                
+
+                // Challenge #3: Loop through the todoItems, console.logging
+                // each one
+
+                // Challenge #4: Combine #2 and #3 so that you are adding each
+                // of the items in the todoItems array as a new p tag.
+            }
+
+            function addItem() {
+                console.log('add item button getting clicked');
+                var input = document.querySelector('#todo-input');
+                console.log('The input element:', input);
+                let value = input.value;
+                console.log('The value entered:', value);
+
+                // Challenge #5: Fix this button so that when they click on it,
+                // it adds the value to the list.
+
+                // Challenge #6: Make it re-render the list after they add a
+                // new value.
+
+                // Hint #1: Very simple, only need to call the function.
+
+                // Hint #2: You can use this code to "clear" the contents of an
+                // element: div.innerHTML = '';
+            }
+
+
+            // Bonus Challenge: Add "X" button to each item in the list to
+            // clear it from the list.
+            // Hint: This requires multiple changes in the code.
+
+            render();
+
+        </script>
+    </body>
+</html>
+
+

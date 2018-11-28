@@ -1,0 +1,195 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=8.1 - Postgres & Heroku
+
+
+[slide]
+title=SQL
+markdown : '''
+* SQL is the programming language for talking to databases
+
+* We haven't had to use SQL because we've just been using Django ORM
+
+* The definition of ORM: code that writes SQL for you
+
+* On most "well-run" web projects, if you are in a typical Jr Backend or Full
+  Stack Dev position, ~95% of the time you will be using ORM only to interact
+  the database
+
+* Only ~5% of the time you will need to use SQL
+
+**...but are most web projects well run...?**
+'''
+
+
+
+[slide]
+title=SQL: Are most web projects well run..?
+markdown : '''
+![everything is fine](file://./images/this_is_fine.jpg)
+'''
+
+
+[slide]
+title=You still need to know SQL
+
+
+[slide]
+title=Terminology
+markdown : '''
+- Postgres is one of the most popular and powerful databases systems out there.
+
+- It runs the SQL programming language
+
+- All versions (dialects) of SQL are about ~90% the same, so if you learn one,
+  you'll be able to use others.
+
+### KEY TERMS
+* SQL - the programming language for talking to databases
+* Sqlite - the simple, limited version of SQL that we've been using thus-far
+* Postgres - a database management system ("DBMS") that uses SQL
+* MySQL - another popular database and SQL dialect (bought by Oracle)
+* MS SQL - another popular database and SQL dialect (by Microsoft)
+'''
+
+
+[slide]
+title=DB Structure
+markdown : '''
+Databases have labeled columns, and thousands (or millions) of rows.
+
+We use the word "schema" to describe these labels and datatypes, or "shape" of
+your data. When we talk about schema, we are talking about the tables column
+types available.
+
+### KEY TERMS
+* database - how web apps store lots and lots of data
+* schema - a common and flexible term that more or less means the shape or
+  layout of your database
+* table - a named collection of data
+* row - a single item of data
+* column - a single column of data
+'''
+
+
+[slide]
+title=DBs are kinda like Excel
+markdown : '''
+
+This is a very rough analogy, but maybe this will help...
+
+| SQL term      | Excel         |
+| ------------- |--------------:|
+| database      | .xlsx file    |
+| table         | worksheet     |
+| column        | column        |
+| row           | row           |
+
+'''
+
+
+[slide]
+title=DISCUSSION: Database Terminology Quiz 1
+markdown : '''
+
+**DISCUSS with the person next to you...**
+
+1. Can you name `database`, `table`, `column`, `row`, for all these?
+
+2. Can you explain what data is being depicted?
+
+3. What type of data is each column?
+
+# twitten
+
+|      | users         |
+| ----:|---------------|
+| id   | username      |
+| `1`  | `janeqhacker` |
+| `2`  | `admin      ` |
+| `3`  | `dolanduck  ` |
+| `4`  | `dril       ` |
+
+
+|      | tweets   |                    |
+| ----:|---------:|--------------------|
+| id   | user_id  | text               |
+| `1`  | `1`      | `h4ck th3 pl4n37`  |
+| `2`  | `3`      | `hi i'm dolan`     |
+| `3`  | `4`      | `no`               |
+| `4`  | `3`      | `gooby pls`        |
+'''
+
+
+[slide]
+title=DISCUSSION: Database Terminology Quiz 2
+markdown : '''
+
+**DISCUSS with the person next to you...**
+
+1. Can you name `database`, `table`, `column`, `row`, for all these?
+
+2. Can you explain what data is being depicted?
+
+3. What type of data is each column?
+
+# instagrim
+
+|      | users         |
+| ----:|---------------|
+| id   | username      |
+| `1`  | `morticia   ` |
+| `2`  | `gomez      ` |
+| `3`  | `unc_fester ` |
+| `4`  | `wednesday  ` |
+
+
+|      | photos   |                    |
+| ----:|---------:|--------------------|
+| id   | user_id  | photo              |
+| `1`  | `1`      | `/ph/fa29aec3.jpg` |
+| `2`  | `3`      | `/ph/3aec49ef.jpg` |
+| `3`  | `4`      | `/ph/63dd3fc0.jpg` |
+| `4`  | `3`      | `/ph/b3759be4.jpg` |
+
+
+|      | tags       |            |
+| ----:|-----------:| ---------- |
+| id   | photo_id   | text       |
+| `1`  | `1`        | `nofilter` |
+| `2`  | `1`        | `deadtome` |
+| `3`  | `3`        | `nofilter` |
+'''
+
+
+[slide]
+title=Provisioning Postgres on Heroku
+
+
+[slide]
+title=DEMO: Provisioning Postgres on Heroku
+terminal = ./demos
+
+
+[slide]
+title=ACTIVITY 1: Provisioning & Using Postgres
+editor = ./activities/1_intropg/instructions.md
+
+
+[slide]
+title=Questions?
+
+
+[slide]
+title=Group Work: Launch Your Django Project to Heroku
+editor = ./guides/django_heroku_deployment_guide.md
+markdown : '''
+**AT LEAST** one person in each group should be tasked with launching the
+project as it is now to Heroku.
+
+If/when you get stuck, ask for help from an instructor.
+'''
+

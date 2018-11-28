@@ -1,0 +1,126 @@
+--------------------------
+Challenge 1:
+For this first challenge, your goal is to connect to a database on
+Heroku.
+
+1. Assuming you have already installed Heroku, either create a new
+Heroku app to play around with, or re-use an existing app such as the
+one from last time:
+
+    heroku apps      # see existing apps
+
+    # If no existing apps with postgres you want to use, then create brand new
+    heroku create    # create brand-new
+    heroku addons:create heroku-postgresql:hobby-dev --app pure-crag-68
+
+2. Connect to your database with the command-line client:
+    heroku pg:psql --app pure-crag-68
+
+NOTE: For the these commands, you will need to change "pure-crag-68" to
+the similarly random name your app got when you created it.
+
+--------------------------
+Challenge 2:
+
+Now, setup your tables by just copying & pasting the "schema.sql" file
+into your Postgres prompt. This can be done by just opening up that file
+in your text editor and copying it over.
+
+To confirm they were created, use the \d command to describe the tables.
+
+Now, load your data using the other SQL file. You have two options:
+
+1. Once again, just copy & paste the contents of that file into your SQL
+prompt. This might take a little time for the cities file, since it is
+bigger.
+
+2. Want to be more clever? Redirect the data directly from a file using
+Bash, as such:
+    heroku pg:psql --app pure-crag-68 < cities.sql
+    heroku pg:psql --app pure-crag-68 < states.sql
+    heroku pg:psql --app pure-crag-68 < company_records.sql
+
+--------------------------
+Challenge 3:
+
+Practice the following SELECT commands. Can you explain in your own
+words what data is being expressed by each of these?
+
+SELECT * FROM states;
+SELECT * FROM states WHERE population > 3000000;
+SELECT * FROM cities WHERE population > 1000000;
+SELECT * FROM cities WHERE name = 'Phoenix';
+
+SELECT * FROM cities WHERE latitude > 37.20 AND latitude < 38.19 AND
+longitude > -122.67 AND longitude < -121.72;
+
+SELECT * FROM company_records WHERE raised_amount > 100000000;
+
+
+--------------------------
+Challenge 4:
+
+Time to do some joining. Write a select statement to get both
+information about companies, AND the population and name of the state
+that they were founded in.
+
+Hint: Use an INNER JOIN.
+
+
+--------------------------
+Challenge 5:
+
+For this activity, to quote Ricky Ricardo, you've got some EXPLAINing to
+do!
+
+1. Write a query to find all cities named 'Graham'
+
+2. Use EXPLAIN to show how Postgres would perform that query. Notice
+especially the "Seq Scan on cities".
+
+3. Now try the more thorough EXPLAIN ANALYZE  to time the operation.
+
+4. Can you say in your own words what this EXPLAIN is saying?
+
+HINT: For Phoenix: EXPLAIN ANALYZE SELECT * FROM cities WHERE name = 'Phoenix';
+
+--------------------------
+Challenge 6:
+
+1. Now it's time to improve the query speed. Add an index to the "name"
+column of the cities table. HINT: Look at your cheatsheet for how to do
+this.
+
+2. Use \d cities to ensure the index was correctly made.
+
+3. Rerun your EXPLAIN ANALYZE query. What does the new results tell you
+about how fast this query is?
+
+
+--------------------------
+Challenge 7 (Bonus):
+
+1. If you've taken CS Unplugged: Which search algorithm do you think the
+  database is using for each of these queries? (Hint: They are two that
+  we talk about.)
+2. What is the Big O of each of these search queries?
+
+
+--------------------------
+Advanced Challenge:
+
+Think about the EXPLAIN ANALYZE again, from before you enhanced it. It
+likely took about ~0.5ms to execute. Assume only 1 query can be made at
+a time, and if multiple queries were attempted they have to "wait in
+line".
+
+1. If 1000 users make this query (or in reality, visit a page that must
+make this query first), how long would it take for the last user to get
+the information back?
+
+2. How many users per second would it take to cause the server to never
+be able to fulfill all the requests?
+
+3. Note that this is a very small dataset (~3000) compared to most real
+databases. What would that look like in real life?
+

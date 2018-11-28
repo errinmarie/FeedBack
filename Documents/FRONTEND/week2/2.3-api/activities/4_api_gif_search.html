@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bare-css@2.0.3/css/bare.min.css" />
+    </head>
+    <body>
+        <nav>
+            <section>
+                <h1>GIF Search</h1>
+            </section>
+        </nav>
+        <section>
+            <section id="output">
+            </section>
+            <input placeholder="Search for a Gif" id="search" />
+            <button onClick="doFetch()">Search</button>
+            <button onClick="displayOutput()">Display results</button>
+        </section>
+
+<script>
+    /*
+        Challenge 1:
+        - As always, start with console.log
+
+        - Add one (or several) console.logs and confirm that your message is
+          showing in the Dev Tools console
+
+        - Add one (or several) console.logs to the functions below, to confirm
+          that they are getting run when you click on the buttons.
+    */
+
+    /*
+        Challenge 2:
+        - Visit the following website in your browser
+        http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=kitten
+
+        - Examine the data you are getting back.
+
+        - What type of data is this? Can you find Kitten GIFs embedded in it?
+
+        - Can you craft a new URL that will search for something other than
+          kittens?
+
+        - Play around with this URL until you feel confident it is doing what
+          you want it to do
+    */
+
+    let state = {
+        // Just some placeholder data until we add real data...
+        data: [
+            {
+                title: 'Nothing yet...',
+                description: 'Nada....',
+            },
+        ],
+    };
+
+    function doFetch() {
+        let searchTerm = 'kittens';
+
+        /*
+            Challenge #3:
+            Using "fetch", make it update the state with the GIF data fetched
+            from the API, searching for kittens.
+
+            - Hint 1: For Challenge #3, make it first search hard-coded for
+              kittens only, for now. As a later bonus challenge, 
+
+            - Hint 2: ALWAYS console.log the data you get from fetch, to ensure
+              it is working correctly.
+
+            - Hint 3: See the commented out code below for how we can fetch the
+              Studio Ghibli films...  not what we want in this case, but useful
+              code to copy.
+        */
+
+        /*
+        fetch('https://ghibliapi.herokuapp.com/films')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                state.data = data;
+            });
+        */
+    }
+
+
+
+    function displayOutput() {
+        let output = document.querySelector('#output');
+        output.innerHTML = '';
+
+        /*
+            Challenge #4:
+            Now, fill in code to display all the GIFs that resulted from the
+            search.
+
+            - Hint #1: It's tricky to know how to access the correct image. The
+              best way is to console.log out the result of the fetch, then use
+              Chrome Dev Tools to poke around at the data. When you find the
+              data you want, you can right click and select "copy path".
+
+            - Hint #2: Below is some example code to get you going.
+
+            - Hint #3: To save you some time for this exercise to get the GIF
+              from each item in the return data from the API, try using
+              something similar to: gifInfo.images.preview_gif.url
+        */
+
+        for (let gifInfo of state.data) {
+            let image = document.createElement('img');
+
+            // For now just making them all the same GIF... for Challenge 4 we
+            // will make it each GIF we get back from the API
+            image.src = 'https://media.giphy.com/media/ND6xkVPaj8tHO/giphy.gif';
+            output.appendChild(image);
+        }
+    }
+
+    /*
+        Bonus Challenge:
+
+        - There are things in life other than kittens! You now need to make it
+          so that the user can search for anything.
+
+        - Put it all together: Make it so that when you type into the search
+          input and click "search", it will retrieve the value the user typed
+          into the search input and search for that in particular.
+    */
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/mercury.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <h1>Welcome to my site.</h1>
+    <h3>Leave a message!</h3>
+
+    <div class="CommentSection">
+    </div>
+
+    <textarea id="comment-textarea"></textarea>
+
+    <input placeholder="Color" type="text" id="comment-color" />
+
+    <button onClick="addComment()">
+        Add message
+    </button>
+
+    <!-- 
+    Challenge #1
+
+    The JavaScript code is not embedded or "inline" in the HTML this time, it's
+    in a separate JS file.
+    1. Add a console.log to the main.js so you will know when it is getting
+    included.
+    2. Add a "script tag" in this file, right before the </body> tag (the best
+    location for script tags), that includes
+    3. Follow the remaining Challenge instructions in main.js
+
+    Hint for Step #2: Use this:
+        <script src="./js/main.js"></script>
+    -->
+    
+    <script src="./js/main.js"></script>
+    
+</body>
+
+</html>

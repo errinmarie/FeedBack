@@ -1,0 +1,111 @@
+[deck]
+readonly = true
+cssfile = ../basestyle.css
+
+[slide]
+title=7.3 - Testing
+
+[slide]
+title=We'll start today with a realistic activity
+
+[slide]
+title=The typical state of code at a company
+markdown : '''
+![everything is fine](file://./images/this_is_fine.jpg)
+'''
+
+[slide]
+title=The typical state of code at a company
+markdown : '''
+
+### Key Terms
+* regression - When a previously working feature gets broken
+'''
+
+
+
+[slide]
+title=ACTIVITY 1: twitten broken
+editor = ./activities/1_twitten_broken/instructions.md
+
+[slide]
+title=REVIEW 1: twitten broken
+editor : '''
+./solutions/1_twitten_broken/twitten/microblog/views.py
+'''
+
+
+
+
+
+[slide]
+title=Automated Testing with Django
+markdown:  '''
+It's good to automate testing features so we can stop regressions as they form.
+
+Note: Because the line between "unit tests" and "integration test" can be
+vague, you'll hear people colloquially referring to all tests as "unit tests"
+
+### KEY TERMS
+* automated testing - code that tests your application to make sure it works
+  correctly
+
+* unit test - code that tests one single part of your application (e.g. a
+  single class)
+
+* integration test - code that tests how many parts of your application work
+  together
+
+* functional test - code that tests that your application behaves as it should
+
+### MORE KEY TERMS
+
+* end-to-end testing - a type of testing that simulates web browser to navigate
+  and click on items (we'll learn about these in Kickstart Frontend)
+'''
+
+[slide]
+title=DEMO: Automated tests with Django
+editor = ./activities/2_twitten_testing/twitten/microblog/tests.py
+
+
+
+[slide]
+title=ACTIVITY 2: twitten testing
+editor = ./activities/2_twitten_testing/instructions.md
+
+[slide]
+title=REVIEW 2: twitten testing
+editor : '''
+./solutions/2_twitten_testing/twitten/microblog/tests.py
+./activities/1_twitten_broken/instructions.md
+'''
+
+
+[slide]
+title=Questions?
+
+
+[slide]
+title=Project work!
+markdown : '''
+Have questions on..?
+
+### Stuff we covered
+
+* **File upload**
+* **Cookie-cutter**
+* **Model relations**
+* **Templates**
+
+### Stuff we didn't cover
+
+* **Context processors** -  Useful if you want to add context to all template
+  pages
+* **Custom management commands** - Useful if your project has some data
+  processing aspect
+* **Customizing Django admin** - Can re-skin all the built-in admin stuff
+* **"Class Based Views", "Generic Views"**
+'''
+
+

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "commands": [
+    {
+      "command": "addons:create",
+      "completion": 0,
+      "version": "7.18.3",
+      "plugin": "@heroku-cli/plugin-addons-v5",
+      "plugin_version": "7.18.0",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "addons:create",
+      "completion": 0,
+      "version": "7.18.3",
+      "plugin": "@heroku-cli/plugin-addons-v5",
+      "plugin_version": "7.18.0",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "addons:create",
+      "completion": 0,
+      "version": "7.18.3",
+      "plugin": "@heroku-cli/plugin-addons-v5",
+      "plugin_version": "7.18.0",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "pg:psql",
+      "completion": 0,
+      "version": "7.18.3",
+      "plugin": "@heroku-cli/plugin-pg-v5",
+      "plugin_version": "7.18.0",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    },
+    {
+      "command": "pg:psql",
+      "completion": 0,
+      "version": "7.18.3",
+      "plugin": "@heroku-cli/plugin-pg-v5",
+      "plugin_version": "7.18.0",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
+    }
+  ]
+}

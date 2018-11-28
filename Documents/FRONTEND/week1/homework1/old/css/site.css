@@ -1,0 +1,86 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #8ab8a7;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 50px 5fr 1fr;
+    grid-gap: 0;
+    max-height: 100vh;
+}
+
+.Header {
+    grid-row: 1;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.Nav {
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.element {
+    padding: 0 10px;
+}
+
+.element:hover {
+    color: #52767b;
+}
+
+.Chart {
+    grid-row: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.Bars-Far,
+.Bars-Cel,
+.Bars-Precip {
+    display: none;
+    align-items: flex-end;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.Temp {
+    background: #6d8d82;
+    margin: 3px;
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.Months {
+    grid-row: 4;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 0;
+}
+
+/*
+
+Color palette for future reference:
+
+background = #8ab8a7
+odd bars = #6d8d82
+even bars = #6c9997 
+header = #52767b
+
+*/

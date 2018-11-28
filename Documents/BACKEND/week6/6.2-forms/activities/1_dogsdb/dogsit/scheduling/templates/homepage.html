@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Doge Sitting Appointments</h2>
+
+<p><a href="/add-dog/">Click here for the "add dog" page</a></p>
+<p><a href="/add-another-dog/">Click here for the "add another dog" page</a></p>
+
+{% for dog in dogs %}
+    <hr />
+    <div class="row">
+        <div class="col">
+            {# Show the dog image #}
+            <img width="150" src="{{ dog.picture }}" class="img-fluid" />
+        </div>
+        <div class="col">
+            <p><strong>name:</strong> {{ dog.name }}</p>
+            <p><strong>age:</strong> {{ dog.age }}</p>
+            <p><strong>time:</strong> {{ dog.time }}</p>
+            <p><strong>date:</strong> {{ dog.date }}</p>
+            <p>(id #: {{ dog.id }})</p>
+        </div>
+    </div>
+{% endfor %}
+{% endblock content %}

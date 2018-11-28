@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Add Dog Sitting Appointment</h2>
+<form action="." method="POST">
+    {% csrf_token %}
+    <p>Name: <input name="name" /></p>
+    <p>Date: <input name="date" /></p>
+    <p>Start time: <input name="start_time" /></p>
+    <p>Duration: <input name="duration" type="number" /></p>
+    <button>Add dog sitting appointment</button>
+</form>
+
+{% endblock content %}

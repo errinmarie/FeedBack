@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Review page!</title>
+    </head>
+
+    <!--
+        Use CSS to accomplish the following tasks:
+
+        Challenge 1:
+        Make the p tags have "darkblue" text and a black border.
+
+        Challenge 2:
+        Look up a font on Google Fonts (example, Monotron) and make the H1 tag
+        have that font.
+
+        Challenge 3:
+        Make the div with the class "right-floating-box" have a darkblue
+        background and white foreground text.
+
+        Challenge 4:
+        Give the page a lavendar background.
+
+        Challenge 5:
+        Use "float: left" along with setting a width and height in pixels to
+        make the div with the class "right-floating-box" be to the right of
+        everything else. Give it some padding, also.
+
+        Bonus Challenge 1:
+        Create from scratch an "ERROR" box style at the bottom.
+
+        Bonus Challenge 2:
+        Look into the ":before" pseudo-selector to make every paragraph start
+        with an emoji using CSS.
+    -->
+
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+    <style>
+
+      p {
+        color: darkblue;
+        border: 1px solid black;
+       }
+
+      h1 {
+        font-family: monoton;
+       }
+
+      .right-floating-box {
+        background-color: darkblue;
+        color: white;
+        float: right;
+        width: 100px;
+        height: 30px;
+        padding: 20px;
+       }
+
+      body {
+        background-color: lavender;
+       }
+
+      #bonus_error {
+        background-color: red;
+        color: white;
+        width: 75px;
+        border: 1px solid black;
+       }
+
+
+    </style>
+
+    <body>
+        <h1>Example page</h1>
+
+        <p>Doggo ipsum pupper corgo woofer, such treat. Heckin angery woofer
+        wow heckin good boys ur givin me a spook, mlem many pats shoob noodle
+        horse, very jealous pupper mlem. Corgo smol borking doggo with a long
+        snoot for pats shoob what a nice floof blop boof, doge much ruin diet
+        very taste wow.</p>
+
+        <div class="right-floating-box">
+            This box floats to the right!
+        </div>
+
+        <h1>More text</h1>
+        <p>Boofers the neighborhood pupper noodle horse, very
+        hand that feed shibe. Heckin good boys heckin floofs adorable doggo
+        pupperino, snoot wow. wrinkler shooberino. Boofers extremely
+        cuuuuuute many pats clouds heckin good boys and girls yapper,
+        borkdrive extremely cuuuuuute you are doing me a frighten.
+        Shooberino fat boi such treat long water shoob wow such tempt he made
+        many woofs, wrinkler blop smol borking doggo with a long snoot for
+        pats. Heckin boofers heckin thicc, much ruin diet.</p>
+
+        <div id="bonus_error">
+            ERROR!
+        </div>
+    </body>
+</html>
+
